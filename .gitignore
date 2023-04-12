@@ -1,0 +1,10 @@
+
+# WordPress core files and directories
+public_html/wp-admin/
+public_html/wp-includes/
+public_html/wp-config.php
+public_html/index.php
+
+# Plugins and themes
+public_html/wp-content/plugins/
+public_html/wp-content/themes/
