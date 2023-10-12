@@ -2,7 +2,6 @@ import copy
 import os
 import json
 
-kTEMPLATE_PATH = "program_template.template.tex"
 
 def load_repertoire_info():
     path = "../repertoire/repertoire_data.json"
@@ -21,10 +20,11 @@ class ProgramGenerator:
 
     def __init__(self, dir: str):
         self.dir = dir
+        self.template_path = os.path.join(self.dir, "program_template.tex")
         self.program_info_file = os.path.join(self.dir, "program_info.json")
         with open(self.program_info_file, "r") as ff:
             self.program_info = json.load(ff)
-        with open(kTEMPLATE_PATH, "r") as ff:
+        with open(self.template_path, "r") as ff:
             self.template = ff.read()
         program_id = self.program_info.get("id")
         self.latex_generated_path = os.path.join(
@@ -39,22 +39,25 @@ class ProgramGenerator:
         about_strs = []
         if source_info:
             about_strs.append(
-                r"from \emph{" + source_info  + r".}"
+                r"from \emph{" + source_info  + r"}"
             )
         composer = song_info.get('composer', "")
         if composer:
             about_strs.append(
-                composer + "."
+                composer
             )
         arranger = song_info.get('arranger', "")
         if arranger:
             about_strs.append(
-                "Arranged by " + arranger + "."
+                "Arranged by " + arranger
             )
-        about_str = " ".join(about_strs)
+        note = self.program_info.get("notes", {}).get(song_id)
+        if note:
+            about_strs.append(note)
+        about_str = ". ".join(about_strs)
         if len(about_str) > 50:
-            about_str = about_strs[0] + "\\\\" + " ".join(about_strs[1:])
-        title = song_info.get('title')
+            about_str = about_strs[0] + "\\\\" + ". ".join(about_strs[1:])
+        title = r"\textbf{" + song_info.get('title') + r"}"
         song_entry = "\\performancepiece {<title>} {<about>}\\\\\n"
         song_entry = song_entry.replace("<title>", title)
         song_entry = song_entry.replace("<about>", about_str)
@@ -68,7 +71,11 @@ class ProgramGenerator:
 
     def generate_singers_txt(self) -> str:
         singers = [
-            r"{"+foo+r"}" for foo in sorted(self.program_info["singers"])
+            r"{"+foo+r"}" for foo in
+            sorted(
+                self.program_info["singers"],
+                key=lambda x: x.split(" ")[1]
+            )
         ]
         num_singers = len(singers)
         col_0_len = num_singers // 3

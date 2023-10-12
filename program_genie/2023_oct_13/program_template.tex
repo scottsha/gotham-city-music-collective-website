@@ -1,0 +1,205 @@
+\documentclass{article}[10pt]
+\usepackage{geometry}
+\geometry{
+    paperwidth=5.5in,
+    paperheight=8.5in,
+    textwidth=4.25in,
+    textheight=7.5in,
+    top=0.6in
+}
+\usepackage{amsmath, amsfonts, amsthm, amssymb, textcomp, ragged2e, fontawesome}
+\usepackage{graphicx, float}
+\usepackage{multicol, enumerate}
+\pagenumbering{gobble}
+
+\usepackage{fontspec}
+\usepackage[default]{sourcesanspro}
+
+\usepackage{hyperref}
+\usepackage{textcomp}
+\hypersetup{
+    colorlinks=false,
+% linkcolor=blue,
+% filecolor=magenta,
+% urlcolor=cyan,
+% pdftitle={Overleaf Example},
+% pdfpagemode=FullScreen,
+    pdfborderstyle={/S/U/W 1}
+}
+
+%-----------%
+\newcommand{\performancepiece}[2]
+{
+        {#1} \dotfill {#2}
+}
+
+\newcommand{\showcase}[3]
+{
+        {#1} \dotfill {\small{#2}}. {\small{#3}}
+}
+
+\newcommand{\logo}{
+        {\includegraphics[width=0.4\textwidth]{../../graphic_design_assets/bw_logo_full}}
+}
+
+\newcommand{\tunedspace}{\vspace{0.15in}}
+\newcommand{\tunedspacesmall}{\vspace{0.07in}}
+
+\newcommand{\fleurons}{
+        {
+        \hfill{}
+        \tiny{\textmusicalnote}
+        \hspace{0.25in}
+        \scriptsize{\textmusicalnote}
+        \hspace{0.25in}
+        \tiny{\textmusicalnote}
+        \hfill{}
+    }
+}
+%-----------%
+
+
+
+\begin{document}
+
+
+    \begin{center}
+        \logo
+        \tunedspacesmall
+
+
+        {\footnotesize\textbf{\sourcesansprolight{
+            <SUBTITLE_REPLACE>
+        }}}
+
+        \tunedspace
+        {
+            \textbf{\sourcesansprolight{PROGRAM}}\\
+
+            \tunedspacesmall
+
+            \footnotesize{
+                Extended notes available at
+                \href{https://gothamcitymusic.org/program}{gothamcitymusic.org/program}
+            }
+        }
+
+        \tunedspacesmall
+
+        \begin{minipage}{\textwidth}
+            \begin{flushright}
+
+                <PERFORMANCE_REPLACE>
+
+            \end{flushright}
+        \end{minipage}
+
+        \tunedspace
+        \vfill
+
+        {
+            \textbf{\sourcesansprolight{
+                CHOIR}}
+
+            \tunedspacesmall
+
+            \begin{small}
+                Directed by
+                Mary Goebel,
+                Victor Martinez,
+                and
+                Laurel Stinson\\
+                Accompanied by Naoko Aita\\
+                Percussion by Zahir Lara
+            \end{small}
+
+            \vspace{-0.1in}
+
+            \begin{multicols*}{3}
+                \begin{center}
+                    \begin{small}
+                        <SINGERS_REPLACE>
+                    \end{small}
+                \end{center}
+            \end{multicols*}
+        }
+
+
+        \pagebreak
+
+% % % % % % % % %
+% PROGRAM BACK  %
+% % % % % % % % %
+
+        {\logo}
+
+        \tunedspace
+
+        \begin{minipage}{4in}
+
+
+            \begin{small}
+                We are a community non-profit organization advocating for excellence in community music.
+                GCMC aims to strengthen the future of music education by connecting students, amateur musicians, and experienced professional educators.
+            \end{small}
+
+            \begin{center}
+            {\textbf{\sourcesansprolight{PROGRAM NOTES}}}
+
+                \vspace{0.1in}
+
+                {\includegraphics[width=0.2\textwidth]{../../graphic_design_assets/gotham_city_music_collective_program.png}}
+
+                \href{https://gothamcitymusic.org/repertoire}{gothamcitymusic.org/repertoire}
+            \end{center}
+
+            \begin{center}
+            {\textbf{\sourcesansprolight{JOIN US!}}}
+            \end{center}
+
+            \vspace{-0.1in}
+
+            \begin{small}
+                Whether a classically trained vocalist or just singin' in the shower,
+                you too can trill with the choir!
+                Prefer the bassoon?
+                Help us build our instrumental music groups!
+                Rehearsal begins soon for our next concert cycle.
+                Visit {\href{gothamcitymusic.org/join}{gothamcitymusic.org/join}} to sign up!
+            \end{small}
+
+            \begin{center}
+            {\textbf{\sourcesansprolight{DONATE}}}
+            \end{center}
+
+            \vspace{-0.1in}
+
+            \begin{small}
+                Your tax-deductible donation helps make community music performance accessible to everyone by providing performance space and funding performing arts students.\\
+            \end{small}
+
+
+            Venmo \href{https://account.venmo.com/u/GothamCityMusic}{@GothamCityMusic} or visit \textbf{\sourcesansprolight{\href{https://gothamcitymusic.org/donate}{gothamcitymusic.org/donate}}}
+
+            \begin{center}
+            {\textbf{\sourcesansprolight{FOLLOW US}}}
+
+                \faInstagram{}{}  Instagram  \href{https://www.instagram.com/gotham_city_mc/}{@gotham\_city\_mc}
+
+
+                For performance inquiries contact
+                    {\textbf{\sourcesansprolight{\href{info@gothamcitymusic.org}{info@gothamcitymusic.org}}}}
+            \end{center}
+
+           \begin{center}
+            {\textbf{\sourcesansprolight{SPECIAL THANKS TO}}}
+
+                \href{https://www.spinorphotos.com/}{Spinor Photos}
+                \faInstagram{}{} \href{https://www.instagram.com/spinorphotos}{@spinorphotos}\\
+                \href{https://www.successacademies.org/}{Success Academy Charter Schools}
+            \end{center}
+
+        \end{minipage}
+
+    \end{center}
+\end{document}
