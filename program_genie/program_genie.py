@@ -12,6 +12,7 @@ def load_repertoire_info():
         info_dict[song["id"]] = song
     return info_dict
 
+
 class ProgramGenerator:
     kQR_CODE_REPLACE = "<QR_CODE_PATH>"
     kSINGER_REPLACE = "<SINGERS_REPLACE>"
@@ -39,24 +40,24 @@ class ProgramGenerator:
         about_strs = []
         if source_info:
             about_strs.append(
-                r"from \emph{" + source_info  + r"}"
+                r"\mbox{from \emph{" + source_info + r"}}"
             )
         composer = song_info.get('composer', "")
         if composer:
             about_strs.append(
-                composer
+                r"\mbox{" + composer + r"}"
             )
         arranger = song_info.get('arranger', "")
         if arranger:
             about_strs.append(
-                "Arranged by " + arranger
+                r"\mbox{Arranged by " + arranger + r"}"
             )
         note = self.program_info.get("notes", {}).get(song_id)
         if note:
-            about_strs.append(note)
+            about_strs.append(
+                r"\mbox{" + note + r"}"
+            )
         about_str = ". ".join(about_strs)
-        if len(about_str) > 50:
-            about_str = about_strs[0] + "\\\\" + ". ".join(about_strs[1:])
         title = r"\textbf{" + song_info.get('title') + r"}"
         song_entry = "\\performancepiece {<title>} {<about>}\\\\\n"
         song_entry = song_entry.replace("<title>", title)
@@ -71,7 +72,7 @@ class ProgramGenerator:
 
     def generate_singers_txt(self) -> str:
         singers = [
-            r"{"+foo+r"}" for foo in
+            r"{" + foo.replace("_", " ") + r"}" for foo in
             sorted(
                 self.program_info["singers"],
                 key=lambda x: x.split(" ")[1]
@@ -87,8 +88,8 @@ class ProgramGenerator:
                 col_0_len += 1
 
         col_0_singers = singers[:col_0_len]
-        col_1_singers = singers[col_0_len:col_0_len+col_1_len]
-        col_2_singers = singers[col_0_len+col_1_len:]
+        col_1_singers = singers[col_0_len:col_0_len + col_1_len]
+        col_2_singers = singers[col_0_len + col_1_len:]
         cols_singers = [col_0_singers, col_1_singers, col_2_singers]
         col_strs = []
         for col_sing in cols_singers:
@@ -97,7 +98,6 @@ class ProgramGenerator:
             )
         singer_txt = "\\vfill\\null\n\\columnbreak\n\n".join(col_strs)
         return singer_txt
-
 
     def generate_performance_txt(self) -> str:
         song_list = self.program_info.get("song_list")
@@ -144,4 +144,3 @@ class ProgramGenerator:
 if __name__ == "__main__":
     genie = ProgramGenerator("2023_oct_13")
     genie.generate()
-

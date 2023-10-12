@@ -1,4 +1,9 @@
 \documentclass{article}[10pt]
+
+% Turn off hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
 \usepackage{geometry}
 \geometry{
     paperwidth=5.5in,
@@ -33,13 +38,15 @@
         {#1} \dotfill {#2}
 }
 
-\newcommand{\showcase}[3]
-{
-        {#1} \dotfill {\small{#2}}. {\small{#3}}
-}
+%\newcommand{\performancepiece}[2]
+%{
+%        \textbf{#1} \hfill \\
+%        \hfill{#2}
+%}
+
 
 \newcommand{\logo}{
-        {\includegraphics[width=0.4\textwidth]{../../graphic_design_assets/bw_logo_full}}
+        {\includegraphics[width=0.42\textwidth]{../../graphic_design_assets/bw_logo_full}}
 }
 
 \newcommand{\tunedspace}{\vspace{0.15in}}
@@ -61,10 +68,10 @@
 
 
 \begin{document}
-
-
     \begin{center}
+
         \logo
+
         \tunedspacesmall
 
 
@@ -72,7 +79,8 @@
             <SUBTITLE_REPLACE>
         }}}
 
-        \tunedspace
+        \tunedspacesmall
+
         {
             \textbf{\sourcesansprolight{PROGRAM}}\\
 
@@ -94,8 +102,7 @@
             \end{flushright}
         \end{minipage}
 
-        \tunedspace
-        \vfill
+        \tunedspacesmall
 
         {
             \textbf{\sourcesansprolight{
@@ -123,15 +130,16 @@
                 \end{center}
             \end{multicols*}
         }
+    \end{center}
 
-
-        \pagebreak
+    \pagebreak
 
 % % % % % % % % %
 % PROGRAM BACK  %
 % % % % % % % % %
 
-        {\logo}
+    \begin{center}
+    {\logo}
 
         \tunedspace
 
@@ -160,11 +168,11 @@
             \vspace{-0.1in}
 
             \begin{small}
-                Whether a classically trained vocalist or just singin' in the shower,
-                you too can trill with the choir!
+                Whether a classically trained vocalist or new to singing, come grow with us!
                 Prefer the bassoon?
                 Help us build our instrumental music groups!
-                Rehearsal begins soon for our next concert cycle.
+                Rehearsal begins soon for our next concert cycle:
+                We carol in December, and our winter concert cycle begins in January.
                 Visit {\href{gothamcitymusic.org/join}{gothamcitymusic.org/join}} to sign up!
             \end{small}
 
@@ -175,7 +183,7 @@
             \vspace{-0.1in}
 
             \begin{small}
-                Your tax-deductible donation helps make community music performance accessible to everyone by providing performance space and funding performing arts students.\\
+                Your tax-deductible donation helps make community music performance accessible to everyone by providing performance space and funding for performing arts students.\\
             \end{small}
 
 
@@ -191,12 +199,23 @@
                     {\textbf{\sourcesansprolight{\href{info@gothamcitymusic.org}{info@gothamcitymusic.org}}}}
             \end{center}
 
-           \begin{center}
-            {\textbf{\sourcesansprolight{SPECIAL THANKS TO}}}
+            \begin{center}
+            {\textbf{\sourcesansprolight{SPECIAL THANKS TO}}}\\
+%                \vspace{-0.1in}
+%                \href{https://www.spinorphotos.com/}{Spinor Photos}
+%                \faInstagram{}{} \href{https://www.instagram.com/spinorphotos}{@spinorphotos}\\
+%                \href{https://www.successacademies.org/}{Success Academy Charter Schools}
 
-                \href{https://www.spinorphotos.com/}{Spinor Photos}
-                \faInstagram{}{} \href{https://www.instagram.com/spinorphotos}{@spinorphotos}\\
-                \href{https://www.successacademies.org/}{Success Academy Charter Schools}
+                \begin{small}
+                {Success Academy Charter Schools}
+                    \vspace{-0.11in}
+                    \begin{multicols*}{2}
+                        Linda Stabile\\
+                        Mary and Bob Rehan\\
+                        Marilyn and Paul Eastman\\
+                        John Goebel
+                    \end{multicols*}
+                \end{small}
             \end{center}
 
         \end{minipage}

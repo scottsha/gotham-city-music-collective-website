@@ -2,6 +2,7 @@
   {
     "id": "oi_u_luzi",
     "title": "Ой у лузі червона калина",
+    "composer": "Traditional Ukrainian folk",
     "arranger": "Stepan Charnetsky",
     "description": "This patriotic Ukranian march was arranged by Stepan Charnetsky from traditional march elements in 1914 as a memorial to veterans of World War I. The song has ever since attracted both inspiration and political censorship. Singing  <em>Oi u Luzi</em> in the wrong crowd could get the singer  fined, beaten, or even imprisoned by anti-Ukrainian-nationalist factions in Ukraine and Russia. The song was vehemently repressed during the Soviet era (1919-1991), then following the Russian annexation of Crimea in 2014, and after the Russian invasion of Ukraine in 2022.\n\nThe song sings of a Ukrainian national symbol&#8211;the <a href=\"https://en.wikipedia.org/wiki/Viburnum_opulus\">red viburnum</a>, a shrub with bright red berries.",
     "lyrics_title": "Oh, the Red Viburnum in the Meadow",
@@ -170,6 +171,7 @@
   {
     "id": "shenandoah",
     "title": "Shenandoah",
+    "composer": "Traditional American folk",
     "arranger": "Jay Althouse",
     "description": "A traditional folk song. <em>Shenandoah</em> likely as a shanty sung by fur traders along the Missouri River in the early 19th century. Lyrics vary widely, but in many versions the titular Shenandoah is chief of the Oneida Iroquois tribe and has a beautiful daughter the fur trader speaker seeks to whisk away.",
     "lyrics": "Oh Shenandoah,\nI long to see you,\nAway, you rolling river.\nOh Shenandoah,\nI long to see you,\nWay, we're bound away\nAcross the wide Missouri."
@@ -183,7 +185,8 @@
   {
     "id": "keep_your_lamps",
     "title": "Keep Your Lamps Trimmed and Burning",
-    "arranger": "Phillip Kern",
+    "composer": "Traditional Black spiritual",
+    "arranger": "Philip Kern",
     "description": "A traditional spiritual, the lyrics allude to a parable told in Matthew 25:1–13:",
     "lyrics": "There were ten virgins, who took their lamps, and went out to meet the bridegroom. Five of them were foolish, and five were wise. Those who were foolish, when they took their lamps, took no oil with them, but the wise took oil in their vessels with their lamps. Now while the bridegroom delayed, they all slumbered and slept. But at midnight there was a cry, \"Behold! The bridegroom is coming! Come out to meet him!\" Then all those virgins arose, and trimmed their lamps. The foolish said to the wise, \"Give us some of your oil, for our lamps are going out.\" But the wise answered, saying, \"What if there isn't enough for us and you? You go rather to those who sell, and buy for yourselves.\" While they went away to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. Afterward the other virgins also came, saying, \"Lord, Lord, open to us.\" But he answered, \"Most certainly I tell you, I don't know you.\""
   },
