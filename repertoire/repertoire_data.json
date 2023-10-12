@@ -161,7 +161,7 @@
   },
   {
     "id": "ilus_haal",
-    "title": "ILUS HÄÄL",
+    "title": "Ilus Hääl",
     "composer": "Margrit Kits",
     "arranger": "Laura Jēkabsone",
     "lyrics": "Ring out, generous forests\nShout back the huts\nIn return for my graceful voice\nIn return for my wonderful song\nWhere my voice is heard\nWhere my song is sung\nThere all forests will fall\nEven without striking iron",
@@ -187,12 +187,13 @@
     "description": "A traditional spiritual, the lyrics allude to a parable told in Matthew 25:1–13:",
     "lyrics": "There were ten virgins, who took their lamps, and went out to meet the bridegroom. Five of them were foolish, and five were wise. Those who were foolish, when they took their lamps, took no oil with them, but the wise took oil in their vessels with their lamps. Now while the bridegroom delayed, they all slumbered and slept. But at midnight there was a cry, \"Behold! The bridegroom is coming! Come out to meet him!\" Then all those virgins arose, and trimmed their lamps. The foolish said to the wise, \"Give us some of your oil, for our lamps are going out.\" But the wise answered, saying, \"What if there isn't enough for us and you? You go rather to those who sell, and buy for yourselves.\" While they went away to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. Afterward the other virgins also came, saying, \"Lord, Lord, open to us.\" But he answered, \"Most certainly I tell you, I don't know you.\""
   },
-    {
+  {
     "id": "gloria",
     "title": "Gloria",
+    "source": "Missa Kenya",
     "arranger": "Paul Basler",
     "description": "From <em>Missa Kenya</em>, a multi-movement work Basler wrote to fuse Kenyan and classical mass music. The text, <em>the Greater Doxology</em>, is credited to Hilary of Poitiers in the 4th century. Lyrics are shared with <a href=\"https://gothamcitymusic.org/repertoire/#agnus_dei\" data-type=\"URL\">Agnus Dei</a>",
-      "lyrics": "Glory to God in the highest, and peace to his\nPeople on earth.\nLord God, heavenly King,\nAlmighty God and Father,\nWe worship you, we give you thanks,\nWe praise you for your glory.\nLord Jesus Christ, only Son of the Father,\nLord God, Lamb of God\nYou take away the sin of the world:\nHave mercy on us;\nYou are seated at the right hand of the Father:\nReceive our prayer.\nFor you alone are the Holy One,\nYou alone are the Lord,\nYou alone are the Most High,\nJesus Christ,\nWith the Holy Spirit\nIn the glory of God the Father. Amen."
+    "lyrics": "Glory to God in the highest, and peace to his\nPeople on earth.\nLord God, heavenly King,\nAlmighty God and Father,\nWe worship you, we give you thanks,\nWe praise you for your glory.\nLord Jesus Christ, only Son of the Father,\nLord God, Lamb of God\nYou take away the sin of the world:\nHave mercy on us;\nYou are seated at the right hand of the Father:\nReceive our prayer.\nFor you alone are the Holy One,\nYou alone are the Lord,\nYou alone are the Most High,\nJesus Christ,\nWith the Holy Spirit\nIn the glory of God the Father. Amen."
   },
   {
     "id": "ubi_caritas",
@@ -200,6 +201,19 @@
     "composer": "Ola Gjeilo",
     "lyrics": "Where charity and love are, God is there.\nThe love of Christ has gathered us together.\nLet us rejoice and be glad in it.\nLut us rever and love the living God.\n And from a sincere heart let us love one another.\n Amen",
     "description": "With music written in 2001, this is a haunting song delivered chant style. The Latin hymn is attributed to Paulinus of Aquileia in 796."
+  },
+  {
+    "id": "for_good",
+    "title": "For Good",
+    "source": "Wicked",
+    "composer": "Stephen Schwartz",
+    "showcase_only": true
+  },
+  {
+    "id": "scarborough_fair",
+    "title": "Scarborough Fair",
+    "composer": "Traditional English ballad",
+    "showcase_only": true
   }
 ]
 
