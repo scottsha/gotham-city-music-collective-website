@@ -299,7 +299,7 @@ class WordpressSlinger:
         # Create a new page or update the existing page using the WordPress REST API
         page_data = {
             'title': self.page_title,
-            'content': '',
+            'content': content,
             'template': 'performance_program'  # Replace with the name of your custom template file
         }
 
@@ -334,7 +334,9 @@ class WordpressSlinger:
 if __name__ == "__main__":
     genie = PerformancePageGenereator()
     content = genie.generate_html_str()
-    slinger = WordpressSlinger(page_title='repertoire', content=content)
+    with open("tmp.html", "w") as ff:
+        ff.write(content)
+    slinger = WordpressSlinger(page_title='repertoire_ss', content=content)
     slinger.send_page_to_site()
     # page_genie = WordpressSlinger('repertoire')
     # page_genie.generate()
