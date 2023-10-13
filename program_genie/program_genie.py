@@ -75,7 +75,7 @@ class ProgramGenerator:
             r"{" + foo.replace("_", " ") + r"}" for foo in
             sorted(
                 self.program_info["singers"],
-                key=lambda x: x.split(" ")[1]
+                key=lambda x: x.split(" ")[-1]
             )
         ]
         num_singers = len(singers)

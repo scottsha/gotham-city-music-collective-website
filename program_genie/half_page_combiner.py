@@ -1,7 +1,7 @@
 import PyPDF2
 
 # Path to the input PDF with two pages
-input_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gmcm_2023_oct_13_program.pdf'
+input_pdf_path = '/public_html/wp-content/uploads/concert_programs/gmcm_2023_oct_13_program.pdf'
 
 # Path to the output combined PDF
 output_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gmcm_2023_oct_13_program_toprint.pdf'
