@@ -11,4 +11,5 @@ public_html/wp-content/uploads/
 public_html/wp-content/plugins/
 public_html/wp-content/themes/
 /gcmc_program_genie/wordpress_credentials.py
-/page_synging_variables.sh
+/page_syncing_variables.sh
+/page_syncing_variables.sh
