@@ -210,12 +210,16 @@
     "title": "For Good",
     "source": "Wicked",
     "composer": "Stephen Schwartz",
+    "description": "From the musical <em>Wicked</em>. Here Glinda and Elphaba reflect on their sometimes tumultuous relationship has ultimately changed them both forever and for the better.",
+    "lyrics": "I'm limited\nJust look at me\nI'm limited\nAnd just look at you\nYou can do all I couldn't do\nGlinda\nSo now it's up to you\nFor both of us\nNow it's up to you\nI've heard it said\nThat people come into our lives\nFor a reason\nBringing something we must learn\nAnd we are led to those\nWho help us most to grow if we let them\nAnd we help them in return\nWell, I don't know if I believe that's true\nBut I know I'm who I am today\nBecause I knew you\nLike a comet pulled from orbit\nAs it passes the sun\nLike a stream that meets a boulder\nHalfway through the wood\nWho can say if I've been changed for the better\nBut because I knew you\nI have been changed for good\nIt well may be\nThat we will never meet again\nIn this lifetime\nSo, let me say before we part\nSo much of me\nIs made of what I learned from you\nYou'll be with me\nLike a handprint on my heart\nAnd now whatever way our stories end\nI know you have rewritten mine\nBy being my friend\nLike a ship blown from its mooring\nBy a wind off the sea\nLike a seed dropped by a sky bird\nIn a distant wood\nWho can say if I've been changed for the better\nBut because I knew you\nBecause I knew you\nI have been changed for good\nAnd just to clear the air\nI ask forgiveness\nFor the things I've done, you blame me for\nBut then I guess\nWe know there's blame to share\nAnd none of it seems to matter anymore\nLike a comet pulled from orbit (like a ship blown from its mooring)\nAs it passes the sun (by a wind off the sea)\nLike a stream that meets a boulder (like a seed dropped by a bird)\nHalfway through the wood (in the wood)\nWho can say if I've been changed for the better\nI do believe I have been changed for the better\nAnd because I knew you\nBecause I knew you\nBecause I knew you\nI have been changed\nFor good",
     "showcase_only": true
   },
   {
     "id": "scarborough_fair",
     "title": "Scarborough Fair",
     "composer": "Traditional English ballad",
+    "description": "While most widely know by the Simon & Garfunkel rendition, this song is a traditional English with published versions as early as 1891. Other versions may be found titled \"The Cambric Shirt\", or \"Parsley, Sage, Rosemary and Thyme\".",
+    "lyrics": "\"O, where are you going?\" \"To Scarborough fair,\"\n    Savoury sage, rosemary, and thyme;\n\"Remember me to a lass who lives there,\n    For once she was a true love of mine.\n\n\"And tell her to make me a cambric shirt,\n    Savoury sage, rosemary, and thyme,\nWithout any seam or needlework,\n    And then she shall be a true love of mine.\n\n\"And tell her to wash it in yonder dry well,\n    Savoury sage, rosemary, and thyme,\nWhere no water sprung, nor a drop of rain fell,\n    And then she shall be a true love of mine.",
     "showcase_only": true
   }
 ]

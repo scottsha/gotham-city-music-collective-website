@@ -138,9 +138,9 @@ class SongAboutsGenerator:
     def generate_song_contents(self):
         self.content.append(self.songlist_div_class)
         for id, song in self.repertoire_data.items():
-            is_showcase = song.get("showcase_only", False)
-            if (not is_showcase) or self.do_showcases:
-                gener = SongBlockGenerator(song)
+            # is_showcase = song.get("showcase_only", False)
+            # if (not is_showcase) or self.do_showcases:
+            gener = SongBlockGenerator(song)
             self.content += gener.lines
         self.content.append("</div>")
 
@@ -189,11 +189,15 @@ class PerformancePageGenereator:
         return title
 
     def generate_subtitle(self) -> str:
-        sub = self.program_info.get("subtitle", "")
-        return sub
+        subs = self.program_info.get("subtitle", "")
+        sub_str = "\n".join(subs)
+        return sub_str
 
     def generate_program_leaflet_path(self) -> str:
-        return "Your Program Leaflet Path"
+        if self.leaflet is None:
+            return ""
+        leaf = "https://gothamcitymusic.org/wp-content/uploads/concert_programs/" + self.leaflet
+        return leaf
 
     def make_index_entry(self, song_id: str, song_title: str) -> str:
         entry = '''
@@ -223,7 +227,25 @@ class PerformancePageGenereator:
         return blob
 
     def generate_singers_blob(self) -> str:
-        return "Your Singers Blob"
+        singers_raw = self.program_info.get("singers", "")
+        if not singers_raw:
+            return ""
+        singers_sort = sorted(
+            singers_raw,
+            key=lambda x: x.split(" ")[-1]
+        )
+        singers= [
+            foo.replace("_", " ")
+            for foo in singers_sort
+        ]
+        half_len = len(singers) // 2
+        col_0 = "<br>".join(singers[:half_len])
+        col_1 = "<br>".join(singers[half_len:])
+        with open("html_blocks/singer_block_template.html", 'r') as ff:
+            template = ff.read()
+        content = template.replace("${SINGERS_COL_0}", col_0)
+        content = content.replace("${SINGERS_COL_1}", col_1)
+        return content
 
     def generate_song_abouts(self) -> str:
         genie = SongAboutsGenerator(program_info=self.program_info)
@@ -261,83 +283,83 @@ class PerformancePageGenereator:
 
 
 
-class WordpressSlinger:
-    kWORDPRESS_API_URL = 'https://gothamcitymusic.org/wp-json/wp/v2/pages'
-    def __init__(
-        self,
-        page_title: str,
-        content: str
-    ):
-        self.page_title = page_title
-        # self.perforance_info = performance_info
-        self.content_str = content
-
-    # def generate(self):
-    #     content_maker = RepertoirePageGenerator(self.perforance_info)
-    #     content_maker.generate()
-    #     self.content_str = content_maker.get_content_str()
-
-    def send_page_to_site(self):
-        # Check if the page already exists by its title
-        page_exists = False
-        page_id = None
-
-        # Make a GET request to list existing pages
-        pages_response = requests.get(
-            self.kWORDPRESS_API_URL,
-            auth=(wordpress_username, wordpress_password)
-        )
-
-        if pages_response.status_code == 200:
-            existing_pages = pages_response.json()
-            for page in existing_pages:
-                if page['title']['rendered'] == self.page_title:
-                    page_exists = True
-                    page_id = page['id']
-                    break
-
-        # Create a new page or update the existing page using the WordPress REST API
-        page_data = {
-            'title': self.page_title,
-            'content': content,
-            'template': 'performance_program'  # Replace with the name of your custom template file
-        }
-
-        if page_exists:
-            # Update the existing page
-            update_response = requests.put(
-                f'{self.kWORDPRESS_API_URL}/{page_id}',
-                json=page_data,
-                auth=(wordpress_username, wordpress_password)
-            )
-
-            if update_response.status_code == 200:
-                print(f"Page updated successfully. Page ID: {page_id}")
-            else:
-                print(f"Failed to update the page. Status code: {update_response.status_code}")
-                print(update_response.text)
-        else:
-            # Create a new page
-            create_response = requests.post(
-                self.kWORDPRESS_API_URL,
-                json=page_data,
-                auth=(wordpress_username, wordpress_password)
-            )
-
-            if create_response.status_code == 201:
-                print(f"Page created successfully. Page ID: {create_response.json()['id']}")
-            else:
-                print(f"Failed to create the page. Status code: {create_response.status_code}")
-                print(create_response.text)
+# class WordpressSlinger:
+#     kWORDPRESS_API_URL = 'https://gothamcitymusic.org/wp-json/wp/v2/pages'
+#     def __init__(
+#         self,
+#         page_title: str,
+#         content: str
+#     ):
+#         self.page_title = page_title
+#         # self.perforance_info = performance_info
+#         self.content_str = content
+#
+#     # def generate(self):
+#     #     content_maker = RepertoirePageGenerator(self.perforance_info)
+#     #     content_maker.generate()
+#     #     self.content_str = content_maker.get_content_str()
+#
+#     def send_page_to_site(self):
+#         # Check if the page already exists by its title
+#         page_exists = False
+#         page_id = None
+#
+#         # Make a GET request to list existing pages
+#         pages_response = requests.get(
+#             self.kWORDPRESS_API_URL,
+#             auth=(wordpress_username, wordpress_password)
+#         )
+#
+#         if pages_response.status_code == 200:
+#             existing_pages = pages_response.json()
+#             for page in existing_pages:
+#                 if page['title']['rendered'] == self.page_title:
+#                     page_exists = True
+#                     page_id = page['id']
+#                     break
+#
+#         # Create a new page or update the existing page using the WordPress REST API
+#         page_data = {
+#             'title': self.page_title,
+#             'content': content,
+#             'template': 'performance_program'  # Replace with the name of your custom template file
+#         }
+#
+#         if page_exists:
+#             # Update the existing page
+#             update_response = requests.put(
+#                 f'{self.kWORDPRESS_API_URL}/{page_id}',
+#                 json=page_data,
+#                 auth=(wordpress_username, wordpress_password)
+#             )
+#
+#             if update_response.status_code == 200:
+#                 print(f"Page updated successfully. Page ID: {page_id}")
+#             else:
+#                 print(f"Failed to update the page. Status code: {update_response.status_code}")
+#                 print(update_response.text)
+#         else:
+#             # Create a new page
+#             create_response = requests.post(
+#                 self.kWORDPRESS_API_URL,
+#                 json=page_data,
+#                 auth=(wordpress_username, wordpress_password)
+#             )
+#
+#             if create_response.status_code == 201:
+#                 print(f"Page created successfully. Page ID: {create_response.json()['id']}")
+#             else:
+#                 print(f"Failed to create the page. Status code: {create_response.status_code}")
+#                 print(create_response.text)
 
 
 if __name__ == "__main__":
+    from hurl_to_wordpress_site import hurl_to_wordpress_site
     genie = PerformancePageGenereator()
     content = genie.generate_html_str()
     with open("tmp.html", "w") as ff:
         ff.write(content)
-    slinger = WordpressSlinger(page_title='repertoire_ss', content=content)
-    slinger.send_page_to_site()
-    # page_genie = WordpressSlinger('repertoire')
-    # page_genie.generate()
-    # page_genie.send_page_to_site()
+    hurl_to_wordpress_site(
+        page_title_to_check='repertoiress',
+        page_content=content
+    )
