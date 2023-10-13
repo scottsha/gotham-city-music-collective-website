@@ -3,9 +3,19 @@ import json
 from wordpress_credentials import wordpress_password, wordpress_username
 import warnings
 
+
 def check_song_entry(song: dict):
     expected_keys = [
-        "id", "title", "composer", "arranger", "description", "lyrics", "lyrics_title", "lyrics_cite", "lyrics_by"
+        "id",
+        "title",
+        "composer",
+        "arranger",
+        "description",
+        "lyrics",
+        "lyrics_title",
+        "lyrics_cite",
+        "lyrics_by",
+        "source",
     ]
     for key in song.keys():
         if key not in expected_keys:
@@ -80,19 +90,28 @@ class SongBlockGenerator:
         self.lines.append(line)
 
 
-class RepetoirePager:
+class RepertoirePageGenerator:
     songlist_div_class = "<div class=\"wp-block-group is-vertical is-layout-flex wp-container-48 wp-block-group-is-layout-flex\" style=\"border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)\">"
-    "<div class=\"wp-block-group is-vertical is-layout-flex wp-container-48 wp-block-group-is-layout-flex\" style=\"border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)\">"
-
-    def __init__(self, song_info_path: str):
-        self.path = song_info_path
-        with open(self.path, 'r') as file:
-            self.song_data = json.load(file)
-        self.song_data = sorted(self.song_data, key=lambda x: x["id"])
+    kREPERTOIRE_DATA_PATH = "repertoire_data.json"
+    def __init__(
+            self,
+            program_info: dict=None
+    ):
+        with open(self.kREPERTOIRE_DATA_PATH, 'r') as file:
+            self.repertoire_data = json.load(file)
+        self.repertoire_data = sorted(self.repertoire_data, key=lambda x: x["id"])
         self.content = []
+
+    def generate(self):
         self.generate_rep_intro()
         self.generate_song_contents()
         print("Page generated.")
+
+    def generate_performance_index(self):
+        pass
+
+    def generate_title(self):
+        pass
 
     def generate_rep_intro(self):
         div_0 = "<div class=\"entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow\">"
@@ -107,22 +126,31 @@ class RepetoirePager:
         for foo in range(3):
             self.content.append("</div>")
 
-
     def generate_song_contents(self):
         self.content.append(self.songlist_div_class)
-        for song in self.song_data:
+        for song in self.repertoire_data:
             gener = SongBlockGenerator(song)
             self.content += gener.lines
         self.content.append("</div>")
 
-    def get_content_str(self)->str:
+    def get_content_str(self) -> str:
         return "\n".join(self.content)
+
+
+class ProgramPageGenerator:
+    kWORDPRESS_API_URL = 'https://gothamcitymusic.org/wp-json/wp/v2/pages'
+    def __int__(
+        self,
+        page_name: str,
+    ):
+        self.name = page_name
+
 
 
 
 if __name__ == "__main__":
     wordpress_api_url = 'https://gothamcitymusic.org/wp-json/wp/v2/pages'
-    gener = RepetoirePager("repertoire_data.json")
+    gener = RepertoirePageGenerator("repertoire_data.json")
     page_content = gener.get_content_str()
 
     # Check if the page already exists by its title

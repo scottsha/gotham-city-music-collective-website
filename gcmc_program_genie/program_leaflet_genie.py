@@ -4,7 +4,7 @@ import json
 
 
 def load_repertoire_info():
-    path = "../repertoire/repertoire_data.json"
+    path = "repertoire_data.json"
     with open(path, "r") as ff:
         info = json.load(ff)
     info_dict = dict()
