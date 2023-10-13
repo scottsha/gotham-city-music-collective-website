@@ -72,7 +72,7 @@ class SongBlockGenerator:
         self.lines.append(line)
 
     def make_description(self):
-        description = self.song["description"]
+        description = self.song.get("description", "")
         line = "<p>{}</p>".format(description)
         self.lines.append(line)
 
@@ -102,7 +102,7 @@ def get_repertoire_data(
     repertoire_dict = {song["id"] : song for song in repertoire_data}
     return repertoire_dict
 
-class RepertoirePageGenerator:
+class SongAboutsGenerator:
     songlist_div_class = "<div class=\"wp-block-group is-vertical is-layout-flex wp-container-48 wp-block-group-is-layout-flex\" style=\"border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)\">"
 
     def __init__(
@@ -129,15 +129,15 @@ class RepertoirePageGenerator:
         self.content.append(div_1)
         div_2 = "<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">"
         self.content.append(div_2)
-        title = "Choral Repertoire"
-        h_title = "<h1 class=\"wp-block-heading has-text-align-center\">{}</h1>".format(title)
-        self.content.append(h_title)
+        # title = "Choral Repertoire"
+        # h_title = "<h1 class=\"wp-block-heading has-text-align-center\">{}</h1>".format(title)
+        # self.content.append(h_title)
         for foo in range(3):
             self.content.append("</div>")
 
     def generate_song_contents(self):
         self.content.append(self.songlist_div_class)
-        for song in self.repertoire_data:
+        for id, song in self.repertoire_data.items():
             is_showcase = song.get("showcase_only", False)
             if (not is_showcase) or self.do_showcases:
                 gener = SongBlockGenerator(song)
@@ -146,6 +146,10 @@ class RepertoirePageGenerator:
 
     def get_content_str(self) -> str:
         return "\n".join(self.content)
+
+    def generate_html_str(self) -> str:
+        self.generate()
+        return self.get_content_str()
 
 
 class PerformancePageGenereator:
@@ -167,25 +171,25 @@ class PerformancePageGenereator:
         program_leaflet_file_name: str=None
     ):
         self.repertoire = get_repertoire_data()
-        self.info = program_info
-        if program_info is None:
-            
+        self.program_info = program_info
+        if self.program_info is None:
+            self.program_info = dict()
             self.template_path = self.kREPERTOIRE_TEMPLATE_PATH
         else:
             self.template_path = self.kPERFORMANCE_TEMPLATE_PATH
         with open(self.template_path, "r") as ff:
             self.template = ff.read()
         self.leaflet = program_leaflet_file_name
-        self.id = self.info.get("id", "repertoire")
+        self.id = self.program_info.get("id", "repertoire")
         self.url = "gothamcitymusic.org/" + self.id
         # print("Creating page ", self.id)
 
     def generate_main_title_block(self) -> str:
-        title = self.info.get("title", "")
+        title = self.program_info.get("title", "")
         return title
 
     def generate_subtitle(self) -> str:
-        sub = self.info.get("subtitle", "")
+        sub = self.program_info.get("subtitle", "")
         return sub
 
     def generate_program_leaflet_path(self) -> str:
@@ -201,7 +205,7 @@ class PerformancePageGenereator:
         return entry
 
     def get_song_list(self):
-        songs = self.info.get("song_list")
+        songs = self.program_info.get("song_list")
         if songs is None:
             songs = sorted(list(self.repertoire.keys()))
         return songs
@@ -221,10 +225,13 @@ class PerformancePageGenereator:
     def generate_singers_blob(self) -> str:
         return "Your Singers Blob"
 
-    def generate_song_list(self) -> str:
-        return "Your Song List"
+    def generate_song_abouts(self) -> str:
+        genie = SongAboutsGenerator(program_info=self.program_info)
+        genie.generate()
+        abouts = genie.get_content_str()
+        return abouts
 
-    def get_html_str(self) -> str:
+    def generate_html_str(self) -> str:
         content = self.template.replace(
             self.kREPLACE_MAIN_TITLE,
             self.generate_main_title_block()
@@ -239,16 +246,17 @@ class PerformancePageGenereator:
         )
         content = content.replace(
             self.kREPLACE_INDEX_LIST_BLOB,
-            self.generate_subtitle()
+            self.generate_index_list_blob()
         )
         content = content.replace(
             self.kREPLACE_SINGERS_BLOB,
-            self.generate_subtitle()
+            self.generate_singers_blob()
         )
         content = content.replace(
             self.kREPLACE_SONG_ABOUTS,
-            self.generate_subtitle()
+            self.generate_song_abouts()
         )
+        return content
 
 
 
@@ -325,7 +333,9 @@ class WordpressSlinger:
 
 if __name__ == "__main__":
     genie = PerformancePageGenereator()
-    print(genie.get_html_str())
+    content = genie.generate_html_str()
+    slinger = WordpressSlinger(page_title='repertoire', content=content)
+    slinger.send_page_to_site()
     # page_genie = WordpressSlinger('repertoire')
     # page_genie.generate()
     # page_genie.send_page_to_site()
