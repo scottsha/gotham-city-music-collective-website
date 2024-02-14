@@ -1,0 +1,47 @@
+{
+  "id": "13_oct_2023",
+  "title": "Fall 2023 Choral Concert",
+  "subtitle": ["ST PAUL'S GERMAN EVANGELICAL LUTHERAN CHURCH 13 OCT 2023"],
+  "song_list": [
+    "i_sing_because_im_happy",
+    "keep_your_lamps",
+    "ilus_haal",
+    "shenandoah",
+    "sing_me_to_heaven",
+    "for_good",
+    "oi_u_luzi",
+    "cantique",
+    "ubi_caritas",
+    "gloria",
+    "agnus_dei",
+    "lux",
+    "scarborough_fair",
+    "awakening"
+  ],
+  "notes" : {
+    "gloria": "Soloist Jeffrey Christianson",
+    "for_good": "Performed by Barbara Gao Shapiro and Emma Dietrich",
+    "lux": "Soloist Emma Dietrich",
+    "scarborough_fair": "Performed by Ashley Rivas",
+    "ilus_haal": "Soloist Kevin Shapiro"
+  },
+  "singers": [
+    "Sara Birmingham",
+    "Claudia Caceres",
+    "Jeff Christianson",
+    "Emma Dietrich",
+    "Barbara Gao_Shapiro",
+    "Matt Gershowitz",
+    "James Cove Hurley",
+    "Katie Jones",
+    "Harris Manganiello",
+    "Diana Marino",
+    "Kenechukwu Ogbu",
+    "Ashley Rivas",
+    "Kat Savina",
+    "Shane Scott",
+    "Kevin Shapiro",
+    "Emily Sleasman",
+    "Jasmine Tan"
+  ]
+}

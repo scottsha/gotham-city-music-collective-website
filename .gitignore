@@ -10,4 +10,6 @@ public_html/wp-content/uploads/
 # Plugins and themes
 public_html/wp-content/plugins/
 public_html/wp-content/themes/
-/repertoire/wordpress_credentials.py
+/gcmc_program_genie/wordpress_credentials.py
+/page_syncing_variables.sh
+/page_syncing_variables.sh
