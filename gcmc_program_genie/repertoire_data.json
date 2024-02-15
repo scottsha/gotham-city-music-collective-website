@@ -221,7 +221,122 @@
     "description": "While most widely know by the Simon & Garfunkel rendition, this song is a traditional English with published versions as early as 1891. Other versions may be found titled \"The Cambric Shirt\", or \"Parsley, Sage, Rosemary and Thyme\".",
     "lyrics": "\"O, where are you going?\" \"To Scarborough fair,\"\n    Savoury sage, rosemary, and thyme;\n\"Remember me to a lass who lives there,\n    For once she was a true love of mine.\n\n\"And tell her to make me a cambric shirt,\n    Savoury sage, rosemary, and thyme,\nWithout any seam or needlework,\n    And then she shall be a true love of mine.\n\n\"And tell her to wash it in yonder dry well,\n    Savoury sage, rosemary, and thyme,\nWhere no water sprung, nor a drop of rain fell,\n    And then she shall be a true love of mine.",
     "showcase_only": true
+  },
+  {
+    "id": "frozen",
+    "title": "Frozen Choral Suite: Heimr Árnadalr, Vuelie, The Great Thaw",
+    "composer": "Christophe Beck and Leo Birenberg",
+    "lyrics_by": "Christine Hals",
+    "arranger":"Roger Emerson",
+    "description": "Composed for the 2017 Disney film \"Frozen.\" This arrangement concatenates several choral snippets scattered throughout the film. We begin with \"Heimr Árnadalr,\" seen during the coronation of Queen Elsa performed in the film by a red-robed, twelve-member choir shown briefly on screen. The opening title sequence of the film plays \"Vuelie\", which is later reprised as \"The Great Thaw\" as Elsa learns to dispell the cursed winter besetting Arendelle. The sung lyrics are in Old Norse."
+    "lyrics_tr": "Great queen to be\nHeart of gold, shine\nWe crown you with hopes, love and faith\nBeautiful, gritty homeland Arendelle\nFollow the queen of light",
+    "showcase_only": false
+  },
+  {
+    "id": "black_is_the_color",
+    "title": "Black is the Color",
+    "composer": "Appalachian Folk Song",
+    "arranger":"Roger Emerson",
+    "description": "This plaintive folk song is most associated with Appalachia, though is thought to be largely derived from Scottish ballads. This melody is attributed to John Jacob Niles circa 1941.",
+    "lyrics": "Black is the color of my true love's hair\nHer lips are something wondrous fair\nThe purest eyes\nAnd the daintiest hands\nI love the ground on where she stands",
+    "showcase_only": false
+  },
+  {
+    "id": "loch_lomond",
+    "title": "Loch Lomond",
+    "composer": "Scottish Traditional",
+    "arranger":"Jonathan Quick",
+    "description": "Loch Lomond ('Lake of the Elms') is the largest lake in Great Britain, found in Scotland near Glasgow. Evidence suggests humans settled nearby during the neolithic era, and--somewhere in the next 5000 years--developed this ballad. The speaker pines for the beautiful landscape of home, but claims suggests zhe will only return via the \"low road\"--death, likely dying in rebellion against the English.",
+    "lyrics": "O ye'll tak' the high road, and I'll tak' the low road,\nAnd I'll be in Scotland afore ye,\nBut me and my true love will never meet again,\nOn the bonnie, bonnie banks o' Loch Lomond",
+    "showcase_only": false
+  },
+  {
+    "id": "mlk",
+    "title": "MLK",
+    "composer": "U2",
+    "arranger":"Bob Chilcott",
+    "description": "Irish rock group U2 debuted this ode to Martin Luther King Jr. on 18 October 1984.",
+    "lyrics": "Sleep, sleep tonight\nAnd may your dreams be realised\nIf the thunder cloud passes rain\nSo let it rain, let it rain\nRain on him",
+    "showcase_only": false
+  },
+  {
+    "id": "one_of_these_days",
+    "title": "One of these Days",
+    "composer": "Sarah Quartel",
+    "description": "GCMC favorite, composer, and educator Sarah Quartel serves another banger in this 2021 piece. Like many Quartel pieces, the complex rhythm deepens the piece, in this case swinging between 3/4 and 4/4 time.",
+    "lyrics": "Isn't it amazing how the years go by\nGone before they begin\nIsn't it amazing how these dreams go by\nwhen you're waiting for them to come\nIsn't it amazing we go on this way\nseeing shadows of what could be done\nMaybe I'll see that today is enough\nand this moment is all that I need\nMaybe I'll stand up and go my own way\nfor the beauty I know I will see one of these days\n\nBreathing in the moment isn't good enough\nif you believe that hard must be right\nMaybe if it's easy it's still worth it all\nThere's a diamond deep in the fire\nSo one of these days\nI'm gonna fly away\nI'm gonna fly away\nSo one of these days when I find my own way\nI'll find that it's today",
+    "showcase_only": false
+  },
+  {
+    "id": "wide_open_spaces",
+    "title": "One of these Days",
+    "composer": "Sarah Quartel",
+    "description": "Commissioned by the American Choral Directors Association (ACDA) in 2015, this piece is among the many commissions Quartel has composed. Quartel says of her composing past, \"Creating music has always come naturally to me. The phrase, “Sarah, that’s not Beethoven, you’re composing” could regularly be heard in my childhood piano lessons. (Whoops?)\"",
+    "lyrics": "There’s part of my story,\nthere’s part of my song,\nthere’s part of my journey,\nthat’s yet to be found.\n\nWith life all around us, \nthere’s so much to see, \nadventure is calling,\nit’s calling to me.\n\nOut in the wide open spaces around me.\n\nWith big sky above me,\nI’m on my way.\nScanning the horizon\nof a brand new day.\n\nFeet to the earth now,\nthere’s no turning back.\nInto the world now,\nlook at me, look at me go!\n\nOut in the wide open spaces around me,\nout in the wide open spaces around me.\n\nBut as I journey out,\nI look within and see,\nthe spaces inside of me,\nyet to be filled,\nfilled with what I have seen\nand what I will be, Oh!\n\nI’m filling the wide open spaces inside of me,\nwith something I love, \nsomething I would like to be, be, be.\nFilling the wide open spaces inside of me.\nFilling the wide open spaces within me.",
+    "showcase_only": false
+  },
+  {
+    "id": "pirate_song",
+    "title": "Pirate Song",
+    "composer": "Tim Jones",
+    "description": "Because sometimes you just need to say \"arrrr\"!",
+    "lyrics": "A pirate sang a song to me\nHe sang of life upon the sea\nHe sang to me with gravelled tones\nHe sang to me of Billy Bones\n\nPirates make me happy!\n\nA pirate sang a song to me\nHe had no leag below his knee\nHe sang the song the best he could\nHis tongue was also made of wood\n\nFor romance find a pirate\n\nMy pirate comes from Tripoli\nMy pirate curses saltily\nMy pirate is not snooty\nMy pirate shakes his booty\nMy pirate swaps the deck\nlike noone else can swap the deck\n\nMy pirate sang a song to me\nHis face was kind of barnacley\nHe told me that my parrot stank\nAnd so I made him walk the plank",
+    "showcase_only": false
+  },
+  {
+    "id": "robots",
+    "title": "Robots",
+    "composer": "Flight of the Conchords",
+    "arranger": "Shane Scott",
+    "description": "The humans are dead.",
+    "showcase_only": true
+  },
+  {
+    "id": "nigun",
+    "title": "Nigun",
+    "description": "Nigunim are a Hasidic tradition that are meant as mystical prayers, sacred practices, and a path to deepen the soul. They are performed in an expressive vocal style with dramatic inflections similar to cantorial music.",
+    "showcase_only": true
+  },
+  {
+    "id": "down_by_the_river",
+    "title": "Down by the River to Pray",
+    "composer": "African-American spiritual",
+    "arranger": "Alison Krauss",
+    "description": "As seen in the baptismal scene of 2000 film \"O Brother, Where Art Thou?\"",
+    "lyrics": "As I went down in the river to pray\nStudying about that good old way\nAnd who shall wear the robe and crown\nGood Lord, show me the way!",
+    "showcase_only": true
+  },
+  {
+    "id": "stupid_in_love",
+    "title": "Stupid in Love",
+    "composer": "Jeff Richmond",
+    "arranger": "Nell Benjamin",
+    "description": "From the musical \"Mean Girls\"",
+    "showcase_only": true
+  },
+    {
+    "id": "honey_pie",
+    "title": "Honey Pie",
+    "composer": "Paul McCartney",
+    "description": "From the 1968 double album \"The Beatles\" (also known as \"the White Album\").",
+    "showcase_only": true
+  },
+  {
+    "id": "flowers_hadestown",
+    "title": "Flowers",
+    "composer": "Anaïs Mitchell",
+    "description": "From the musical \"Hadestown\".",
+    "showcase_only": true
+  },
+  {
+    "id": "father_and_son",
+    "title": "Father and Son",
+    "composer": "Yusuf/Cat Stevens",
+    "description": "Wrote for the propsed musical \"Revolussia,\" but shelved when Stevens nearly died of tuberculosis.",
+    "showcase_only": true
   }
+
+
 ]
 
 
