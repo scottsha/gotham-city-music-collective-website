@@ -2,7 +2,7 @@
   {
     "id": "oi_u_luzi",
     "title": "Ой у лузі червона калина",
-    "composer": "Traditional Ukrainian folk",
+    "tradition": "Traditional Ukrainian folk",
     "arranger": "Stepan Charnetsky",
     "description": "This patriotic Ukranian march was arranged by Stepan Charnetsky from traditional march elements in 1914 as a memorial to veterans of World War I. The song has ever since attracted both inspiration and political censorship. Singing  <em>Oi u Luzi</em> in the wrong crowd could get the singer  fined, beaten, or even imprisoned by anti-Ukrainian-nationalist factions in Ukraine and Russia. The song was vehemently repressed during the Soviet era (1919-1991), then following the Russian annexation of Crimea in 2014, and after the Russian invasion of Ukraine in 2022.\n\nThe song sings of a Ukrainian national symbol&#8211;the <a href=\"https://en.wikipedia.org/wiki/Viburnum_opulus\">red viburnum</a>, a shrub with bright red berries.",
     "lyrics_title": "Oh, the Red Viburnum in the Meadow",
@@ -171,7 +171,7 @@
   {
     "id": "shenandoah",
     "title": "Shenandoah",
-    "composer": "Traditional American folk",
+    "tradition": "Traditional American folk",
     "arranger": "Jay Althouse",
     "description": "A traditional folk song. <em>Shenandoah</em> likely as a shanty sung by fur traders along the Missouri River in the early 19th century. Lyrics vary widely, but in many versions the titular Shenandoah is chief of the Oneida Iroquois tribe and has a beautiful daughter the fur trader speaker seeks to whisk away.",
     "lyrics": "Oh Shenandoah,\nI long to see you,\nAway, you rolling river.\nOh Shenandoah,\nI long to see you,\nWay, we're bound away\nAcross the wide Missouri."
@@ -185,7 +185,7 @@
   {
     "id": "keep_your_lamps",
     "title": "Keep Your Lamps Trimmed and Burning",
-    "composer": "Traditional Black spiritual",
+    "tradition": "Traditional Black spiritual",
     "arranger": "Philip Kern",
     "description": "A traditional spiritual, the lyrics allude to a parable told in Matthew 25:1–13:",
     "lyrics": "There were ten virgins, who took their lamps, and went out to meet the bridegroom. Five of them were foolish, and five were wise. Those who were foolish, when they took their lamps, took no oil with them, but the wise took oil in their vessels with their lamps. Now while the bridegroom delayed, they all slumbered and slept. But at midnight there was a cry, \"Behold! The bridegroom is coming! Come out to meet him!\" Then all those virgins arose, and trimmed their lamps. The foolish said to the wise, \"Give us some of your oil, for our lamps are going out.\" But the wise answered, saying, \"What if there isn't enough for us and you? You go rather to those who sell, and buy for yourselves.\" While they went away to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. Afterward the other virgins also came, saying, \"Lord, Lord, open to us.\" But he answered, \"Most certainly I tell you, I don't know you.\""
@@ -217,25 +217,25 @@
   {
     "id": "scarborough_fair",
     "title": "Scarborough Fair",
-    "composer": "Traditional English ballad",
+    "tradition": "Traditional English ballad",
     "description": "While most widely know by the Simon & Garfunkel rendition, this song is a traditional English with published versions as early as 1891. Other versions may be found titled \"The Cambric Shirt\", or \"Parsley, Sage, Rosemary and Thyme\".",
     "lyrics": "\"O, where are you going?\" \"To Scarborough fair,\"\n    Savoury sage, rosemary, and thyme;\n\"Remember me to a lass who lives there,\n    For once she was a true love of mine.\n\n\"And tell her to make me a cambric shirt,\n    Savoury sage, rosemary, and thyme,\nWithout any seam or needlework,\n    And then she shall be a true love of mine.\n\n\"And tell her to wash it in yonder dry well,\n    Savoury sage, rosemary, and thyme,\nWhere no water sprung, nor a drop of rain fell,\n    And then she shall be a true love of mine.",
     "showcase_only": true
   },
   {
     "id": "frozen",
-    "title": "Frozen Choral Suite: Heimr Árnadalr, Vuelie, The Great Thaw",
+    "title": "Frozen Choral Suite",
     "composer": "Christophe Beck and Leo Birenberg",
     "lyrics_by": "Christine Hals",
     "arranger":"Roger Emerson",
-    "description": "Composed for the 2017 Disney film \"Frozen.\" This arrangement concatenates several choral snippets scattered throughout the film. We begin with \"Heimr Árnadalr,\" seen during the coronation of Queen Elsa performed in the film by a red-robed, twelve-member choir shown briefly on screen. The opening title sequence of the film plays \"Vuelie\", which is later reprised as \"The Great Thaw\" as Elsa learns to dispell the cursed winter besetting Arendelle. The sung lyrics are in Old Norse."
+    "description": "Composed for the 2017 Disney film \"Frozen.\" This arrangement concatenates several choral snippets scattered throughout the film: Heimr Árnadalr, Vuelie, and The Great Thaw. We begin with \"Heimr Árnadalr,\" seen during the coronation of Queen Elsa performed in the film by a red-robed, twelve-member choir shown briefly on screen. The opening title sequence of the film plays \"Vuelie\", which is later reprised as \"The Great Thaw\" as Elsa learns to dispell the cursed winter besetting Arendelle. The sung lyrics are in Old Norse.",
     "lyrics_tr": "Great queen to be\nHeart of gold, shine\nWe crown you with hopes, love and faith\nBeautiful, gritty homeland Arendelle\nFollow the queen of light",
     "showcase_only": false
   },
   {
     "id": "black_is_the_color",
     "title": "Black is the Color",
-    "composer": "Appalachian Folk Song",
+    "tradition": "Appalachian Folk Song",
     "arranger":"Roger Emerson",
     "description": "This plaintive folk song is most associated with Appalachia, though is thought to be largely derived from Scottish ballads. This melody is attributed to John Jacob Niles circa 1941.",
     "lyrics": "Black is the color of my true love's hair\nHer lips are something wondrous fair\nThe purest eyes\nAnd the daintiest hands\nI love the ground on where she stands",
@@ -244,7 +244,7 @@
   {
     "id": "loch_lomond",
     "title": "Loch Lomond",
-    "composer": "Scottish Traditional",
+    "tradition": "Scottish Traditional",
     "arranger":"Jonathan Quick",
     "description": "Loch Lomond ('Lake of the Elms') is the largest lake in Great Britain, found in Scotland near Glasgow. Evidence suggests humans settled nearby during the neolithic era, and--somewhere in the next 5000 years--developed this ballad. The speaker pines for the beautiful landscape of home, but claims suggests zhe will only return via the \"low road\"--death, likely dying in rebellion against the English.",
     "lyrics": "O ye'll tak' the high road, and I'll tak' the low road,\nAnd I'll be in Scotland afore ye,\nBut me and my true love will never meet again,\nOn the bonnie, bonnie banks o' Loch Lomond",
@@ -269,7 +269,7 @@
   },
   {
     "id": "wide_open_spaces",
-    "title": "One of these Days",
+    "title": "Wide Open Spaces",
     "composer": "Sarah Quartel",
     "description": "Commissioned by the American Choral Directors Association (ACDA) in 2015, this piece is among the many commissions Quartel has composed. Quartel says of her composing past, \"Creating music has always come naturally to me. The phrase, “Sarah, that’s not Beethoven, you’re composing” could regularly be heard in my childhood piano lessons. (Whoops?)\"",
     "lyrics": "There’s part of my story,\nthere’s part of my song,\nthere’s part of my journey,\nthat’s yet to be found.\n\nWith life all around us, \nthere’s so much to see, \nadventure is calling,\nit’s calling to me.\n\nOut in the wide open spaces around me.\n\nWith big sky above me,\nI’m on my way.\nScanning the horizon\nof a brand new day.\n\nFeet to the earth now,\nthere’s no turning back.\nInto the world now,\nlook at me, look at me go!\n\nOut in the wide open spaces around me,\nout in the wide open spaces around me.\n\nBut as I journey out,\nI look within and see,\nthe spaces inside of me,\nyet to be filled,\nfilled with what I have seen\nand what I will be, Oh!\n\nI’m filling the wide open spaces inside of me,\nwith something I love, \nsomething I would like to be, be, be.\nFilling the wide open spaces inside of me.\nFilling the wide open spaces within me.",
@@ -292,23 +292,24 @@
     "showcase_only": true
   },
   {
-    "id": "nigun",
-    "title": "Nigun",
-    "description": "Nigunim are a Hasidic tradition that are meant as mystical prayers, sacred practices, and a path to deepen the soul. They are performed in an expressive vocal style with dramatic inflections similar to cantorial music.",
+    "id": "klimovitcher",
+    "title": "Klimovitcher",
+    "tradition": "Ashkenazi Traditional",
+    "description": "Nigunim are a Jewish tradition that are meant as mystical prayers, sacred practices, and a path to deepen the soul. They are performed in an expressive vocal style with dramatic inflections similar to cantorial music. This piece originated from Chabad Chassidim in the town of Klimovitch. It was later popularized by the Chassid Reb Rephael Kahn.",
     "showcase_only": true
   },
   {
     "id": "down_by_the_river",
     "title": "Down by the River to Pray",
-    "composer": "African-American spiritual",
+    "tradition": "African-American spiritual",
     "arranger": "Alison Krauss",
     "description": "As seen in the baptismal scene of 2000 film \"O Brother, Where Art Thou?\"",
     "lyrics": "As I went down in the river to pray\nStudying about that good old way\nAnd who shall wear the robe and crown\nGood Lord, show me the way!",
     "showcase_only": true
   },
   {
-    "id": "stupid_in_love",
-    "title": "Stupid in Love",
+    "id": "stupid_with_love",
+    "title": "Stupid with Love",
     "composer": "Jeff Richmond",
     "arranger": "Nell Benjamin",
     "description": "From the musical \"Mean Girls\"",
@@ -334,9 +335,22 @@
     "composer": "Yusuf/Cat Stevens",
     "description": "Wrote for the propsed musical \"Revolussia,\" but shelved when Stevens nearly died of tuberculosis.",
     "showcase_only": true
+  },
+  {
+    "id": "anthem_from_chess",
+    "title": "Anthem",
+    "composer": "Benny Andersson and Björn Ulvaeus",
+    "lyrics_by": "Ulvaeus and Tim Rice",
+    "description": "from the 1984 musical \"Chess\"",
+    "showcase_only": true
+  },
+  {
+    "id": "the_1",
+    "title": "The 1",
+    "composer": "Taylor Swift",
+    "description": "from the 2020 album \"Folklore\"",
+    "showcase_only": true
   }
-
-
 ]
 
 
