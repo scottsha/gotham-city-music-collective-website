@@ -24,11 +24,11 @@ def check_song_entry(song: dict):
 
 
 class AboutSongBlockGenerator:
-    kLYRICS_TEXT_CONTAINER = '<td class="has-text-align-center" data-align="center">${REPLACE_LYRICS}</td>'
     kTEMPLATE_PATH = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
         'html_blocks/song_rep_block_template.html'
     )
+    kLYRIC_PARAGRAPH_HTML = (r'${REPLACE_LYRICS}')
 
     def __init__(self, song: dict):
         check_song_entry(song)
@@ -63,31 +63,35 @@ class AboutSongBlockGenerator:
         blerb = " ".join(blerb_list)
         return blerb
 
+    def format_lyric_from_raw(self, lyric_text: str) -> str:
+        # paragraphs = lyric_text.split('\n\n')
+        # para_htmls = []
+        # for para in paragraphs:
+        #     phtml = para.replace('\n', '<br>')
+        #     para_html = self.kLYRIC_PARAGRAPH_HTML.replace('${REPLACE_LYRICS}', phtml)
+        #     para_htmls.append(para_html)
+        # return '\n'.join(para_htmls)
+        return lyric_text.replace("\n", "<br>")
 
     def generate_lyrics(self) -> str:
         lyrics = self.song.get("lyrics", "")
-        lyrics_title = self.song.get("lyrics_title", "")
-        lyrics_translated = self.song.get("lyrics_translated", "")
-        if not lyrics and not lyrics_translated:
+        lyrics_translation = self.song.get("lyrics_translation", "")
+        if not lyrics and not lyrics_translation:
             return ""
-        lyr_block_list = []
-        if lyrics:
-            lyr_text = lyrics.replace('\n', "<br>")
-            lyr_html = self.kLYRICS_TEXT_CONTAINER.replace('${REPLACE_LYRICS}', lyr_text)
-            lyr_block_list.append(lyr_html)
-        if lyrics_translated:
-            lyr_t_text = lyrics_translated.replace('\n', "<br>")
-            lyr_t_html = self.kLYRICS_TEXT_CONTAINER.replace('${REPLACE_LYRICS}', lyr_t_text)
-            lyr_block_list.append(lyr_t_html)
-        # lyrics_template_path = os.path.join(
-        #     os.path.abspath(__file__),
-        # )
+        lyr_text = self.format_lyric_from_raw(lyrics)
+        lyr_t_text = self.format_lyric_from_raw(lyrics_translation)
+        lyrics_title = self.song.get("lyrics_title", "")
+        if lyrics_title:
+            lyr_text = '<b>{}</b>'.format(lyrics_title) + "<br><br>" + lyr_text
+        if lyrics and lyrics_translation:
+            with open('html_blocks/lyrics_2_blocks_template.html', 'r') as ff:
+                l_template = ff.read()
+            lyr_html = l_template.replace('${REPLACE_LYRICS}', lyr_text)
+            lyr_html = lyr_html.replace('${REPLACE_LYRICS_TRANSLATION}', lyr_t_text)
+            return lyr_html
+        if not lyrics:
+            lyr_text = lyr_t_text
         with open('html_blocks/lyrics_block_template.html', 'r') as ff:
             l_template = ff.read()
-        lyr_blocks = '\n'.join(lyr_block_list)
-        lyrics_blerb = l_template.replace(
-            '${REPLACE_LYRICS_BLOCKS}',
-            lyr_blocks
-        )
-        return lyrics_blerb
-
+        lyr_text = l_template.replace('${REPLACE_LYRICS}', lyr_text)
+        return lyr_text
