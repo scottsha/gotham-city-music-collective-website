@@ -4,6 +4,7 @@ from wordpress_credentials import wordpress_password, wordpress_username
 import warnings
 import os
 from repertoire_about_song_block_generator import AboutSongBlockGenerator, check_song_entry
+from hurl_to_wordpress_site import hurl_to_wordpress_site
 
 kREPERTOIRE_DATA_PATH = "repertoire_data.json"
 
@@ -35,10 +36,16 @@ class AboutSongsListGenerator:
         self.about_song_blocks = []
         self.song_index_list = []
 
-    def get_song_list(self):
+    def get_song_list(self, exclude_showcase_only=False):
         songs = self.program_info.get("song_list")
         if songs is None:
-            songs = sorted(list(self.repertoire_data.keys()))
+            if exclude_showcase_only:
+                songs = sorted([
+                    song_id for song_id, item in self.repertoire_data.items()
+                    if not item.get("showcase_only", False)
+                ])
+            else:
+                songs = sorted(list(self.repertoire_data.keys()))
         return songs
 
     def get_song_index_entry_html(self, song_id: str, song_title: str) -> str:
@@ -46,10 +53,10 @@ class AboutSongsListGenerator:
         entry = entry.replace("${REPLACE_SONG_TITLE}", song_title)
         return entry
 
-    def populate(self):
+    def populate(self, exclude_showcase_only=False):
         self.about_song_blocks = []
         self.song_index_list = []
-        songs = self.get_song_list()
+        songs = self.get_song_list(exclude_showcase_only)
         for song_id in songs:
             song = self.repertoire_data[song_id]
             song_title = song['title']
@@ -69,7 +76,7 @@ class AboutSongsListGenerator:
 
 class RepertoirePageGenerator:
     kREPLACE_MAIN_TITLE = "${REPLACE_MAIN_TITLE_BLOCK}"
-    kREPLACE_SUBTITLE = "${SUBTITLE_REPLACE}"
+    kREPLACE_SUBTITLE = "${REPLACE_PROGRAM_SUBTITLE}"
     kREPLACE_PROGRAM_LEAFLET_PATH = "${REPLACE_PROGRAM_LEAFLET_PATH}"
     kREPLACE_INDEX_LIST_BLOB = "${REPLACE_SONG_INDEX_LIST}"
     kREPLACE_SINGERS_BLOB = "${REPLACE_SINGERS_BLOB}"
@@ -153,14 +160,16 @@ class RepertoirePageGenerator:
         content = content.replace("${SINGERS_COL_1}", col_1)
         return content
 
-    def generate_html_str(self) -> str:
+    def generate_html_str(self, exclude_showcase_only=False) -> str:
+        title_block = self.generate_main_title_block()
         content = self.template.replace(
             self.kREPLACE_MAIN_TITLE,
-            self.generate_main_title_block()
+            title_block
         )
+        subtitle = self.generate_subtitle()
         content = content.replace(
             self.kREPLACE_SUBTITLE,
-            self.generate_subtitle()
+            subtitle
         )
         content = content.replace(
             self.kREPLACE_PROGRAM_LEAFLET_PATH,
@@ -170,8 +179,10 @@ class RepertoirePageGenerator:
             self.kREPLACE_SINGERS_BLOB,
             self.generate_singers_blob()
         )
-        about_generator = AboutSongsListGenerator()
-        about_generator.populate()
+        about_generator = AboutSongsListGenerator(
+            program_info=self.program_info
+        )
+        about_generator.populate(exclude_showcase_only)
         song_index = about_generator.get_song_index_html()
         content = content.replace(
             self.kREPLACE_INDEX_LIST_BLOB,
@@ -186,22 +197,38 @@ class RepertoirePageGenerator:
 
 
 def example_generate_repertoire():
-    from hurl_to_wordpress_site import hurl_to_wordpress_site
     with open("html_blocks/repertoire_template.html", 'r') as ff:
         template = ff.read()
     genie = RepertoirePageGenerator(
         html_template=template,
     )
-    content = genie.generate_html_str()
+    content = genie.generate_html_str(exclude_showcase_only=True)
     with open("tmp.html", "w") as ff:
         ff.write(content)
-    # with open("tmp.html", "r") as ff:
-    #     content = ff.read()
     hurl_to_wordpress_site(
         page_title_to_check='repertoire_ss_testing',
         page_content=content
     )
 
+def example_generate_1march2024():
+    show_data = '../concert_1_march_2024/program_info.json'
+    with open(show_data, 'r') as ff:
+        program_info = json.load(ff)
+    with open("html_blocks/performance_program_template.html", 'r') as ff:
+        template = ff.read()
+    genie = RepertoirePageGenerator(
+        html_template=template,
+        program_info=program_info,
+        program_leaflet_file_name='gcmc_1_march_2024_program.pdf',
+    )
+    content = genie.generate_html_str()
+    with open("tmp.html", "w") as ff:
+        ff.write(content)
+    hurl_to_wordpress_site(
+        page_title_to_check='1_march_2024',
+        page_content=content
+    )
+
 
 if __name__ == "__main__":
-    example_generate_repertoire()
+    example_generate_1march2024()

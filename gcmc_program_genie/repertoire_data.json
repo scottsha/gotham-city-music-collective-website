@@ -288,7 +288,7 @@
     "composer": "Flight of the Conchords",
     "arranger": "Shane Scott",
     "description": "The humans are dead.",
-    "showcase_only": true
+    "showcase_only": false
   },
   {
     "id": "klimovitcher",

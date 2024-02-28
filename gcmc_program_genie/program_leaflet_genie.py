@@ -30,7 +30,7 @@ class ProgramGenerator:
         program_id = self.program_info.get("id")
         self.latex_generated_path = os.path.join(
             self.dir,
-            "gmcm_{}_program.tex".format(program_id)
+            "gcmc_{}_program.tex".format(program_id)
         )
         self.repertoire_info = load_repertoire_info()
 
