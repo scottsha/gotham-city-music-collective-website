@@ -5,7 +5,8 @@
     "tradition": "Traditional Ukrainian folk",
     "arranger": "Stepan Charnetsky",
     "description": "This patriotic Ukranian march was arranged by Stepan Charnetsky from traditional march elements in 1914 as a memorial to veterans of World War I. The song has ever since attracted both inspiration and political censorship. Singing  <em>Oi u Luzi</em> in the wrong crowd could get the singer  fined, beaten, or even imprisoned by anti-Ukrainian-nationalist factions in Ukraine and Russia. The song was vehemently repressed during the Soviet era (1919-1991), then following the Russian annexation of Crimea in 2014, and after the Russian invasion of Ukraine in 2022.\nThe song sings of a Ukrainian national symbol&#8211;the <a href=\"https://en.wikipedia.org/wiki/Viburnum_opulus\">red viburnum</a>, a shrub with bright red berries.",
-    "lyrics_title": "Oh, the Red Viburnum in the Meadow",
+    "lyrics_title": "Oi u Luzi",
+    "lyrics_title_translation": "Oh, the Red Viburnum in the Meadow",
     "lyrics": "Ой у лузі червона калина похилилася,\nЧогось наша славна Україна зажурилася.\nА ми тую червону калину підіймемо,\nА ми нашу славну Україну, гей-гей, розвеселимо!\nА ми тую червону калину підіймемо,\nА ми нашу славну Україну, гей-гей, розвеселимо!",
     "lyrics_translation": "Oh, in the meadow\na red kalyna\nhas bent down low,\nFor some reason,\nour glorious Ukraine\nis in sorrow.\nAnd we&#8217;ll take that red kalyna and we will raise it up,\nAnd, hey-hey, we shall cheer up our glorious Ukraine!\nAnd we&#8217;ll take that red kalyna and we will raise it up,\nAnd, hey-hey, we shall cheer up our glorious Ukraine!"
   },
@@ -127,24 +128,18 @@
     "composer": "Gabriel Fauré",
     "arranger": " Phillip Legge",
     "description": "First performed on 4 August 1866, the piece is named for Jean Racine, the author of the French lyrics <em>Verbe égal au Très-Haut</em>. Originally performed with strings and organ, the piece is now most known by John Ritter's string ",
-    "lyrics": "Word of the Highest, our only hope,\nEternal day of earth and the heavens,\nWe break the silence of the peaceful night;\nSaviour Divine, cast your eyes upon us!\n\nPour on us the fire of your powerful grace,\nThat all hell may flee at the sound of your voice;\nBanish the slumber of a weary soul,\nThat brings forgetfulness of your laws!\n\nO Christ, look with favour upon your faithful people\nNow gathered here to praise you;\nReceive their hymns offered to your immortal glory;\nMay they go forth filled with your gifts."
+    "lyrics": "Verbe égal au Très-Haut, notre unique espérance\nJour éternel de la terre et des cieux\nDe la paisible nuit nous rompons le silence:\nDivin sauveur, jette sur nous les yeux\nRépands sur nous le feu de ta grâce puissante;\nQue tout l’enfer fuie au son de ta voix;\nDissipe ce sommeil d’une âme languissante\nQui la conduit à l’oubli de tes lois!\nO Christ! Sois favorable à ce peuple fidèle\nPour te bénir maintenant assemblé;\nReçois les chants qu’il offre à ta gloire immortelle\nEt de tes dons qu’il retourne comblé",
+    "lyrics_translation": "Word of the Highest, our only hope,\nEternal day of earth and the heavens,\nWe break the silence of the peaceful night;\nSaviour Divine, cast your eyes upon us!\n\nPour on us the fire of your powerful grace,\nThat all hell may flee at the sound of your voice;\nBanish the slumber of a weary soul,\nThat brings forgetfulness of your laws!\n\nO Christ, look with favour upon your faithful people\nNow gathered here to praise you;\nReceive their hymns offered to your immortal glory;\nMay they go forth filled with your gifts."
   },
   {
     "id": "lux",
     "title": "Lux Aurumque",
     "composer": "Eric Whitacre",
     "description": "A haunting piece, Whitacre has adapated <em>Lux</em> many forms, including this cappella version famed for its virtual performance by 185 singers from 12 countries. Whiteacre's friend, poet Charles Anthony Silvestri, translated the lyrics into Latin. The original English poem is attributed by Edward Esch, described by Whitacre as a \"recluse in the truest sense of the word\". But does Esch exist? Esch does not appear to have work outside Whitacre's own, and Whitacre's son is named Esch Edward Whitacre.",
-    "lyrics_title": "Light of Gold\nby Edward Esch",
+    "lyrics_title": "Lux Aurumque\nby Edward Esch",
+    "lyrics_title_translation": "Light of Gold\nby Edward Esch",
     "lyrics": "Lux,\nCalida gravisque pura velut aurum\nEt canunt angeli molliter\nmodo natum",
     "lyrics_translation": "Light,\nwarm and heavy as pure gold\nand the angels sing softly\nto the new-born baby."
-  },
-  {
-    "id": "lux",
-    "title": "Lux Aurumque",
-    "composer": "Eric Whitacre",
-    "description": "A haunting piece, Whitacre has adapated <em>Lux</em> many forms, including this cappella version famed for its virtual performance by 185 singers from 12 countries. Whiteacre's friend, poet Charles Anthony Silvestri, translated the lyrics into Latin. The original English poem is attributed by Edward Esch, described by Whitacre as a \"recluse in the truest sense of the word\". But does Esch exist? Esch does not appear to have work outside Whitacre's own, and Whitacre's son is named Esch Edward Whitacre.",
-    "lyrics_title": "Light of Gold\nby Edward Esch",
-    "lyrics": "Light,\nwarm and heavy as pure gold\nand the angels sing softly\nto the new-born baby."
   },
   {
     "id": "i_sing_because_im_happy",
@@ -167,7 +162,8 @@
     "title": "Ilus Hääl",
     "composer": "Margrit Kits",
     "arranger": "Laura Jēkabsone",
-    "lyrics": "Ring out, generous forests\nShout back the huts\nIn return for my graceful voice\nIn return for my wonderful song\nWhere my voice is heard\nWhere my song is sung\nThere all forests will fall\nEven without striking iron",
+    "lyrics": "Helisege helded metsad\nHüüdke vastu hütikesed\nMinu kauni heale vastu\nLahedama laulu vastu\nKus mu healta kuuldaneksi\nKus mu laulu laksuneksi\nSeal kõik metsa murduneksa\nIlma raua rabamata",
+    "lyrics_translation": "Ring out, generous forests\nShout back the huts\nIn return for my graceful voice\nIn return for my wonderful song\nWhere my voice is heard\nWhere my song is sung\nThere all forests will fall\nEven without striking iron",
     "description": "Jēkabsone arranged this piece for the 100th anniversary of Estonia in 2018. The lyrics are in Estonian, and the music shows the style and beauty of the folksongs common to Estonia, Latvia, and Lithuania."
   },
   {
@@ -198,13 +194,15 @@
     "source": "Missa Kenya",
     "composer": "Paul Basler",
     "description": "From <em>Missa Kenya</em>, a multi-movement work Basler wrote to fuse Kenyan and classical mass music. The text, <em>the Greater Doxology</em>, is credited to Hilary of Poitiers in the 4th century. Lyrics are shared with <a href=\"https://gothamcitymusic.org/repertoire/#agnus_dei\" data-type=\"URL\">Agnus Dei</a>",
-    "lyrics": "Glory to God in the highest, and peace to his\nPeople on earth.\nLord God, heavenly King,\nAlmighty God and Father,\nWe worship you, we give you thanks,\nWe praise you for your glory.\nLord Jesus Christ, only Son of the Father,\nLord God, Lamb of God\nYou take away the sin of the world:\nHave mercy on us;\nYou are seated at the right hand of the Father:\nReceive our prayer.\nFor you alone are the Holy One,\nYou alone are the Lord,\nYou alone are the Most High,\nJesus Christ,\nWith the Holy Spirit\nIn the glory of God the Father. Amen."
+    "lyrics": "Gloria in Excelsis Deo. Et in terra pax\nhominibus bonae voluntatis. Laudamus te. Benedicimus te.\nAdoramus te. Glorificamus te. Gratias agimus tibi\npropter magnam gloriam tuam. Domine Deus, Rex coelestis,\nDeus Pater omnipotens. Domine Fili unigenite, Jesu Christe.\nDomine Deus, Agnus Dei, Filius Patris.\nQui tollis peccata Mundi, miserere nobis.\nQui tollis peccata Mundi, suscipe deprecationem nostram.\nQui sedes ad dexteram Patris, miserere nobis.\nQuoniam tu solus sanctus. Tu solus Dominus.\nTu solus altisimus, Jesu Christe.\nCum Sancto Spiritu in gloria Dei Patris. Amen.",
+    "lyrics_translation": "Glory to God in the highest, and peace to his\nPeople on earth.\nLord God, heavenly King,\nAlmighty God and Father,\nWe worship you, we give you thanks,\nWe praise you for your glory.\nLord Jesus Christ, only Son of the Father,\nLord God, Lamb of God\nYou take away the sin of the world:\nHave mercy on us;\nYou are seated at the right hand of the Father:\nReceive our prayer.\nFor you alone are the Holy One,\nYou alone are the Lord,\nYou alone are the Most High,\nJesus Christ,\nWith the Holy Spirit\nIn the glory of God the Father. Amen."
   },
   {
     "id": "ubi_caritas",
     "title": "Ubi Caritas",
     "composer": "Ola Gjeilo",
-    "lyrics": "Where charity and love are, God is there.\nThe love of Christ has gathered us together.\nLet us rejoice and be glad in it.\nLut us rever and love the living God.\n And from a sincere heart let us love one another.\n Amen",
+    "lyrics": "Ubi caritas et amor, Deus ibi est.\nCongregavit nos in unum Christi amor.\nExultemus, et in ipso iucundemur.\nTimeamus, et amemus Deum vivum.\nEt ex corde diligamus nos sincero.",
+    "lyrics_translation": "Where charity and love are, God is there.\nThe love of Christ has gathered us together.\nLet us rejoice and be glad in it.\nLut us rever and love the living God.\n And from a sincere heart let us love one another.\n Amen",
     "description": "With music written in 2001, this is a haunting song delivered chant style. The Latin hymn is attributed to Paulinus of Aquileia in 796."
   },
   {
@@ -213,7 +211,6 @@
     "source": "Wicked",
     "composer": "Stephen Schwartz",
     "description": "From the musical <em>Wicked</em>. Here Glinda and Elphaba reflect on their sometimes tumultuous relationship has ultimately changed them both forever and for the better.",
-    "lyrics": "I'm limited\nJust look at me\nI'm limited\nAnd just look at you\nYou can do all I couldn't do\nGlinda\nSo now it's up to you\nFor both of us\nNow it's up to you\nI've heard it said\nThat people come into our lives\nFor a reason\nBringing something we must learn\nAnd we are led to those\nWho help us most to grow if we let them\nAnd we help them in return\nWell, I don't know if I believe that's true\nBut I know I'm who I am today\nBecause I knew you\nLike a comet pulled from orbit\nAs it passes the sun\nLike a stream that meets a boulder\nHalfway through the wood\nWho can say if I've been changed for the better\nBut because I knew you\nI have been changed for good\nIt well may be\nThat we will never meet again\nIn this lifetime\nSo, let me say before we part\nSo much of me\nIs made of what I learned from you\nYou'll be with me\nLike a handprint on my heart\nAnd now whatever way our stories end\nI know you have rewritten mine\nBy being my friend\nLike a ship blown from its mooring\nBy a wind off the sea\nLike a seed dropped by a sky bird\nIn a distant wood\nWho can say if I've been changed for the better\nBut because I knew you\nBecause I knew you\nI have been changed for good\nAnd just to clear the air\nI ask forgiveness\nFor the things I've done, you blame me for\nBut then I guess\nWe know there's blame to share\nAnd none of it seems to matter anymore\nLike a comet pulled from orbit (like a ship blown from its mooring)\nAs it passes the sun (by a wind off the sea)\nLike a stream that meets a boulder (like a seed dropped by a bird)\nHalfway through the wood (in the wood)\nWho can say if I've been changed for the better\nI do believe I have been changed for the better\nAnd because I knew you\nBecause I knew you\nBecause I knew you\nI have been changed\nFor good",
     "showcase_only": true
   },
   {
@@ -295,7 +292,7 @@
   },
   {
     "id": "klimovitcher",
-    "title": "Klimovitcher",
+    "title": "Klimovitcher Nigun",
     "tradition": "Ashkenazi Traditional",
     "description": "Nigunim are a Jewish tradition that are meant as mystical prayers, sacred practices, and a path to deepen the soul. They are performed in an expressive vocal style with dramatic inflections similar to cantorial music. This piece originated from Chabad Chassidim in the town of Klimovitch. It was later popularized by the Chassid Reb Rephael Kahn.",
     "showcase_only": true

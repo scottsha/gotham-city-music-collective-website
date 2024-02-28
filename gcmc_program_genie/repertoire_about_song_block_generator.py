@@ -12,6 +12,7 @@ def check_song_entry(song: dict):
         "description",
         "lyrics",
         "lyrics_title",
+        "lyrics_title_translation",
         "lyrics_cite",
         "lyrics_by",
         "lyrics_translation",
@@ -83,6 +84,9 @@ class AboutSongBlockGenerator:
         lyrics_title = self.song.get("lyrics_title", "")
         if lyrics_title:
             lyr_text = '<b>{}</b>'.format(lyrics_title) + "<br><br>" + lyr_text
+        lyrics_t_title = self.song.get("lyrics_title_translation", "")
+        if lyrics_t_title:
+            lyr_t_text = '<b>{}</b>'.format(lyrics_t_title) + "<br><br>" + lyr_t_text
         if lyrics and lyrics_translation:
             with open('html_blocks/lyrics_2_blocks_template.html', 'r') as ff:
                 l_template = ff.read()

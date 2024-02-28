@@ -187,7 +187,7 @@ class RepertoirePageGenerator:
 
 def example_generate_repertoire():
     from hurl_to_wordpress_site import hurl_to_wordpress_site
-    with open("/gcmc_program_genie/html_blocks/repertoire_template.html", 'r') as ff:
+    with open("html_blocks/repertoire_template.html", 'r') as ff:
         template = ff.read()
     genie = RepertoirePageGenerator(
         html_template=template,
