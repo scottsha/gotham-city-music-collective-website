@@ -1,12 +1,17 @@
 import requests
 from wordpress_credentials import wordpress_username, wordpress_password
 
+
+kWORDPRESS_URL ='https://gothamcitymusic.org'
+kWORDPRESS_PAGES = kWORDPRESS_URL + '/wp-json/wp/v2/pages'
+
+
 def hurl_to_wordpress_site(page_title_to_check: str, page_content: str):
-    wordpress_api_url = 'https://gothamcitymusic.org/wp-json/wp/v2/pages'
+    wordpress_api_url = kWORDPRESS_URL
 
     # Check if the page already exists by its title
-    page_exists = False
-    page_id = None
+    # page_exists = False
+    # page_id = None
 
     # Make a GET request to list existing pages
     pages_response = requests.get(
@@ -14,14 +19,14 @@ def hurl_to_wordpress_site(page_title_to_check: str, page_content: str):
         auth=(wordpress_username, wordpress_password)
     )
 
-    if pages_response.status_code == 200:
-        existing_pages = pages_response.json()
-        for page in existing_pages:
-            if page['title']['rendered'] == page_title_to_check:
-                page_exists = True
-                print("Overwriting existing page")
-                page_id = page['id']
-                break
+    # if pages_response.status_code == 200:
+    #     existing_pages = pages_response.json()
+    #     for page in existing_pages:
+    #         if page['title']['rendered'] == page_title_to_check:
+    #             page_exists = True
+    #             print("Overwriting existing page")
+    #             page_id = page['id']
+    #             break
 
     # Create a new page or update the existing page using the WordPress REST API
     page_data = {
@@ -30,7 +35,7 @@ def hurl_to_wordpress_site(page_title_to_check: str, page_content: str):
         'template': 'performance_program'  # Replace with the name of your custom template file
     }
 
-    if page_exists:
+    if False:
         # Update the existing page
         update_response = requests.put(
             f'{wordpress_api_url}/{page_id}',

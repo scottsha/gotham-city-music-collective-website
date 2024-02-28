@@ -3,186 +3,92 @@ import json
 from wordpress_credentials import wordpress_password, wordpress_username
 import warnings
 import os
-
-
-def check_song_entry(song: dict):
-    expected_keys = [
-        "id",
-        "title",
-        "composer",
-        "arranger",
-        "description",
-        "lyrics",
-        "lyrics_title",
-        "lyrics_cite",
-        "lyrics_by",
-        "showcase_only",
-        "source",
-    ]
-    for key in song.keys():
-        if key not in expected_keys:
-            warnings.warn("Unexpected key: {}".format(key))
-
-
-class SongBlockGenerator:
-    def __init__(self, song: dict):
-        check_song_entry(song)
-        self.song = song
-        self.lines = []
-        self.div_count = 0
-        self.make_lines()
-
-    def get_block_as_str(self) -> str:
-        return "\n".join(self.lines)
-
-    def make_lines(self):
-        self.make_wrapper()
-        self.make_title()
-        self.make_authors()
-        self.make_description()
-        self.make_lyrics()
-        while self.div_count > 0:
-            self.lines.append("</div>")
-            self.div_count += -1
-
-    def make_wrapper(self):
-        blob = "<div class=\"p-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow\">"
-        self.lines.append(blob)
-        self.div_count += 1
-
-    def make_title(self):
-        id = self.song["id"]
-        title = self.song["title"]
-        line = "<div><h4 class=\"wp-block-heading has-text-align-center\" id=\"{}\">{}</h4></div>".format(id, title)
-        self.lines.append(line)
-
-    def make_authors(self):
-        blerb_list = []
-        composer = self.song.get("composer", "")
-        if composer:
-            blerb_list.append("by {}.".format(composer))
-        arranger = self.song.get("arranger", "")
-        if arranger:
-            blerb_list.append("Arranged by {}.".format(arranger))
-        lyracist = self.song.get("lyrics_by", "")
-        if lyracist:
-            blerb_list.append("Lyrics by {}.".format(lyracist))
-        blerb = " ".join(blerb_list)
-        line = "<div><h5 class=\"wp-block-heading\">{}</h5></div>".format(blerb)
-        self.lines.append(line)
-
-    def make_description(self):
-        description = self.song.get("description", "")
-        line = "<p>{}</p>".format(description)
-        self.lines.append(line)
-
-    def make_lyrics(self):
-        lyrics = self.song.get("lyrics", "")
-        if not lyrics:
-            return
-        line = "<blockquote class=\"wp-block-quote has-small-font-size\">"
-        l_title = self.song.get("lyric_title", "")
-        if l_title:
-            line += "<p><strong><strong>{}</strong></strong></p>".format(l_title)
-        line += "<p>{}</p>".format(lyrics)
-        l_cite = self.song.get("lyrics_cite", "")
-        if l_cite:
-            line += "<cite>—{}</cite>".format(l_cite)
-        line += "</blockquote>"
-        self.lines.append(line)
+from repertoire_about_song_block_generator import AboutSongBlockGenerator, check_song_entry
 
 kREPERTOIRE_DATA_PATH = "repertoire_data.json"
 
-def get_repertoire_data(
 
-) -> dict:
+def get_repertoire_data() -> dict:
     with open(kREPERTOIRE_DATA_PATH, 'r') as file:
         repertoire_data = json.load(file)
     repertoire_data = sorted(repertoire_data, key=lambda x: x["id"])
-    repertoire_dict = {song["id"] : song for song in repertoire_data}
+    repertoire_dict = {song["id"]: song for song in repertoire_data}
     return repertoire_dict
 
-class SongAboutsGenerator:
-    songlist_div_class = "<div class=\"wp-block-group is-vertical is-layout-flex wp-container-48 wp-block-group-is-layout-flex\" style=\"border-style:none;border-width:0px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)\">"
+
+class AboutSongsListGenerator:
+    songlist_div_class = ' <hr class="wp-block-separator has-alpha-channel-opacity is-style-default" style="margin-top:0;margin-bottom:0"> '
+    song_index_entry_format = '<a href="#${REPLACE_SONG_ID}" data-type="internal" data-id="#${REPLACE_SONG_ID}">${REPLACE_SONG_TITLE}</a>'
 
     def __init__(
             self,
-            program_info: dict=None
+            program_info: dict = None
     ):
         self.repertoire_data = get_repertoire_data()
-
         self.content = []
         self.do_showcases = True
         self.program_info = program_info
         if self.program_info is None:
+            self.program_info = {}
+        if self.program_info:
             self.do_showcases = False
+        self.about_song_blocks = []
+        self.song_index_list = []
 
-    def generate(self):
-        self.generate_rep_intro()
-        self.generate_song_contents()
-        print("Page generated.")
+    def get_song_list(self):
+        songs = self.program_info.get("song_list")
+        if songs is None:
+            songs = sorted(list(self.repertoire_data.keys()))
+        return songs
 
-    def generate_rep_intro(self):
-        div_0 = "<div class=\"entry-content wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow\">"
-        self.content.append(div_0)
-        div_1 = "<div class=\"wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">"
-        self.content.append(div_1)
-        div_2 = "<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\">"
-        self.content.append(div_2)
-        # title = "Choral Repertoire"
-        # h_title = "<h1 class=\"wp-block-heading has-text-align-center\">{}</h1>".format(title)
-        # self.content.append(h_title)
-        for foo in range(3):
-            self.content.append("</div>")
+    def get_song_index_entry_html(self, song_id: str, song_title: str) -> str:
+        entry = self.song_index_entry_format.replace("${REPLACE_SONG_ID}", song_id)
+        entry = entry.replace("${REPLACE_SONG_TITLE}", song_title)
+        return entry
 
-    def generate_song_contents(self):
-        self.content.append(self.songlist_div_class)
-        for id, song in self.repertoire_data.items():
-            # is_showcase = song.get("showcase_only", False)
-            # if (not is_showcase) or self.do_showcases:
-            gener = SongBlockGenerator(song)
-            self.content += gener.lines
-        self.content.append("</div>")
+    def populate(self):
+        self.about_song_blocks = []
+        self.song_index_list = []
+        songs = self.get_song_list()
+        for song_id in songs:
+            song = self.repertoire_data[song_id]
+            song_title = song['title']
+            self.song_index_list.append(
+                self.get_song_index_entry_html(song_id, song_title)
+            )
+            about_generator = AboutSongBlockGenerator(song)
+            about_block = about_generator.generate()
+            self.about_song_blocks.append(about_block)
 
-    def get_content_str(self) -> str:
-        return "\n".join(self.content)
+    def get_song_index_html(self):
+        return '<br>'.join(self.song_index_list)
 
-    def generate_html_str(self) -> str:
-        self.generate()
-        return self.get_content_str()
+    def get_about_song_blocks_html(self):
+        return self.songlist_div_class.join(self.about_song_blocks)
 
 
-class PerformancePageGenereator:
-    kPERFORMANCE_TEMPLATE_PATH = "html_blocks/performance_template.html"
-    kREPERTOIRE_TEMPLATE_PATH = "html_blocks/repertoir_list_template.html"
+class RepertoirePageGenerator:
     kREPLACE_MAIN_TITLE = "${REPLACE_MAIN_TITLE_BLOCK}"
     kREPLACE_SUBTITLE = "${SUBTITLE_REPLACE}"
     kREPLACE_PROGRAM_LEAFLET_PATH = "${REPLACE_PROGRAM_LEAFLET_PATH}"
-    kREPLACE_INDEX_LIST_BLOB = "${REPLACE_INDEX_LIST_BLOB}"
+    kREPLACE_INDEX_LIST_BLOB = "${REPLACE_SONG_INDEX_LIST}"
     kREPLACE_SINGERS_BLOB = "${REPLACE_SINGERS_BLOB}"
-    kREPLACE_SONG_ABOUTS = "${REPLACE_SONG_ABOUTS}"
-
-    # def get_replace_key(self, field):
-    #     return r"{$REPLACE_" + field + r"}"
+    kREPLACE_SONG_ABOUTS = "${REPLACE_ABOUT_SONG_BLOCKS}"
 
     def __init__(
-        self,
-        program_info: dict=None,
-        program_leaflet_file_name: str=None
+            self,
+            html_template: str,
+            program_info: dict = None,
+            program_leaflet_file_name: str = None,
     ):
+        self.template = html_template
         self.repertoire = get_repertoire_data()
         self.program_info = program_info
         if self.program_info is None:
             self.program_info = dict()
-            self.template_path = self.kREPERTOIRE_TEMPLATE_PATH
-        else:
-            self.template_path = self.kPERFORMANCE_TEMPLATE_PATH
-        with open(self.template_path, "r") as ff:
-            self.template = ff.read()
         self.leaflet = program_leaflet_file_name
         self.id = self.program_info.get("id", "repertoire")
         self.url = "gothamcitymusic.org/" + self.id
-        # print("Creating page ", self.id)
 
     def generate_main_title_block(self) -> str:
         title = self.program_info.get("title", "")
@@ -234,7 +140,7 @@ class PerformancePageGenereator:
             singers_raw,
             key=lambda x: x.split(" ")[-1]
         )
-        singers= [
+        singers = [
             foo.replace("_", " ")
             for foo in singers_sort
         ]
@@ -246,12 +152,6 @@ class PerformancePageGenereator:
         content = template.replace("${SINGERS_COL_0}", col_0)
         content = content.replace("${SINGERS_COL_1}", col_1)
         return content
-
-    def generate_song_abouts(self) -> str:
-        genie = SongAboutsGenerator(program_info=self.program_info)
-        genie.generate()
-        abouts = genie.get_content_str()
-        return abouts
 
     def generate_html_str(self) -> str:
         content = self.template.replace(
@@ -267,99 +167,39 @@ class PerformancePageGenereator:
             self.generate_program_leaflet_path()
         )
         content = content.replace(
-            self.kREPLACE_INDEX_LIST_BLOB,
-            self.generate_index_list_blob()
-        )
-        content = content.replace(
             self.kREPLACE_SINGERS_BLOB,
             self.generate_singers_blob()
         )
+        about_generator = AboutSongsListGenerator()
+        about_generator.populate()
+        song_index = about_generator.get_song_index_html()
+        content = content.replace(
+            self.kREPLACE_INDEX_LIST_BLOB,
+            song_index
+        )
+        song_abouts = about_generator.get_about_song_blocks_html()
         content = content.replace(
             self.kREPLACE_SONG_ABOUTS,
-            self.generate_song_abouts()
+            song_abouts
         )
         return content
 
 
-
-
-# class WordpressSlinger:
-#     kWORDPRESS_API_URL = 'https://gothamcitymusic.org/wp-json/wp/v2/pages'
-#     def __init__(
-#         self,
-#         page_title: str,
-#         content: str
-#     ):
-#         self.page_title = page_title
-#         # self.perforance_info = performance_info
-#         self.content_str = content
-#
-#     # def generate(self):
-#     #     content_maker = RepertoirePageGenerator(self.perforance_info)
-#     #     content_maker.generate()
-#     #     self.content_str = content_maker.get_content_str()
-#
-#     def send_page_to_site(self):
-#         # Check if the page already exists by its title
-#         page_exists = False
-#         page_id = None
-#
-#         # Make a GET request to list existing pages
-#         pages_response = requests.get(
-#             self.kWORDPRESS_API_URL,
-#             auth=(wordpress_username, wordpress_password)
-#         )
-#
-#         if pages_response.status_code == 200:
-#             existing_pages = pages_response.json()
-#             for page in existing_pages:
-#                 if page['title']['rendered'] == self.page_title:
-#                     page_exists = True
-#                     page_id = page['id']
-#                     break
-#
-#         # Create a new page or update the existing page using the WordPress REST API
-#         page_data = {
-#             'title': self.page_title,
-#             'content': content,
-#             'template': 'performance_program'  # Replace with the name of your custom template file
-#         }
-#
-#         if page_exists:
-#             # Update the existing page
-#             update_response = requests.put(
-#                 f'{self.kWORDPRESS_API_URL}/{page_id}',
-#                 json=page_data,
-#                 auth=(wordpress_username, wordpress_password)
-#             )
-#
-#             if update_response.status_code == 200:
-#                 print(f"Page updated successfully. Page ID: {page_id}")
-#             else:
-#                 print(f"Failed to update the page. Status code: {update_response.status_code}")
-#                 print(update_response.text)
-#         else:
-#             # Create a new page
-#             create_response = requests.post(
-#                 self.kWORDPRESS_API_URL,
-#                 json=page_data,
-#                 auth=(wordpress_username, wordpress_password)
-#             )
-#
-#             if create_response.status_code == 201:
-#                 print(f"Page created successfully. Page ID: {create_response.json()['id']}")
-#             else:
-#                 print(f"Failed to create the page. Status code: {create_response.status_code}")
-#                 print(create_response.text)
-
-
-if __name__ == "__main__":
+def example_generate_repertoire():
     from hurl_to_wordpress_site import hurl_to_wordpress_site
-    genie = PerformancePageGenereator()
+    with open("/home/scott/Programs/gotham-city-music-collective-website/gcmc_program_genie/html_blocks/kats_good_program_template.html", 'r') as ff:
+        template = ff.read()
+    genie = RepertoirePageGenerator(
+        html_template=template,
+    )
     content = genie.generate_html_str()
     with open("tmp.html", "w") as ff:
         ff.write(content)
     hurl_to_wordpress_site(
-        page_title_to_check='repertoiress',
+        page_title_to_check='repertoire_ss_testing',
         page_content=content
     )
+
+
+if __name__ == "__main__":
+    example_generate_repertoire()
