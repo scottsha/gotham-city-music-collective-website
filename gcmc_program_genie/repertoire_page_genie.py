@@ -214,7 +214,7 @@ def example_generate_1march2024():
     show_data = '../concert_1_march_2024/program_info.json'
     with open(show_data, 'r') as ff:
         program_info = json.load(ff)
-    with open("html_blocks/performance_program_template.html", 'r') as ff:
+    with open("html_blocks/performance_program_template_1_march_2024.html", 'r') as ff:
         template = ff.read()
     genie = RepertoirePageGenerator(
         html_template=template,

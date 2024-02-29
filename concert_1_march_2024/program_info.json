@@ -9,7 +9,6 @@
     "honey_pie",
     "flowers_hadestown",
     "father_and_son",
-    "down_by_the_river",
     "pirate_song",
     "loch_lomond",
     "mlk",
@@ -25,15 +24,14 @@
   "notes" : {
     "ilus_haal":  "Soloist Kevin Shapiro",
     "loch_lomond":  "Soloists and Emma Dietrich and Mike Walsh",
-    "down_by_the_river":  "Performed by Emma Dietrich and Matt Gershowitz",
     "klimovitcher": "Led by Ariel Kaye",
-    "stupid_wtih_love": "Performed by Catherine Addison",
+    "stupid_with_love": "Performed by Catherine Addison",
     "flowers_hadestown":  "Performed by Allie Duggan",
     "father_and_son":  "Performed by Matt Gershowitz",
     "anthem_from_chess": "Performed by Mike Walsh",
     "honey_pie": "Performed by Jeff Christianson, Matt Gershowitz, Kevin Shapiro, Mike Walsh",
     "mlk": "Soloist Matt Gershowitz",
-    "robots": "Performed by Robots 00000 - 01000."
+    "robots": "Performed by Robots 00000 - 01000"
   },
   "singers": [
     "Catherine Addison",
