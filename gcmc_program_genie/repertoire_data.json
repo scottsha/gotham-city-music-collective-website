@@ -223,7 +223,7 @@
   },
   {
     "id": "frozen",
-    "title": "Frozen Choral Suite",
+    "title": "Frozen (Choral Suite)",
     "composer": "Christophe Beck and Leo Birenberg",
     "lyrics_by": "Christine Hals",
     "arranger":"Roger Emerson",
@@ -349,6 +349,14 @@
     "composer": "Taylor Swift",
     "description": "from the 2020 album \"Folklore\"",
     "showcase_only": true
+  },
+  {
+    "id": "my_soul_is_a_river",
+    "title": "My Soul is a River",
+    "composer": "Ben Allaway",
+    "description": "A swinging spiritual piece premiered on Dr. M.L. King Jr.'s 75th birthday in 2004.  The lyrics are an expansion of the Biblical book of Amos 5:24.",
+    "showcase_only": false,
+    "lyrics": "My soul is a river winding through a weary land.\nLet justice roll down like waters,\n righteousness like a mighty stream\nWashing o’er a thirsty land.\nMy soul is a river, your soul is a river,\nJoin up down the river, fill a mighty ocean with peace."
   }
 ]
 
