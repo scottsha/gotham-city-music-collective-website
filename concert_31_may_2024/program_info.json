@@ -1,0 +1,38 @@
+{
+  "id": "31_may_2024",
+  "title": "Spring 2024 Choral Concert",
+  "subtitle": ["ST PAUL'S GERMAN EVANGELICAL LUTHERAN CHURCH", "31 MAY 2024"],
+  "song_list": [
+    "cantique",
+    "loch_lomond",
+    "niska_banja",
+    "mezzo_placeholder",
+    "mezzo_placeholder",
+    "mezzo_placeholder",
+    "mezzo_placeholder",
+    "sanctuary",
+    "bridge_over_troubled_water",
+    "baba_yetu"
+  ],
+  "notes" : {
+    "loch_lomond":  "Soloists Emma Dietrich and Mike Walsh"
+  },
+  "singers": [
+    "Catherine Addison",
+    "Sara Birmingham",
+    "Claudia Caceres",
+    "Jeff Christianson",
+    "Emma Dietrich",
+    "Allie Duggan",
+    "Matt Gershowitz",
+    "Briana Hall",
+    "Katie Jones",
+    "Harris Manganiello",
+    "Diana Marino",
+    "Nihar Shah",
+    "Kevin Shapiro",
+    "Emily Sleasman",
+    "Mike Walsh",
+    "Jasmine Tan"
+  ]
+}

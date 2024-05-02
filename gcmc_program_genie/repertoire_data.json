@@ -17,7 +17,7 @@
     "description": "Composer Ken Steven is an Indonesian born composer, and in this piece merges a gives a modern take on a folksong from the island of Maluku in eastern Indonesia. The central metaphor is about the game of Hela Rotan, similar to Tug-of-War. Rotan is the vining palm used to make rope. The song is a parable of competition-as-cooperation between different communities. The song also mentions the drums of Java; which may be a reference to the eruptions of the volcano of Krakatau."
   },
   {
-    "id": "sactuary",
+    "id": "sanctuary",
     "title": "Sanctuary",
     "composer": "Jason Robert Brown",
     "arranger": "Mac Huff",
@@ -358,6 +358,44 @@
     "description": "This swinging spiritual piece premiered on Dr. Martin Luther King Jr.'s 75th birthday in 2004.  The lyrics are an expansion of the Biblical book of Amos 5:24.",
     "showcase_only": false,
     "lyrics": "My soul is a river winding through a weary land.\nLet justice roll down like waters,\n righteousness like a mighty stream\nWashing o’er a thirsty land.\nMy soul is a river, your soul is a river,\nJoin up down the river, fill a mighty ocean with peace."
+  },
+  {
+    "id": "niska_banja",
+    "title": "Niska Banja",
+    "arranger": "Nick Page",
+    "traditional": "Traditional Romani Dance",
+    "description": "",
+    "showcase_only": false
+  },
+  {
+    "id": "the_paster",
+    "title": "The Pasture",
+    "composer": "Z. Randall Stroope",
+    "lyrics=by": "Robert Frost",
+    "description": "Number 2 from Where the Earth Meets the Sky.",
+    "showcase_only": false
+  },
+  {
+    "id": "mezzo_placeholder",
+    "title": "Unknown Mezzo Song",
+    "composer": "A Human",
+    "lyrics=by": "Robert Frost",
+    "description": "",
+    "showcase_only": true
+  },
+  {
+    "id": "bridge_over_troubled_water",
+    "title": "Bridge Over Troubled Water",
+    "composer": "TODO",
+    "description": "TODO",
+    "showcase_only": false
+  },
+  {
+    "id": "baba_yetu",
+    "title": "Baba Yetu",
+    "composer": "TODO",
+    "description": "TODO",
+    "showcase_only": false
   }
 ]
 
