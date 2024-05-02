@@ -6,6 +6,7 @@ Website and Program generation scripts for the Gotham City Music Collective!
 I find it hard to keep all the performace info (who's playing and in what order) synced between program copies and web stuff.
 But the Wordpress graphical interface editor makes copy and pasting really rough, so these scripts are ment to generate
 a LaTeX template for the paper program (that makes a pdf), Wordpress entries for the program, and Wordpress entries for the repertoire page.
+I think it's overall been worth the effort because we reuse the same songs and people often.
 
 ### How to update or make a new program
 
