@@ -30,7 +30,7 @@ class ProgramGenerator:
         program_id = self.program_info.get("id")
         self.latex_generated_path = os.path.join(
             self.dir,
-            "gmcm_{}_program.tex".format(program_id)
+            "gcmc_{}_program.tex".format(program_id)
         )
         self.repertoire_info = load_repertoire_info()
 
@@ -50,7 +50,7 @@ class ProgramGenerator:
         arranger = song_info.get('arranger', "")
         if arranger:
             about_strs.append(
-                r"\mbox{Arranged by " + arranger + r"}"
+                r"\mbox{Arr. " + arranger + r"}"
             )
         note = self.program_info.get("notes", {}).get(song_id)
         if note:
@@ -142,5 +142,5 @@ class ProgramGenerator:
 
 
 if __name__ == "__main__":
-    genie = ProgramGenerator("2023_oct_13")
+    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_1_march_2024")
     genie.generate()

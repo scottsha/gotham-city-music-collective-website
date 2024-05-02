@@ -2,11 +2,13 @@
   {
     "id": "oi_u_luzi",
     "title": "Ой у лузі червона калина",
-    "composer": "Traditional Ukrainian folk",
+    "tradition": "Traditional Ukrainian folk",
     "arranger": "Stepan Charnetsky",
-    "description": "This patriotic Ukranian march was arranged by Stepan Charnetsky from traditional march elements in 1914 as a memorial to veterans of World War I. The song has ever since attracted both inspiration and political censorship. Singing  <em>Oi u Luzi</em> in the wrong crowd could get the singer  fined, beaten, or even imprisoned by anti-Ukrainian-nationalist factions in Ukraine and Russia. The song was vehemently repressed during the Soviet era (1919-1991), then following the Russian annexation of Crimea in 2014, and after the Russian invasion of Ukraine in 2022.\n\nThe song sings of a Ukrainian national symbol&#8211;the <a href=\"https://en.wikipedia.org/wiki/Viburnum_opulus\">red viburnum</a>, a shrub with bright red berries.",
-    "lyrics_title": "Oh, the Red Viburnum in the Meadow",
-    "lyrics": "Oh, in the meadow\na red kalyna\nhas bent down low,\nFor some reason,\nour glorious Ukraine\nis in sorrow.\nAnd we&#8217;ll take that red kalyna and we will raise it up,\nAnd, hey-hey, we shall cheer up our glorious Ukraine!\nAnd we&#8217;ll take that red kalyna and we will raise it up,\nAnd, hey-hey, we shall cheer up our glorious Ukraine!"
+    "description": "This patriotic Ukranian march was arranged by Stepan Charnetsky from traditional march elements in 1914 as a memorial to veterans of World War I. The song has ever since attracted both inspiration and political censorship. Singing  <em>Oi u Luzi</em> in the wrong crowd could get the singer  fined, beaten, or even imprisoned by anti-Ukrainian-nationalist factions in Ukraine and Russia. The song was vehemently repressed during the Soviet era (1919-1991), then following the Russian annexation of Crimea in 2014, and after the Russian invasion of Ukraine in 2022.\nThe song sings of a Ukrainian national symbol&#8211;the <a href=\"https://en.wikipedia.org/wiki/Viburnum_opulus\">red viburnum</a>, a shrub with bright red berries.",
+    "lyrics_title": "Oi u Luzi",
+    "lyrics_title_translation": "Oh, the Red Viburnum in the Meadow",
+    "lyrics": "Ой у лузі червона калина похилилася,\nЧогось наша славна Україна зажурилася.\nА ми тую червону калину підіймемо,\nА ми нашу славну Україну, гей-гей, розвеселимо!\nА ми тую червону калину підіймемо,\nА ми нашу славну Україну, гей-гей, розвеселимо!",
+    "lyrics_translation": "Oh, in the meadow\na red kalyna\nhas bent down low,\nFor some reason,\nour glorious Ukraine\nis in sorrow.\nAnd we&#8217;ll take that red kalyna and we will raise it up,\nAnd, hey-hey, we shall cheer up our glorious Ukraine!\nAnd we&#8217;ll take that red kalyna and we will raise it up,\nAnd, hey-hey, we shall cheer up our glorious Ukraine!"
   },
   {
     "id": "hela_rotan",
@@ -20,7 +22,7 @@
     "composer": "Jason Robert Brown",
     "arranger": "Mac Huff",
     "description": "Jason Robert Brown is best known for his compositions in musical theater, winning multiple Tony awards for productions like <em>Parade </em>and <em>The Bridges of Madison County</em>. The piece was released in 2020 and contains the longing for connection ubiquitously felt during the Covid pandemic.",
-    "lyrics": "That's a siren\nThere's an ambulance down in the street\nShut the window\nClose the curtain, the lights are blinding</p>\n\n\n\n<p>I can&#8217;t hear with the children crying\nI can&#8217;t think with the anger flying\nI can&#8217;t breathe with my mentors dying</p>\nAnd I, I am searching for sanctuary\nWill you shelter me?\nWill you shelter me?\nI am searching for sanctuary\nWill you shelter me?\nWill you shelter me?\nI am writing your name in the air\nCan you see me?\nCan you see me?\nI am writing for sanctuary\nWill you shelter me?\nWill you shelter me?"
+    "lyrics": "That's a siren\nThere's an ambulance down in the street\nShut the window\nClose the curtain, the lights are blinding\n\nI can&#8217;t hear with the children crying\nI can&#8217;t think with the anger flying\nI can&#8217;t breathe with my mentors dying\nAnd I, I am searching for sanctuary\nWill you shelter me?\nWill you shelter me?\nI am searching for sanctuary\nWill you shelter me?\nWill you shelter me?\nI am writing your name in the air\nCan you see me?\nCan you see me?\nI am writing for sanctuary\nWill you shelter me?\nWill you shelter me?"
   },
   {
     "id": "the_island_itself",
@@ -72,7 +74,7 @@
     "id": "wanting_memories",
     "title": "Wanting Memories",
     "composer": "Ysaye M. Barnwell",
-    "description": "Barnwell wrote <em>Wanting Memories </em>for the 1980 dance piece <em>Crossings</em>. The lyrics resonate deeply by our choir members for the mothers we have lost. Barnwell&#8217;s <a rel=\"noreferrer noopener\" href=\"https://www.ymbarnwell.com/composers-notes-1\" target=\"_blank\">notes</a> say of the piece:<p>\"What was special though was that I am an only child and when my father died and then my mother, and I prepared to sell the house I grew up in, I found bags of photos, letters and other memorabilia &#8211; the kind of things especially an only child hopes for. So in a sense, the song was  an unconscious wish or prayer that actually came true.\"</p>",
+    "description": "Barnwell wrote <em>Wanting Memories </em>for the 1980 dance piece <em>Crossings</em>. The lyrics resonate deeply by our choir members for the mothers we have lost. Barnwell&#8217;s <a rel=\"noreferrer noopener\" href=\"https://www.ymbarnwell.com/composers-notes-1\" target=\"_blank\">notes</a> say of the piece:\n\n\"What was special though was that I am an only child and when my father died and then my mother, and I prepared to sell the house I grew up in, I found bags of photos, letters and other memorabilia &#8211; the kind of things especially an only child hopes for. So in a sense, the song was  an unconscious wish or prayer that actually came true.\"",
     "lyrics_title": "",
     "lyrics": ""
   },
@@ -94,7 +96,7 @@
     "id": "we_are_the_music_makers",
     "title": "We Are the Music Makers",
     "composer": "Reginal Wright",
-    "description": "<p>&#8220;This uplifting work by American composer Reginal Wright sets a text by the nineteenth-century poet Arthur O&#8217;Shaughnessy. The powerful words are sung to a memorable melody embellished with syncopation and triplets. The voices are accompanied by rippling broken chords enriched with falling chromatic lines.&#8221;</p>",
+    "description": "This uplifting work by American composer Reginal Wright sets a text by the nineteenth-century poet Arthur O&#8217;Shaughnessy. The powerful words are sung to a memorable melody embellished with syncopation and triplets. The voices are accompanied by rippling broken chords enriched with falling chromatic lines.&#8221;",
     "lyrics": "We are the music makers,\nAnd we are the dreamers of dreams,\nWandering by lone sea-breakers,\nAnd sitting by desolate streams;\nWorld-losers and world-forsakers,\nOn whom the pale moon gleams:\nYet we are the movers and shakers\nOf the world for ever, it seems.",
     "lyrics_cite": "&#8212; First Stansa of <em>Ode </em>by Arthur O&#8217;Shaughnessy"
   },
@@ -116,9 +118,9 @@
     "id": "sing_me_to_heaven",
     "title": "Sing Me to Heaven",
     "composer": "Daniel Gawthrop",
-    "description": "In 1991 Gawthrop composed this piece on commission with the directive to create a song that \"spoke to the way that we, as singers, feel about music in our lives.\" It has since become one of the most frequently performed choral pieces of modern times and has sold more than a half million copies. <p>The choir would like to dedicate their rendition to the memory of <a href=\"https://www.youtube.com/watch?v=Ofd1KSEz2LA&amp;t=20s\" data-type=\"URL\" data-id=\"https://www.youtube.com/watch?v=Ofd1KSEz2LA&amp;t=20s\">Dr. Ann E. Rehan</a>.</p>",
+    "description": "In 1991 Gawthrop composed this piece on commission with the directive to create a song that \"spoke to the way that we, as singers, feel about music in our lives.\" It has since become one of the most frequently performed choral pieces of modern times and has sold more than a half million copies.\n\nThe choir would like to dedicate their rendition to the memory of <a href=\"https://www.youtube.com/watch?v=Ofd1KSEz2LA&amp;t=20s\" data-type=\"URL\" data-id=\"https://www.youtube.com/watch?v=Ofd1KSEz2LA&amp;t=20s\">Dr. Ann E. Rehan</a>.",
     "lyrics_by": "Jane Griner",
-    "lyrics": "<p>In my heart's sequestered chambers<br>Lie truths stripped of poet's gloss<br>Words alone are vain and vacant<br>And my heart is mute<br>In response to aching silence<br>Memory summons half-heard voices<br>And my soul finds primal eloquence<br>And wraps me in song<br>Wraps me, in song</p> <p>If you would comfort me, sing me a lullaby<br>If you would win my heart, sing me a love song<br>If you would mourn me and bring me to God<br>Sing me a requiem, sing me to Heaven</p> <p>Touch in me all love and passion<br>Pain and pleasure, touch in me<br>Touch in me, grief and comfort<br>Love and passion, pain and pleasure<br>Sing me a lullaby<br>A love song<br>A requiem<br>Love me, comfort me<br>Sing me to God<br>Sing me a love song<br>Sing me to Heaven</p>"
+    "lyrics": "In my heart's sequestered chambers\nLie truths stripped of poet's gloss\nWords alone are vain and vacant\nAnd my heart is mute\nIn response to aching silence\nMemory summons half-heard voices\nAnd my soul finds primal eloquence\nAnd wraps me in song\nWraps me, in song\n\nIf you would comfort me, sing me a lullaby\nIf you would win my heart, sing me a love song\nIf you would mourn me and bring me to God\nSing me a requiem, sing me to Heaven\n\nTouch in me all love and passion\nPain and pleasure, touch in me\nTouch in me, grief and comfort\nLove and passion, pain and pleasure\nSing me a lullaby\nA love song\nA requiem\nLove me, comfort me\nSing me to God\nSing me a love song\nSing me to Heave"
   },
   {
     "id": "cantique",
@@ -126,23 +128,18 @@
     "composer": "Gabriel Fauré",
     "arranger": " Phillip Legge",
     "description": "First performed on 4 August 1866, the piece is named for Jean Racine, the author of the French lyrics <em>Verbe égal au Très-Haut</em>. Originally performed with strings and organ, the piece is now most known by John Ritter's string ",
-    "lyrics": "Word of the Highest, our only hope,\nEternal day of earth and the heavens,\nWe break the silence of the peaceful night;\nSaviour Divine, cast your eyes upon us!\n\nPour on us the fire of your powerful grace,\nThat all hell may flee at the sound of your voice;\nBanish the slumber of a weary soul,\nThat brings forgetfulness of your laws!\n\nO Christ, look with favour upon your faithful people\nNow gathered here to praise you;\nReceive their hymns offered to your immortal glory;\nMay they go forth filled with your gifts."
+    "lyrics": "Verbe égal au Très-Haut, notre unique espérance\nJour éternel de la terre et des cieux\nDe la paisible nuit nous rompons le silence:\nDivin sauveur, jette sur nous les yeux\nRépands sur nous le feu de ta grâce puissante;\nQue tout l’enfer fuie au son de ta voix;\nDissipe ce sommeil d’une âme languissante\nQui la conduit à l’oubli de tes lois!\nO Christ! Sois favorable à ce peuple fidèle\nPour te bénir maintenant assemblé;\nReçois les chants qu’il offre à ta gloire immortelle\nEt de tes dons qu’il retourne comblé",
+    "lyrics_translation": "Word of the Highest, our only hope,\nEternal day of earth and the heavens,\nWe break the silence of the peaceful night;\nSaviour Divine, cast your eyes upon us!\n\nPour on us the fire of your powerful grace,\nThat all hell may flee at the sound of your voice;\nBanish the slumber of a weary soul,\nThat brings forgetfulness of your laws!\n\nO Christ, look with favour upon your faithful people\nNow gathered here to praise you;\nReceive their hymns offered to your immortal glory;\nMay they go forth filled with your gifts."
   },
   {
     "id": "lux",
     "title": "Lux Aurumque",
     "composer": "Eric Whitacre",
     "description": "A haunting piece, Whitacre has adapated <em>Lux</em> many forms, including this cappella version famed for its virtual performance by 185 singers from 12 countries. Whiteacre's friend, poet Charles Anthony Silvestri, translated the lyrics into Latin. The original English poem is attributed by Edward Esch, described by Whitacre as a \"recluse in the truest sense of the word\". But does Esch exist? Esch does not appear to have work outside Whitacre's own, and Whitacre's son is named Esch Edward Whitacre.",
-    "lyrics_title": "Light of Gold\nby Edward Esch",
-    "lyrics": "Light,\nwarm and heavy as pure gold\nand the angels sing softly\nto the new-born baby."
-  },
-  {
-    "id": "lux",
-    "title": "Lux Aurumque",
-    "composer": "Eric Whitacre",
-    "description": "A haunting piece, Whitacre has adapated <em>Lux</em> many forms, including this cappella version famed for its virtual performance by 185 singers from 12 countries. Whiteacre's friend, poet Charles Anthony Silvestri, translated the lyrics into Latin. The original English poem is attributed by Edward Esch, described by Whitacre as a \"recluse in the truest sense of the word\". But does Esch exist? Esch does not appear to have work outside Whitacre's own, and Whitacre's son is named Esch Edward Whitacre.",
-    "lyrics_title": "Light of Gold\nby Edward Esch",
-    "lyrics": "Light,\nwarm and heavy as pure gold\nand the angels sing softly\nto the new-born baby."
+    "lyrics_title": "Lux Aurumque\nby Edward Esch",
+    "lyrics_title_translation": "Light of Gold\nby Edward Esch",
+    "lyrics": "Lux,\nCalida gravisque pura velut aurum\nEt canunt angeli molliter\nmodo natum",
+    "lyrics_translation": "Light,\nwarm and heavy as pure gold\nand the angels sing softly\nto the new-born baby."
   },
   {
     "id": "i_sing_because_im_happy",
@@ -151,7 +148,7 @@
     "arranger": "Kenneth Paden and Rollo Dilworth",
     "lyrics_by": "Civilla D. Martin",
     "description": "A reinterpretation of the Gospel staple <em>His Eye is on the Sparrow</em>. Martin wrote the original in 1905, and it has been made famous over and over by the likes of Ethel Waters, Mahalia Jackson, Whitney Houston, Lauryn Hill, and Tanya Blount.",
-    "lyrics": "Why should I feel discouraged\nWhy should the shadows come\nWhy should my heart feel lonely\nAnd long for heaven and home\nWhen Jesus is my portion\nA constant friend is He\nHis eye is on the sparrow\nAnd I know He watches over me\nHis eye is on the sparrow\nAnd I know He watches me\nI sing because I'm happy\nI sing because I'm free\nHis eye is on the sparrow\nAnd I know He watches me\nHis eye is on the sparrow\nAnd I know He watches\nI know He watches\nI know He watches me"
+    "lyrics": "Why should I feel discouraged\nWhy should the shadows come\nWhy should my heart feel lonely\nAnd long for heaven and home\nWhen Jesus is my portion\nA constant friend is He\nHis eye is on the sparrow\nAnd I know He watches over me\nHis eye is on the sparrow\nAnd I know He watches me\nI sing because I'm happy\nI sing because I'm free\nHis eye is on the sparrow\nAnd I know He watches me\nHis eye is on the sparrow\nAnd I know He watches me"
   },
   {
     "id": "music_down_in_my_sould",
@@ -165,13 +162,14 @@
     "title": "Ilus Hääl",
     "composer": "Margrit Kits",
     "arranger": "Laura Jēkabsone",
-    "lyrics": "Ring out, generous forests\nShout back the huts\nIn return for my graceful voice\nIn return for my wonderful song\nWhere my voice is heard\nWhere my song is sung\nThere all forests will fall\nEven without striking iron",
+    "lyrics": "Helisege helded metsad\nHüüdke vastu hütikesed\nMinu kauni heale vastu\nLahedama laulu vastu\nKus mu healta kuuldaneksi\nKus mu laulu laksuneksi\nSeal kõik metsa murduneksa\nIlma raua rabamata",
+    "lyrics_translation": "Ring out, generous forests\nShout back the huts\nIn return for my graceful voice\nIn return for my wonderful song\nWhere my voice is heard\nWhere my song is sung\nThere all forests will fall\nEven without striking iron",
     "description": "Jēkabsone arranged this piece for the 100th anniversary of Estonia in 2018. The lyrics are in Estonian, and the music shows the style and beauty of the folksongs common to Estonia, Latvia, and Lithuania."
   },
   {
     "id": "shenandoah",
     "title": "Shenandoah",
-    "composer": "Traditional American folk",
+    "tradition": "Traditional American folk",
     "arranger": "Jay Althouse",
     "description": "A traditional folk song. <em>Shenandoah</em> likely as a shanty sung by fur traders along the Missouri River in the early 19th century. Lyrics vary widely, but in many versions the titular Shenandoah is chief of the Oneida Iroquois tribe and has a beautiful daughter the fur trader speaker seeks to whisk away.",
     "lyrics": "Oh Shenandoah,\nI long to see you,\nAway, you rolling river.\nOh Shenandoah,\nI long to see you,\nWay, we're bound away\nAcross the wide Missouri."
@@ -185,7 +183,7 @@
   {
     "id": "keep_your_lamps",
     "title": "Keep Your Lamps Trimmed and Burning",
-    "composer": "Traditional Black spiritual",
+    "tradition": "Traditional Black spiritual",
     "arranger": "Philip Kern",
     "description": "A traditional spiritual, the lyrics allude to a parable told in Matthew 25:1–13:",
     "lyrics": "There were ten virgins, who took their lamps, and went out to meet the bridegroom. Five of them were foolish, and five were wise. Those who were foolish, when they took their lamps, took no oil with them, but the wise took oil in their vessels with their lamps. Now while the bridegroom delayed, they all slumbered and slept. But at midnight there was a cry, \"Behold! The bridegroom is coming! Come out to meet him!\" Then all those virgins arose, and trimmed their lamps. The foolish said to the wise, \"Give us some of your oil, for our lamps are going out.\" But the wise answered, saying, \"What if there isn't enough for us and you? You go rather to those who sell, and buy for yourselves.\" While they went away to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. Afterward the other virgins also came, saying, \"Lord, Lord, open to us.\" But he answered, \"Most certainly I tell you, I don't know you.\""
@@ -196,13 +194,15 @@
     "source": "Missa Kenya",
     "composer": "Paul Basler",
     "description": "From <em>Missa Kenya</em>, a multi-movement work Basler wrote to fuse Kenyan and classical mass music. The text, <em>the Greater Doxology</em>, is credited to Hilary of Poitiers in the 4th century. Lyrics are shared with <a href=\"https://gothamcitymusic.org/repertoire/#agnus_dei\" data-type=\"URL\">Agnus Dei</a>",
-    "lyrics": "Glory to God in the highest, and peace to his\nPeople on earth.\nLord God, heavenly King,\nAlmighty God and Father,\nWe worship you, we give you thanks,\nWe praise you for your glory.\nLord Jesus Christ, only Son of the Father,\nLord God, Lamb of God\nYou take away the sin of the world:\nHave mercy on us;\nYou are seated at the right hand of the Father:\nReceive our prayer.\nFor you alone are the Holy One,\nYou alone are the Lord,\nYou alone are the Most High,\nJesus Christ,\nWith the Holy Spirit\nIn the glory of God the Father. Amen."
+    "lyrics": "Gloria in Excelsis Deo. Et in terra pax\nhominibus bonae voluntatis. Laudamus te. Benedicimus te.\nAdoramus te. Glorificamus te. Gratias agimus tibi\npropter magnam gloriam tuam. Domine Deus, Rex coelestis,\nDeus Pater omnipotens. Domine Fili unigenite, Jesu Christe.\nDomine Deus, Agnus Dei, Filius Patris.\nQui tollis peccata Mundi, miserere nobis.\nQui tollis peccata Mundi, suscipe deprecationem nostram.\nQui sedes ad dexteram Patris, miserere nobis.\nQuoniam tu solus sanctus. Tu solus Dominus.\nTu solus altisimus, Jesu Christe.\nCum Sancto Spiritu in gloria Dei Patris. Amen.",
+    "lyrics_translation": "Glory to God in the highest, and peace to his\nPeople on earth.\nLord God, heavenly King,\nAlmighty God and Father,\nWe worship you, we give you thanks,\nWe praise you for your glory.\nLord Jesus Christ, only Son of the Father,\nLord God, Lamb of God\nYou take away the sin of the world:\nHave mercy on us;\nYou are seated at the right hand of the Father:\nReceive our prayer.\nFor you alone are the Holy One,\nYou alone are the Lord,\nYou alone are the Most High,\nJesus Christ,\nWith the Holy Spirit\nIn the glory of God the Father. Amen."
   },
   {
     "id": "ubi_caritas",
     "title": "Ubi Caritas",
     "composer": "Ola Gjeilo",
-    "lyrics": "Where charity and love are, God is there.\nThe love of Christ has gathered us together.\nLet us rejoice and be glad in it.\nLut us rever and love the living God.\n And from a sincere heart let us love one another.\n Amen",
+    "lyrics": "Ubi caritas et amor, Deus ibi est.\nCongregavit nos in unum Christi amor.\nExultemus, et in ipso iucundemur.\nTimeamus, et amemus Deum vivum.\nEt ex corde diligamus nos sincero.",
+    "lyrics_translation": "Where charity and love are, God is there.\nThe love of Christ has gathered us together.\nLet us rejoice and be glad in it.\nLut us rever and love the living God.\n And from a sincere heart let us love one another.\n Amen",
     "description": "With music written in 2001, this is a haunting song delivered chant style. The Latin hymn is attributed to Paulinus of Aquileia in 796."
   },
   {
@@ -211,16 +211,152 @@
     "source": "Wicked",
     "composer": "Stephen Schwartz",
     "description": "From the musical <em>Wicked</em>. Here Glinda and Elphaba reflect on their sometimes tumultuous relationship has ultimately changed them both forever and for the better.",
-    "lyrics": "I'm limited\nJust look at me\nI'm limited\nAnd just look at you\nYou can do all I couldn't do\nGlinda\nSo now it's up to you\nFor both of us\nNow it's up to you\nI've heard it said\nThat people come into our lives\nFor a reason\nBringing something we must learn\nAnd we are led to those\nWho help us most to grow if we let them\nAnd we help them in return\nWell, I don't know if I believe that's true\nBut I know I'm who I am today\nBecause I knew you\nLike a comet pulled from orbit\nAs it passes the sun\nLike a stream that meets a boulder\nHalfway through the wood\nWho can say if I've been changed for the better\nBut because I knew you\nI have been changed for good\nIt well may be\nThat we will never meet again\nIn this lifetime\nSo, let me say before we part\nSo much of me\nIs made of what I learned from you\nYou'll be with me\nLike a handprint on my heart\nAnd now whatever way our stories end\nI know you have rewritten mine\nBy being my friend\nLike a ship blown from its mooring\nBy a wind off the sea\nLike a seed dropped by a sky bird\nIn a distant wood\nWho can say if I've been changed for the better\nBut because I knew you\nBecause I knew you\nI have been changed for good\nAnd just to clear the air\nI ask forgiveness\nFor the things I've done, you blame me for\nBut then I guess\nWe know there's blame to share\nAnd none of it seems to matter anymore\nLike a comet pulled from orbit (like a ship blown from its mooring)\nAs it passes the sun (by a wind off the sea)\nLike a stream that meets a boulder (like a seed dropped by a bird)\nHalfway through the wood (in the wood)\nWho can say if I've been changed for the better\nI do believe I have been changed for the better\nAnd because I knew you\nBecause I knew you\nBecause I knew you\nI have been changed\nFor good",
     "showcase_only": true
   },
   {
     "id": "scarborough_fair",
     "title": "Scarborough Fair",
-    "composer": "Traditional English ballad",
+    "tradition": "Traditional English ballad",
     "description": "While most widely know by the Simon & Garfunkel rendition, this song is a traditional English with published versions as early as 1891. Other versions may be found titled \"The Cambric Shirt\", or \"Parsley, Sage, Rosemary and Thyme\".",
-    "lyrics": "\"O, where are you going?\" \"To Scarborough fair,\"\n    Savoury sage, rosemary, and thyme;\n\"Remember me to a lass who lives there,\n    For once she was a true love of mine.\n\n\"And tell her to make me a cambric shirt,\n    Savoury sage, rosemary, and thyme,\nWithout any seam or needlework,\n    And then she shall be a true love of mine.\n\n\"And tell her to wash it in yonder dry well,\n    Savoury sage, rosemary, and thyme,\nWhere no water sprung, nor a drop of rain fell,\n    And then she shall be a true love of mine.",
+    "lyrics": "O, where are you going?\nTo Scarborough fair,\nSavoury sage, rosemary, and thyme;\nRemember me to a lass who lives there,\n    For once she was a true love of mine.\n\nAnd tell her to make me a cambric shirt,\n    Savoury sage, rosemary, and thyme,\nWithout any seam or needlework,\n    And then she shall be a true love of mine.\n\nAnd tell her to wash it in yonder dry well,\n    Savoury sage, rosemary, and thyme,\nWhere no water sprung, nor a drop of rain fell,\nAnd then she shall be a true love of mine.",
     "showcase_only": true
+  },
+  {
+    "id": "frozen",
+    "title": "Frozen (Choral Suite)",
+    "composer": "Christophe Beck and Leo Birenberg",
+    "lyrics_by": "Christine Hals",
+    "arranger":"Roger Emerson",
+    "description": "Composed for the 2017 Disney film \"Frozen.\" This arrangement concatenates several choral snippets scattered throughout the film: Heimr Árnadalr, Vuelie, and The Great Thaw. We begin with \"Heimr Árnadalr,\" seen during the coronation of Queen Elsa performed in the film by a red-robed, twelve-member choir shown briefly on screen. The opening title sequence of the film plays \"Vuelie\", which is later reprised as \"The Great Thaw\" as Elsa learns to dispell the cursed winter besetting Arendelle. The sung lyrics are in Old Norse.",
+    "lyrics_translation": "Great queen to be\nHeart of gold, shine\nWe crown you with hopes, love and faith\nBeautiful, gritty homeland Arendelle\nFollow the queen of light",
+    "showcase_only": false
+  },
+  {
+    "id": "black_is_the_color",
+    "title": "Black is the Color",
+    "tradition": "Appalachian Folk Song",
+    "arranger":"Roger Emerson",
+    "description": "This plaintive folk song is most associated with Appalachia, though is thought to be largely derived from Scottish ballads. This melody is attributed to John Jacob Niles circa 1941.",
+    "lyrics": "Black is the color of my true love's hair\nHer lips are something wondrous fair\nThe purest eyes\nAnd the daintiest hands\nI love the ground on where she stands",
+    "showcase_only": false
+  },
+  {
+    "id": "loch_lomond",
+    "title": "Loch Lomond",
+    "tradition": "Scottish Traditional",
+    "arranger":"Jonathan Quick",
+    "description": "Loch Lomond ('Lake of the Elms') is the largest lake in Great Britain, found in Scotland near Glasgow. Evidence suggests humans settled nearby during the neolithic era, and--somewhere in the next 5000 years--developed this ballad. The speaker pines for the beautiful landscape of home, but claims suggests zhe will only return via the \"low road\"--death, likely dying in rebellion against the English.",
+    "lyrics": "O ye'll take the high road, and I'll take the low road,\nAnd I'll be in Scotland afore ye,\nBut me and my true love will never meet again,\nOn the bonnie, bonnie banks o' Loch Lomond",
+    "showcase_only": false
+  },
+  {
+    "id": "mlk",
+    "title": "MLK",
+    "composer": "U2",
+    "arranger":"Bob Chilcott",
+    "description": "Irish rock group U2 debuted this ode to Martin Luther King Jr. on 18 October 1984.",
+    "lyrics": "Sleep, sleep tonight\nAnd may your dreams be realised\nIf the thunder cloud passes rain\nSo let it rain, let it rain\nRain on him",
+    "showcase_only": false
+  },
+  {
+    "id": "one_of_these_days",
+    "title": "One of these Days",
+    "composer": "Sarah Quartel",
+    "description": "GCMC favorite, composer, and educator Sarah Quartel serves another banger in this 2021 piece. Like many Quartel pieces, the complex rhythm deepens the piece, in this case swinging between 3/4 and 4/4 time.",
+    "lyrics": "Isn't it amazing how the years go by\nGone before they begin\nIsn't it amazing how these dreams go by\nwhen you're waiting for them to come\nIsn't it amazing we go on this way\nseeing shadows of what could be done\nMaybe I'll see that today is enough\nand this moment is all that I need\nMaybe I'll stand up and go my own way\nfor the beauty I know I will see one of these days\n\nBreathing in the moment isn't good enough\nif you believe that hard must be right\nMaybe if it's easy it's still worth it all\nThere's a diamond deep in the fire\nSo one of these days\nI'm gonna fly away\nI'm gonna fly away\nSo one of these days when I find my own way\nI'll find that it's today",
+    "showcase_only": false
+  },
+  {
+    "id": "wide_open_spaces",
+    "title": "Wide Open Spaces",
+    "composer": "Sarah Quartel",
+    "description": "Commissioned by the American Choral Directors Association (ACDA) in 2015, this piece is among the many commissions Quartel has composed. Quartel says of her composing past, \"Creating music has always come naturally to me. The phrase, “Sarah, that’s not Beethoven, you’re composing” could regularly be heard in my childhood piano lessons. (Whoops?)\"",
+    "lyrics": "There’s part of my story,\nthere’s part of my song,\nthere’s part of my journey,\nthat’s yet to be found.\n\nWith life all around us, \nthere’s so much to see, \nadventure is calling,\nit’s calling to me.\n\nOut in the wide open spaces around me.\n\nWith big sky above me,\nI’m on my way.\nScanning the horizon\nof a brand new day.\n\nFeet to the earth now,\nthere’s no turning back.\nInto the world now,\nlook at me, look at me go!\n\nOut in the wide open spaces around me,\nout in the wide open spaces around me.\n\nBut as I journey out,\nI look within and see,\nthe spaces inside of me,\nyet to be filled,\nfilled with what I have seen\nand what I will be, Oh!\n\nI’m filling the wide open spaces inside of me,\nwith something I love, \nsomething I would like to be, be, be.\nFilling the wide open spaces inside of me.\nFilling the wide open spaces within me.",
+    "showcase_only": false
+  },
+  {
+    "id": "pirate_song",
+    "title": "Pirate Song",
+    "composer": "Tim Jones",
+    "description": "Because sometimes you just need to say \"arrrr\"!",
+    "lyrics": "A pirate sang a song to me\nHe sang of life upon the sea\nHe sang to me with gravelled tones\nHe sang to me of Billy Bones\n\nPirates make me happy!\n\nA pirate sang a song to me\nHe had no leag below his knee\nHe sang the song the best he could\nHis tongue was also made of wood\n\nFor romance find a pirate\n\nMy pirate comes from Tripoli\nMy pirate curses saltily\nMy pirate is not snooty\nMy pirate shakes his booty\nMy pirate swaps the deck\nlike noone else can swap the deck\n\nMy pirate sang a song to me\nHis face was kind of barnacley\nHe told me that my parrot stank\nAnd so I made him walk the plank",
+    "showcase_only": false
+  },
+  {
+    "id": "robots",
+    "title": "Robots",
+    "composer": "Flight of the Conchords",
+    "arranger": "Shane Scott",
+    "description": "The humans are dead.",
+    "showcase_only": false
+  },
+  {
+    "id": "klimovitcher",
+    "title": "Klimovitcher Nigun",
+    "tradition": "Ashkenazi Traditional",
+    "description": "Nigunim are a Jewish tradition that are meant as mystical prayers, sacred practices, and a path to deepen the soul. They are performed in an expressive vocal style with dramatic inflections similar to cantorial music. This piece originated from Chabad Chassidim in the town of Klimovitch. It was later popularized by the Chassid Reb Rephael Kahn.",
+    "showcase_only": true
+  },
+  {
+    "id": "down_by_the_river",
+    "title": "Down by the River to Pray",
+    "tradition": "African-American spiritual",
+    "arranger": "Alison Krauss",
+    "description": "As seen in the baptismal scene of 2000 film \"O Brother, Where Art Thou?\"",
+    "lyrics": "As I went down in the river to pray\nStudying about that good old way\nAnd who shall wear the robe and crown\nGood Lord, show me the way!",
+    "showcase_only": true
+  },
+  {
+    "id": "stupid_with_love",
+    "title": "Stupid with Love",
+    "composer": "Jeff Richmond",
+    "arranger": "Nell Benjamin",
+    "description": "From the musical \"Mean Girls\"",
+    "showcase_only": true
+  },
+    {
+    "id": "honey_pie",
+    "title": "Honey Pie",
+    "composer": "Paul McCartney",
+    "description": "From the 1968 double album \"The Beatles\" (also known as \"the White Album\").",
+    "showcase_only": true
+  },
+  {
+    "id": "flowers_hadestown",
+    "title": "Flowers",
+    "composer": "Anaïs Mitchell",
+    "description": "From the musical \"Hadestown\".",
+    "showcase_only": true
+  },
+  {
+    "id": "father_and_son",
+    "title": "Father and Son",
+    "composer": "Yusuf/Cat Stevens",
+    "description": "Wrote for the propsed musical \"Revolussia,\" but shelved when Stevens nearly died of tuberculosis.",
+    "showcase_only": true
+  },
+  {
+    "id": "anthem_from_chess",
+    "title": "Anthem",
+    "composer": "Benny Andersson and Björn Ulvaeus",
+    "lyrics_by": "Ulvaeus and Tim Rice",
+    "description": "from the 1984 musical \"Chess\"",
+    "showcase_only": true
+  },
+  {
+    "id": "the_1",
+    "title": "The 1",
+    "composer": "Taylor Swift",
+    "description": "from the 2020 album \"Folklore\"",
+    "showcase_only": true
+  },
+  {
+    "id": "my_soul_is_a_river",
+    "title": "My Soul is a River",
+    "composer": "Ben Allaway",
+    "description": "This swinging spiritual piece premiered on Dr. M.L. King Jr.'s 75th birthday in 2004.  The lyrics are an expansion of the Biblical book of Amos 5:24.",
+    "showcase_only": false,
+    "lyrics": "My soul is a river winding through a weary land.\nLet justice roll down like waters,\n righteousness like a mighty stream\nWashing o’er a thirsty land.\nMy soul is a river, your soul is a river,\nJoin up down the river, fill a mighty ocean with peace."
   }
 ]
 

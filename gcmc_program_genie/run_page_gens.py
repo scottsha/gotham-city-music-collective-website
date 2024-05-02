@@ -20,7 +20,7 @@ def run_13_oct_2023():
         program_info=json.load(ff)
     genie = PerformancePageGenereator(
         program_info=program_info,
-        program_leaflet_file_name="gmcm_13_oct_2023_program.pdf"
+        program_leaflet_file_name="gcmc_13_oct_2023_program.pdf"
     )
     content = genie.generate_html_str()
     with open("tmp.html", "w") as ff:
