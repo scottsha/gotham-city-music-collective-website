@@ -227,7 +227,8 @@
     "composer": "Christophe Beck and Leo Birenberg",
     "lyrics_by": "Christine Hals",
     "arranger":"Roger Emerson",
-    "description": "Composed for the 2017 Disney film \"Frozen.\" This arrangement concatenates several choral snippets scattered throughout the film: Heimr Árnadalr, Vuelie, and The Great Thaw. We begin with \"Heimr Árnadalr,\" seen during the coronation of Queen Elsa performed in the film by a red-robed, twelve-member choir shown briefly on screen. The opening title sequence of the film plays \"Vuelie\", which is later reprised as \"The Great Thaw\" as Elsa learns to dispell the cursed winter besetting Arendelle. The sung lyrics are in Old Norse.",
+    "description": "Composed for the 2017 Disney film \"Frozen.\" This arrangement concatenates several choral snippets scattered throughout the film: Heimr Árnadalr, Vuelie, and The Great Thaw. We begin with \"Heimr Árnadalr,\" seen during the coronation of Queen Elsa performed in the film by a red-robed, twelve-member choir shown briefly on screen. The opening title sequence of the film plays \"Vuelie\", which is later reprised as \"The Great Thaw\" as Elsa learns to dispell the cursed winter besetting Arendelle. The piece borrows from ‘yoik’ -- a traditional form of song from the Sami people.",
+    "lyrics": "Verðug dróttning stór\nHjarta af gulli skína\nKronum þik med vánum, ást ok trú\nFagra, grýttur land, heimr Árnadalr\nFylgið dróttningu ljóssins",
     "lyrics_translation": "Great queen to be\nHeart of gold, shine\nWe crown you with hopes, love and faith\nBeautiful, gritty homeland Arendelle\nFollow the queen of light",
     "showcase_only": false
   },
@@ -254,7 +255,7 @@
     "title": "MLK",
     "composer": "U2",
     "arranger":"Bob Chilcott",
-    "description": "Irish rock group U2 debuted this ode to Martin Luther King Jr. on 18 October 1984.",
+    "description": "Irish rock group U2 debuted this ode to Dr. Martin Luther King Jr. on 18 October 1984.",
     "lyrics": "Sleep, sleep tonight\nAnd may your dreams be realised\nIf the thunder cloud passes rain\nSo let it rain, let it rain\nRain on him",
     "showcase_only": false
   },
@@ -354,7 +355,7 @@
     "id": "my_soul_is_a_river",
     "title": "My Soul is a River",
     "composer": "Ben Allaway",
-    "description": "This swinging spiritual piece premiered on Dr. M.L. King Jr.'s 75th birthday in 2004.  The lyrics are an expansion of the Biblical book of Amos 5:24.",
+    "description": "This swinging spiritual piece premiered on Dr. Martin Luther King Jr.'s 75th birthday in 2004.  The lyrics are an expansion of the Biblical book of Amos 5:24.",
     "showcase_only": false,
     "lyrics": "My soul is a river winding through a weary land.\nLet justice roll down like waters,\n righteousness like a mighty stream\nWashing o’er a thirsty land.\nMy soul is a river, your soul is a river,\nJoin up down the river, fill a mighty ocean with peace."
   }
