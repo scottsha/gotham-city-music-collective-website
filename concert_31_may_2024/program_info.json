@@ -1,38 +1,70 @@
 {
   "id": "31_may_2024",
   "title": "Spring 2024 Choral Concert",
-  "subtitle": ["ST PAUL'S GERMAN EVANGELICAL LUTHERAN CHURCH", "31 MAY 2024"],
+  "venue":"ST PAUL'S GERMAN EVANGELICAL LUTHERAN CHURCH",
+  "date": "31 MAY 2024",
+  "subtitle": ["MEZZO & THE GOTHAM CITY CHORUS"],
   "song_list": [
-    "cantique",
-    "loch_lomond",
+    "done_for_me",
+    "new_york_state_of_mind",
+    "jericho",
+    "mad_world",
     "niska_banja",
-    "mezzo_placeholder",
-    "mezzo_placeholder",
-    "mezzo_placeholder",
-    "mezzo_placeholder",
+    "cantique",
     "sanctuary",
-    "bridge_over_troubled_water",
-    "baba_yetu"
+    "pasture",
+    "loch_lomond",
+    "dreamboat_annie",
+    "deh_vieni_non_tadar",
+    "journey_to_the_past",
+    "baba_yetu",
+    "bridge_over_troubled_water"
   ],
   "notes" : {
-    "loch_lomond":  "Soloists Emma Dietrich and Mike Walsh"
+    "baba_yetu": "Soloist Emile Greer",
+    "done_for_me": "Performed by Mezzo",
+    "new_york_state_of_mind": "Performed by Mezzo",
+    "jericho": "Performed by Mezzo",
+    "mad_world": "Performed by Mezzo",
+    "dreamboat_annie": "Performed by Mofieni Iniya",
+    "deh_vieni_non_tadar": "Performed by Ariel Kaye",
+    "journey_to_the_past": "Performed by Claudia Caceres",
+    "loch_lomond": "Soloists Emma Dietrich and Mike Walsh"
   },
   "singers": [
-    "Catherine Addison",
     "Sara Birmingham",
+    "Matthew Brandt",
     "Claudia Caceres",
     "Jeff Christianson",
     "Emma Dietrich",
     "Allie Duggan",
     "Matt Gershowitz",
+    "Emile Greer",
+    "Ariel Kaye",
     "Briana Hall",
+    "Mofieni Iniya",
     "Katie Jones",
     "Harris Manganiello",
     "Diana Marino",
-    "Nihar Shah",
+    "Kat Savina",
     "Kevin Shapiro",
     "Emily Sleasman",
-    "Mike Walsh",
-    "Jasmine Tan"
+    "Jasmine Tan",
+    "Mike Walsh"
+  ],
+  "mezzo": [
+    "Sophia Brooks",
+    "Briana Hall",
+    "Bree Lalor",
+    "Amanda Lim",
+    "Jenn Rodriguez",
+    "Reynetta Sampson"
+  ],
+  "accompaniment": [
+    "Pianist Naoko Aita",
+    "Orchestra A",
+    "Orchestra B",
+    "Orchestra C",
+    "Orchestra D"
   ]
 }

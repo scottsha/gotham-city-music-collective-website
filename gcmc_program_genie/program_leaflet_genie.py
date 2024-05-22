@@ -13,11 +13,46 @@ def load_repertoire_info():
     return info_dict
 
 
+def format_n_sort_namelist(namelist: list[str]) -> list[str]:
+    nicelist = [
+        r"{" + foo.replace("_", " ") + r"}" for foo in
+        sorted(
+            namelist,
+            key=lambda x: x.split(" ")[-1]
+        )
+    ]
+    return nicelist
+
+def latex_literal_wrap(x: str) -> str:
+    y = x.replace('&', '\&')
+    return y
+
+
+def split_list(input_list, num_cols):
+    quo, rem = divmod(len(input_list), num_cols)
+    return [input_list[i * quo + min(i, rem):(i + 1) * quo + min(i + 1, rem)] for i in range(num_cols)]
+
+
+def latex_multicol_formatting(xxs: list[str], num_cols=3) -> str:
+    columns = split_list(xxs, num_cols)
+    col_strs = []
+    for col_entry in columns:
+        col_strs.append(
+            "\\\\\n".join(col_entry)
+        )
+    singer_txt = "\\null\n\\columnbreak\n\n".join(col_strs)
+    return singer_txt
+
+
 class ProgramGenerator:
     kQR_CODE_REPLACE = "<QR_CODE_PATH>"
     kSINGER_REPLACE = "<SINGERS_REPLACE>"
+    kMEZZO_MEMBERS_REPLACE = "<MEZZO_MEMBERS_REPLACE>"
+    kACCOMPANIMENT_REPLACE = "<ACCOMPANIMENT_REPLACE>"
     kPERFORMANCE_REPLACE = "<PERFORMANCE_REPLACE>"
     kSUBTITLE_REPLACE = "<SUBTITLE_REPLACE>"
+    kDATE_REPLACE = "<DATE_REPLACE>"
+    kVENUE_REPLACE = "<VENUE_REPLACE>"
 
     def __init__(self, dir: str):
         self.dir = dir
@@ -71,33 +106,25 @@ class ProgramGenerator:
         return ""
 
     def generate_singers_txt(self) -> str:
-        singers = [
-            r"{" + foo.replace("_", " ") + r"}" for foo in
-            sorted(
-                self.program_info["singers"],
-                key=lambda x: x.split(" ")[-1]
-            )
-        ]
-        num_singers = len(singers)
-        col_0_len = num_singers // 3
-        col_1_len = col_0_len
-        num_sing_mod3 = num_singers % 3
-        if num_sing_mod3 > 0:
-            col_1_len += 1
-            if num_sing_mod3 == 2:
-                col_0_len += 1
+        singers = format_n_sort_namelist(
+            self.program_info.get("singers", [])
+        )
+        singers_txt = latex_multicol_formatting(singers)
+        return singers_txt
 
-        col_0_singers = singers[:col_0_len]
-        col_1_singers = singers[col_0_len:col_0_len + col_1_len]
-        col_2_singers = singers[col_0_len + col_1_len:]
-        cols_singers = [col_0_singers, col_1_singers, col_2_singers]
-        col_strs = []
-        for col_sing in cols_singers:
-            col_strs.append(
-                "\\\\\n".join(col_sing)
-            )
-        singer_txt = "\\vfill\\null\n\\columnbreak\n\n".join(col_strs)
-        return singer_txt
+    def generate_acompaniment_txt(self) -> str:
+        acompaniment = format_n_sort_namelist(
+            self.program_info.get("accompaniment", [])
+        )
+        acompaniment_txt = latex_multicol_formatting(acompaniment, 2)
+        return acompaniment_txt
+
+    def generate_mezzo_members_txt(self) -> str:
+        mezzo = format_n_sort_namelist(
+            self.program_info.get("mezzo", [])
+        )
+        mezzo_txt = latex_multicol_formatting(mezzo)
+        return mezzo_txt
 
     def generate_performance_txt(self) -> str:
         song_list = self.program_info.get("song_list")
@@ -118,10 +145,18 @@ class ProgramGenerator:
         self.generate_qr_code()
         qr_txt = self.generate_qr_txt()
         subtitle_lines = self.program_info.get("subtitle")
-        subtitle = "\\\\".join(subtitle_lines)
+        subtitle = latex_literal_wrap("\\\\".join(subtitle_lines))
         program_txt = program_txt.replace(
             self.kSUBTITLE_REPLACE,
             subtitle
+        )
+        program_txt = program_txt.replace(
+            self.kVENUE_REPLACE,
+            self.program_info.get("venue")
+        )
+        program_txt = program_txt.replace(
+            self.kDATE_REPLACE,
+            self.program_info.get("date")
         )
         program_txt = program_txt.replace(
             self.kQR_CODE_REPLACE,
@@ -131,6 +166,15 @@ class ProgramGenerator:
         program_txt = program_txt.replace(
             self.kSINGER_REPLACE,
             singer_txt
+        )
+        accomaniment_text = self.generate_acompaniment_txt()
+        program_txt = program_txt.replace(
+            self.kACCOMPANIMENT_REPLACE,
+            accomaniment_text
+        )
+        program_txt = program_txt.replace(
+            self.kMEZZO_MEMBERS_REPLACE,
+            self.generate_mezzo_members_txt()
         )
         performance_txt = self.generate_performance_txt()
         program_txt = program_txt.replace(

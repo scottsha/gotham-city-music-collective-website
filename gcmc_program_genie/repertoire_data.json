@@ -368,7 +368,7 @@
     "showcase_only": false
   },
   {
-    "id": "the_paster",
+    "id": "pasture",
     "title": "The Pasture",
     "composer": "Z. Randall Stroope",
     "lyrics=by": "Robert Frost",
@@ -386,16 +386,66 @@
   {
     "id": "bridge_over_troubled_water",
     "title": "Bridge Over Troubled Water",
-    "composer": "TODO",
+    "composer": "Paul Simon",
     "description": "TODO",
     "showcase_only": false
   },
   {
     "id": "baba_yetu",
     "title": "Baba Yetu",
-    "composer": "TODO",
+    "composer": "Christopher Tin",
     "description": "TODO",
     "showcase_only": false
+  },
+  {
+    "id": "done_for_me",
+    "title": "Done for Me",
+    "composer": " Charlie Puth",
+    "description": "TODO",
+    "showcase_only": true
+  },
+  {
+    "id": "new_york_state_of_mind",
+    "title": "New York State of Mind",
+    "composer": "Billy Joel",
+    "description": "From the 1976 album <em>Turnstiles</em>",
+    "showcase_only": true
+  },
+  {
+    "id": "jericho",
+    "title": "Jericho",
+    "composer": "Iniko",
+    "description": "TODO",
+    "showcase_only": true
+  },
+  {
+    "id": "mad_world",
+    "title": "Mad World",
+    "composer": "Gary Jules",
+    "description": "TODO",
+    "showcase_only": true
+  },
+  {
+    "id": "dreamboat_annie",
+    "title": "Dreamboat Annie",
+    "composer": "Heart",
+    "description": "TODO",
+    "showcase_only": true
+  },
+  {
+    "id": "deh_vieni_non_tadar",
+    "title": "Deh Vien, Non Tadar",
+    "composer": "Mozart",
+    "description": "TODO",
+    "showcase_only": true
+  },
+  {
+    "id": "journey_to_the_past",
+    "title": "Journey to the Past",
+    "composer": "Stephen Flaherty",
+    "lyrics_by": "Lynn Ahrens",
+    "description": "Debuted by Liz Callaway as the titular Princess Anatasia in the 1997 animated musical.",
+    "showcase_only": true
   }
 ]
 
