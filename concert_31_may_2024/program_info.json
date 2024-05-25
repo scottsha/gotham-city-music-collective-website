@@ -1,9 +1,11 @@
 {
   "id": "31_may_2024",
   "title": "Spring 2024 Choral Concert",
-  "venue":"ST PAUL'S GERMAN EVANGELICAL LUTHERAN CHURCH",
+  "venue": "ST PAUL'S GERMAN EVANGELICAL LUTHERAN CHURCH",
   "date": "31 MAY 2024",
-  "subtitle": ["MEZZO & THE GOTHAM CITY CHORUS"],
+  "subtitle": [
+    "MEZZO & THE GOTHAM CITY CHORUS"
+  ],
   "song_list": [
     "done_for_me",
     "new_york_state_of_mind",
@@ -21,7 +23,7 @@
     "baba_yetu",
     "bridge_over_troubled_water"
   ],
-  "notes" : {
+  "notes": {
     "baba_yetu": "Soloist Emile Greer",
     "done_for_me": "Performed by Mezzo",
     "new_york_state_of_mind": "Performed by Mezzo",
@@ -63,9 +65,11 @@
   ],
   "accompaniment": [
     "Pianist Naoko Aita",
-    "Orchestra A",
-    "Orchestra B",
-    "Orchestra C",
-    "Orchestra D"
+    "Debra Bell",
+    "Katie Chambers",
+    "Henry Oliver",
+    "Jeremy Roberts",
+    "Hannah Santisi",
+    "Jessica Stoll"
   ]
 }

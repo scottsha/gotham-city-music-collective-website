@@ -362,81 +362,87 @@
   {
     "id": "niska_banja",
     "title": "Niska Banja",
+    "composer": "Dusan Cvetković",
     "arranger": "Nick Page",
-    "traditional": "Traditional Romani Dance",
-    "description": "",
+    "lyrics": "Niška Banja, topla voda\nza mangupe ziva zgoda,\nEm ka lavlam, em kamavla,\nand'o Niši ka mekav la.\nMi Cigani meraklije,\nne mozemo bez rakije.\nBez rakije, šljivovice,\ni bez mlade Cigančice.\nJedan, dva, tri, četir, pet, šest,\nsedam, osam, devet, deset.\nDeset, devet, osam, sedam,\nšest, pet, četir, tri, dva, jedan.\nDeset, devet, osam, sedam,\nšest, pet, četir, tri, dva, nula.\nDuj, duj, duj, dešuduj\nčumidav la and'o muj.\nEm ka lavla, em kamavla,\nand'o Niši ka mekav la.",
+    "lyrics_translation": "The public bath near Niš, hot water,\nfor the naughty boys a real convenience.\nI will get her, I will love her,\nand in Niš I will leave her.\nWe Gypsies love a good time,\nwe can't make it without plum brandy;\nWithout grape brandy, plum brandy,\nwithout a young Gypsy girl.\nOne, two, three, four, five, six,\nseven, eight, nine, ten.\nTen, nine, eight, seven,\nsix, five, four, three, two, one.\nTen, nine, eight, seven,\nsix, five, four, three, two, zero.\nTwo, two, twelve,\nI'll kiss her on the face.\nI will get her, and I will love her,\nand in Niš I will leave her.",
+    "description": "The 1927 bawdy Serbian Romani ballad <em>The Baths of Nis</em>  Serbian Romani song about the party town of Niš, famed for its mineral baths. The lyrics are a mix of Serbo-Croation and Rom.",
     "showcase_only": false
   },
   {
     "id": "pasture",
     "title": "The Pasture",
     "composer": "Z. Randall Stroope",
-    "lyrics=by": "Robert Frost",
-    "description": "Number 2 from Where the Earth Meets the Sky.",
+    "lyrics_by": "Robert Frost",
+    "lyrics": "I'm going out to clean the pasture spring;\nI'll only stop to rake the leaves away\n(And wait to watch the water clear, I may):\nI sha'n't be gone long.—You come too.\n\nI'm going out to fetch the little calf\nThat's standing by the mother. It's so young,\nIt totters when she licks it with her tongue.\nI sha'n't be gone long.—You come too.",
+    "description": "Number 2 from <em>Where the Earth Meets the Sky.</em> Composer Stroope says of the piece\" This is a work about a relationships – that no matter how small or large a task, it is more meaningful when the two people share it together.\"",
     "showcase_only": false
-  },
-  {
-    "id": "mezzo_placeholder",
-    "title": "Unknown Mezzo Song",
-    "composer": "A Human",
-    "lyrics=by": "Robert Frost",
-    "description": "",
-    "showcase_only": true
   },
   {
     "id": "bridge_over_troubled_water",
     "title": "Bridge Over Troubled Water",
     "composer": "Paul Simon",
-    "description": "TODO",
+    "description": "This song is folk duo Simon & Garfunkel's most celebrated song, winning five Grammys in 1971, and topping the US pop chart for a six-weeks.",
+    "lyrics": "When you’re weary, feeling small,\nWhen tears are in your eyes\nI will dry them all\nI’m on your side\nWhen times get rough\nAnd friends just can’t be found\nLike a bridge over troubled water\nI will lay me down\nLike a bridge over troubled water\nI will lay me down",
     "showcase_only": false
   },
   {
     "id": "baba_yetu",
     "title": "Baba Yetu",
     "composer": "Christopher Tin",
-    "description": "TODO",
+    "description": "Tin's peice is among the very few video game compositions to win a Grammy. Composed for <em>Civilization IV</em> in 2011, the lyrics are the Lord's Prayer scanned in Swahili",
+    "lyrics": "Baba yetu, yetu uliye\nMbinguni yetu, yetu amina!\nBaba yetu, yetu uliye\nJina lako litukuzwe.\nUtupe leo chakula chetu\nTunachohitaji utusamehe\nMakosa yetu, hey!\nKama nasi tunavyowasamehe\nWaliotukosea usitutie\nKatika majaribu, lakini\nUtuokoe, na yule, muovu e milele!\nUfalme wako ufike utakalo\nLifanyike duniani kama mbinguni. (Amina)",
+    "lyrics_translated":"Our Father, who art\nin Heaven. Amen!\nOur Father,\nHallowed be thy name.\nGive us this day our daily bread,\nForgive us of\nour trespasses\nAs we forgive others\nWho trespass against us\nLead us not into temptation, but\ndeliver us from the evil one forever.\nThy kingdom come, thy will be done\nOn Earth as it is in Heaven. (Amen)",
     "showcase_only": false
   },
   {
     "id": "done_for_me",
     "title": "Done for Me",
     "composer": " Charlie Puth",
-    "description": "TODO",
+    "description": "Featuring Kehlani and released as a single in 2018",
+    "lyrics": "I won't beg for your love\nWon't say, \"Please\"\nI won't fall to the ground on my knees\nYou know I've given this everything\nBaby, honestly\nBaby, honestly\n\nI lie for you, baby\nDie for you, baby\nCry for you, baby\nBut tell me what you've done for me\nFor you, baby\nAnd only you, baby\nThe things I do, baby\nBut tell me what you've done for me",
     "showcase_only": true
   },
   {
     "id": "new_york_state_of_mind",
     "title": "New York State of Mind",
     "composer": "Billy Joel",
-    "description": "From the 1976 album <em>Turnstiles</em>",
+    "description": "From the 1976 album <em>Turnstiles</em>, Joel wrote the song on returning home to New York after a three year stint in Los Angeles.",
+    "lyrics": "Some folks like to get away\nTake a holiday from the neighborhood\nHop a flight to Miami Beach or to Hollywood\nBut I'm taking a Greyhound\nOn the Hudson River line\nI'm in a New York state of mind",
     "showcase_only": true
   },
   {
     "id": "jericho",
     "title": "Jericho",
     "composer": "Iniko",
-    "description": "TODO",
+    "description": "The Biblical Book of <em>Joshua</em> tells of the siege of Jericho, an ancient city in modern Palestine. God commanded Joshua to circle the city and blow a trumpet, causing the miraculously destruction of the fortress walls.",
+    "lyrics": "When I move, it's an earthquake rumble\nI will never, ever fall, never stumble\nAnd I don't need to be humble\nBreak down walls, like Jericho, crumble",
     "showcase_only": true
   },
   {
     "id": "mad_world",
     "title": "Mad World",
-    "composer": "Gary Jules",
-    "description": "TODO",
+    "composer": "Tears for Fears",
+    "description": "A 1982 song by  Roland Orzaba, the lyrics reference the work of psychologist Arthur Janov.",
+    "lyrics": "And I find it kinda funny, I find it kinda sad\nThe dreams in which I'm dying are the best I've ever had\nI find it hard to tell you, I find it hard to take\nWhen people run in circles, it's a very, very\nMad world, mad world",
     "showcase_only": true
   },
   {
     "id": "dreamboat_annie",
     "title": "Dreamboat Annie",
     "composer": "Heart",
-    "description": "TODO",
+    "description": "The title track of Heart's debut album 1976.",
+    "lyrics": "Heading out this morning, into the sun\nRiding on the diamond waves, little darlin' one\n\nWarm wind caress her, her lover it seems\nOh Annie, dreamboat Annie\nShip of dreams\nOh Annie, dreamboat Annie\nLittle ship of dreams\n\nGoing down the city sidewalk\nAlone in the crowd\nNo one knows the lonely one\nWhose head's in the clouds\n\nSad faces painted over with those magazine smiles\nHeading out to somewhere\nWon't be back for a while\n\nWon't be back for a while\nWon't be back for a while\nWon't be back for a while",
     "showcase_only": true
   },
   {
     "id": "deh_vieni_non_tadar",
-    "title": "Deh Vien, Non Tadar",
+    "title": "Deh Vieni, Non Tardar",
+    "source": "The Marriage of Figaro",
     "composer": "Mozart",
-    "description": "TODO",
+    "description": "1786 saw Mozart's <em>Le nozze di Figaro</em> (<em>The Marriage of Figaro</em>) Burgtheater in Vienna, widely celebrated as one of the greatest operas written. Here Susanna serenades Figaro to trust in her loyalty as they struggle to get married over the objection of the Count Almaviva. The plot is based on a play by Pierre Beaumarchais banned by Emperor Joseph II for its portrayal of class struggle." ,
+    "lyrics": "Giunse alfin il momento\nChe godro senz'affanno\nIn braccio all'idol mio\nTimide cure uscite dal mio petto!\nA turbar non venite il mio diletto.\nO come par che all'amoroso foco\nL'amenita del loco,\nLa terra e il ciel risponda.\n\nCome la notte i furti miei risponda\nDeh vieni, non tardar, o gioja bella\nVieni ove amore per goder t'appella\nFinche non splende in ciel notturna face\nFinche l'aria e ancor bruna,\nE il mondo tace.\nQui mormora il ruscel, qui scherza l'aura\nChe col dolce susurro il cor ristaura\nQui ridono i fioretti e l'erba e fresca\nAi piaceri d'amor qui tutto adesca.\nVieni, ben mio, tra queste piante ascose.\nVieni, vieni!\nTi vo' la fronte incoronar di rose.",
+    "lyrics_translation": "The moment finally arrives\nWhen I'll enjoy [experience joy] without haste\nIn the arms of my beloved...\nFearful anxieties, get out of my heart!\nDo not come to disturb my delight.\nOh, how it seems that to amorous fires\nThe comfort of the place,\nEarth and heaven respond,\n[Oh, it seems that earth, heaven and this place\nanswerer my heart's amorous fire.]\n\nAs the night responds to my ruses.\nOh, come, don't be late, my beautiful joy\nCome where love calls you to enjoyment\nUntil night's torches no longer shine in the sky\nAs long as the air is still dark\nAnd the world quiet.\nHere the river murmurs and the light plays\nThat restores the heart with sweet ripples\nHere, little flowers laugh and the grass is fresh\nHere, everything entices one to love's pleasures\nCome, my dear, among these hidden plants.\nCome, come!\nI want to crown you with roses.",
     "showcase_only": true
   },
   {
@@ -444,6 +450,7 @@
     "title": "Journey to the Past",
     "composer": "Stephen Flaherty",
     "lyrics_by": "Lynn Ahrens",
+    "lyrics": "Somewhere down this road\nI know someone's waiting\nYears of dreams just can't be wrong\nArms will open wide\nI'll be safe and wanted\nFinally home where I belong",
     "description": "Debuted by Liz Callaway as the titular Princess Anatasia in the 1997 animated musical.",
     "showcase_only": true
   },
@@ -453,6 +460,7 @@
     "composer": "A Great Big World",
     "arranged_by": "André van der Merwe",
     "description": "This 2011 breakup ballad by A Great Big World was rerecorded with Christina Aguilera won a 2013 Grammy. André van der Merwe arranged the choral piece for Stellenbosch University Choir.",
+    "lyrics": "Say something, I'm giving up on you\nI'll be the one if you want me to\nAnywhere, I would've followed you\nSay something, I'm giving up on you",
     "showcase_only": true
   }
 ]
