@@ -28,13 +28,25 @@ def latex_literal_wrap(x: str) -> str:
     return y
 
 
-def split_list(input_list, num_cols):
+def column_split_list(input_list, num_cols):
     quo, rem = divmod(len(input_list), num_cols)
-    return [input_list[i * quo + min(i, rem):(i + 1) * quo + min(i + 1, rem)] for i in range(num_cols)]
+    sizes = [quo] * num_cols
+    for foo in range(rem):
+        sizes[foo] += 1
+    if num_cols == 3:
+        most = sizes[0]
+        sizes[0] = sizes[1]
+        sizes[1] = most
+    cols = []
+    position = 0
+    for foo in sizes:
+        cols.append(input_list[position:position + foo])
+        position += foo
+    return cols
 
 
 def latex_multicol_formatting(xxs: list[str], num_cols=3) -> str:
-    columns = split_list(xxs, num_cols)
+    columns = column_split_list(xxs, num_cols)
     col_strs = []
     for col_entry in columns:
         col_strs.append(
@@ -186,5 +198,5 @@ class ProgramGenerator:
 
 
 if __name__ == "__main__":
-    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_31_may_2024")
+    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_2024_may_31")
     genie.generate()

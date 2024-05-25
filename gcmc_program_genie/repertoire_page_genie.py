@@ -231,7 +231,7 @@ def example_generate_1march2024():
     )
 
 def example_generate_2024may31():
-    show_data = '../concert_31_may_2024/program_info.json'
+    show_data = '../concert_2024_may_31/program_info.json'
     with open(show_data, 'r') as ff:
         program_info = json.load(ff)
     with open("html_blocks/performance_program_template_1_march_2024.html", 'r') as ff:
@@ -245,7 +245,7 @@ def example_generate_2024may31():
     with open("tmp.html", "w") as ff:
         ff.write(content)
     hurl_to_wordpress_site(
-        page_title_to_check='2024_may_31',
+        page_title_to_check='2024_may_31_tmp',
         page_content=content
     )
 

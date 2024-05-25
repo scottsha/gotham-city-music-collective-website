@@ -392,7 +392,7 @@
     "composer": "Christopher Tin",
     "description": "Tin's peice is among the very few video game compositions to win a Grammy. Composed for <em>Civilization IV</em> in 2011, the lyrics are the Lord's Prayer scanned in Swahili",
     "lyrics": "Baba yetu, yetu uliye\nMbinguni yetu, yetu amina!\nBaba yetu, yetu uliye\nJina lako litukuzwe.\nUtupe leo chakula chetu\nTunachohitaji utusamehe\nMakosa yetu, hey!\nKama nasi tunavyowasamehe\nWaliotukosea usitutie\nKatika majaribu, lakini\nUtuokoe, na yule, muovu e milele!\nUfalme wako ufike utakalo\nLifanyike duniani kama mbinguni. (Amina)",
-    "lyrics_translated":"Our Father, who art\nin Heaven. Amen!\nOur Father,\nHallowed be thy name.\nGive us this day our daily bread,\nForgive us of\nour trespasses\nAs we forgive others\nWho trespass against us\nLead us not into temptation, but\ndeliver us from the evil one forever.\nThy kingdom come, thy will be done\nOn Earth as it is in Heaven. (Amen)",
+    "lyrics_translation":"Our Father, who art\nin Heaven. Amen!\nOur Father,\nHallowed be thy name.\nGive us this day our daily bread,\nForgive us of\nour trespasses\nAs we forgive others\nWho trespass against us\nLead us not into temptation, but\ndeliver us from the evil one forever.\nThy kingdom come, thy will be done\nOn Earth as it is in Heaven. (Amen)",
     "showcase_only": false
   },
   {
@@ -438,7 +438,6 @@
   {
     "id": "deh_vieni_non_tadar",
     "title": "Deh Vieni, Non Tardar",
-    "source": "The Marriage of Figaro",
     "composer": "Mozart",
     "description": "1786 saw Mozart's <em>Le nozze di Figaro</em> (<em>The Marriage of Figaro</em>) Burgtheater in Vienna, widely celebrated as one of the greatest operas written. Here Susanna serenades Figaro to trust in her loyalty as they struggle to get married over the objection of the Count Almaviva. The plot is based on a play by Pierre Beaumarchais banned by Emperor Joseph II for its portrayal of class struggle." ,
     "lyrics": "Giunse alfin il momento\nChe godro senz'affanno\nIn braccio all'idol mio\nTimide cure uscite dal mio petto!\nA turbar non venite il mio diletto.\nO come par che all'amoroso foco\nL'amenita del loco,\nLa terra e il ciel risponda.\n\nCome la notte i furti miei risponda\nDeh vieni, non tardar, o gioja bella\nVieni ove amore per goder t'appella\nFinche non splende in ciel notturna face\nFinche l'aria e ancor bruna,\nE il mondo tace.\nQui mormora il ruscel, qui scherza l'aura\nChe col dolce susurro il cor ristaura\nQui ridono i fioretti e l'erba e fresca\nAi piaceri d'amor qui tutto adesca.\nVieni, ben mio, tra queste piante ascose.\nVieni, vieni!\nTi vo' la fronte incoronar di rose.",
@@ -458,7 +457,7 @@
     "id": "say_something",
     "title": "Say Something",
     "composer": "A Great Big World",
-    "arranged_by": "André van der Merwe",
+    "arranger": "André van der Merwe",
     "description": "This 2011 breakup ballad by A Great Big World was rerecorded with Christina Aguilera won a 2013 Grammy. André van der Merwe arranged the choral piece for Stellenbosch University Choir.",
     "lyrics": "Say something, I'm giving up on you\nI'll be the one if you want me to\nAnywhere, I would've followed you\nSay something, I'm giving up on you",
     "showcase_only": true
