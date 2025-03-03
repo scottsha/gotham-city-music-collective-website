@@ -32,6 +32,7 @@ class ProgramGenerator:
             self.dir,
             "gcmc_{}_program.tex".format(program_id)
         )
+        print("Writing to: ", self.latex_generated_path)
         self.repertoire_info = load_repertoire_info()
 
     def generate_song_entry(self, song_id):
@@ -142,5 +143,5 @@ class ProgramGenerator:
 
 
 if __name__ == "__main__":
-    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_31_may_2024")
+    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_7_march_2025")
     genie.generate()
