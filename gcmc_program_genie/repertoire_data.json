@@ -401,7 +401,7 @@
     "id": "ngizocula",
     "title": "Ngizocula",
     "composer": "Thomas Yonke",
-    "description": "TODO",
+    "description": "This uplifting choral work, with its title meaning \"I will sing\" in Zulu, captures the spirit of joy and resilience through rhythmic energy and vibrant harmonies. Yonke’s composition embraces a fusion of traditional African musical elements and contemporary choral writing, making it an engaging and expressive performance.",
     "showcase_only": false
   },
   {
@@ -409,28 +409,28 @@
     "title": "Blackbird",
     "arranger": "Audrey Snyder",
     "composer": "John Lennon and Paul McCartney",
-    "description": "TODO",
+    "description": "A poignant ballad from The White Album, Blackbird carries a message of hope and resilience. This choral arrangement preserves the song’s simplicity while expanding its harmonies, offering a fresh perspective on its enduring significance.",
     "showcase_only": false
   },
   {
     "id": "such_great_heights",
     "title": "Such Great Heights",
     "composer": "The Postal Service",
-    "description": "TODO",
+    "description": "Originally released by The Postal Service, this indie-electronic anthem explores love and distance with poetic lyricism and shimmering melodies. This performance offers a fresh take, translating the song’s ethereal sound into an intimate and heartfelt musical moment.",
     "showcase_only": true
   },
   {
     "id": "the_story",
     "title": "The Story",
     "composer": "Brandi Carlile",
-    "description": "TODO",
+    "description": "Brandi Carlile’s raw and powerful ballad tells a deeply personal narrative of love and self-discovery. This emotionally charged performance highlights the song’s soaring vocals and evocative storytelling, bringing its heartfelt message to life.",
     "showcase_only": true
   },
   {
     "id": "yellow",
     "title": "Yellow",
     "composer": "Guy Berryman, Jon Buckland, Will Champion, and Chris Martin",
-    "description": "from the album <em>Parachutes</em>",
+    "description": "From the album <em>Parachutes</em>. Coldplay’s iconic love song is known for its dreamy, introspective lyrics and sweeping melodies. This rendition reimagines the song’s warmth and sincerity, offering a unique interpretation of its timeless message.",
     "showcase_only": true
   },
   {
@@ -438,14 +438,14 @@
     "title": "I Believe",
     "lyrics_by": "Steven Sater",
     "composer": "Duncan Sheik",
-    "description": "From the musical <em>Spring Awakening</em>.",
+    "description": "From the musical <em>Spring Awakening</em>. I Believe builds from delicate harmonies into a soaring expression of love and vulnerability. Its emotional depth and lyrical beauty make it a poignant moment in the concert program.",
     "showcase_only": false
   },
   {
     "id": "latch",
     "title": "Latch",
     "composer": "Sam Smith",
-    "description": "TODO",
+    "description": "Originally recorded by Disclosure and featuring Sam Smith’s soaring vocals, Latch blends electronic and soulful elements into a mesmerizing love song. This rendition emphasizes the song’s heartfelt lyrics and passionate vocal delivery, bringing new depth to its theme of devotion.",
     "showcase_only": true
   },
   {
@@ -453,14 +453,14 @@
     "title": "Rather Be",
     "arranger": "Mark Brymer",
     "composer": "Grace Chatto, Jack Patterson, Nicole Marshall, and James Napier",
-    "description": "TODO",
+    "description": "A vibrant fusion of classical strings and contemporary dance music, Rather Be became an instant hit for Clean Bandit. This rendition captures its infectious energy and uplifting lyrics, celebrating the joy of unwavering love and commitment.",
     "showcase_only": false
   },
   {
     "id": "reflection",
     "title": "Reflection",
     "composer": "Matthew Wilder",
-    "description": "From Disney's <em>Mulan</em>.",
+    "description": "From Disney's <em>Mulan</em>.  Reflection explores themes of self-identity and acceptance. This heartfelt performance brings the song’s soaring melody and emotional depth to life, capturing its timeless message.",
     "showcase_only": false
   },
   {
@@ -468,14 +468,14 @@
     "title": "I Was Here",
     "lyrics_by": "Lynn Ahrens",
     "composer": "Stephen Flaherty",
-    "description": "TODO",
+    "description": "A moving ballad from The Glorious Ones, this song reflects on the desire to leave a lasting impact. With its expressive phrasing and stirring melody, this performance brings a heartfelt interpretation to its powerful lyrics.",
     "showcase_only": false
   },
   {
     "id": "im_not_that_girl",
     "title": "I'm Not That Girl",
     "composer": "Stephen Schwartz",
-    "description": "From the musical <em>Wicked</em>.",
+    "description": "From the hit musical <em>Wicked</em>.  This bittersweet ballad expresses longing and unfulfilled love. This rendition captures the song’s quiet introspection and emotional sincerity, making for a poignant performance.",
     "showcase_only": true
   },
   {
@@ -484,7 +484,7 @@
     "arranger": "AnnMarie Milazzo",
     "lyrics_by": "Steven Sater",
     "composer": "Duncan Sheik",
-    "description": "From the musical <em>Spring Awakening</em>.",
+    "description": "From the musical <em>Spring Awakening</em>. Opening Spring Awakening with haunting simplicity, this song conveys a deep yearning for understanding and freedom. Its folk-inspired melody and raw emotion set the tone for the musical’s themes of youthful awakening and rebellion.",
     "showcase_only": false
   },
   {
@@ -493,7 +493,7 @@
     "arranger": "Mark Brymer",
     "lyrics_by": "Steven Sater",
     "composer": "Duncan Sheik",
-    "description": "From the musical <em>Spring Awakening</em>.",
+    "description": "From the musical <em>Spring Awakening</em>. This song symbolizes hope, transformation, and new beginnings. Its lush harmonies and poetic lyrics create a stirring and reflective closing to the program.",
     "showcase_only": false
   }
 ]
