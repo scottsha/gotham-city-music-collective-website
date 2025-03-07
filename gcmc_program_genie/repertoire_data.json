@@ -451,7 +451,7 @@
   {
     "id": "rather_be",
     "title": "Rather Be",
-    "arranged_by": "Mark Brymer",
+    "arranger": "Mark Brymer",
     "composer": "Grace Chatto, Jack Patterson, Nicole Marshall, and James Napier",
     "description": "TODO",
     "showcase_only": false
@@ -481,7 +481,7 @@
   {
     "id": "mama_who_bore_me",
     "title": "Mama Who Bore Me",
-    "arranged_by": "AnnMarie Milazzo",
+    "arranger": "AnnMarie Milazzo",
     "lyrics_by": "Steven Sater",
     "composer": "Duncan Sheik",
     "description": "From the musical <em>Spring Awakening</em>.",
@@ -490,7 +490,7 @@
   {
     "id": "song_of_purple_summer",
     "title": "The Song of Purple Summer",
-    "arranged_by": "Mark Brymer",
+    "arranger": "Mark Brymer",
     "lyrics_by": "Steven Sater",
     "composer": "Duncan Sheik",
     "description": "From the musical <em>Spring Awakening</em>.",
