@@ -226,7 +226,7 @@
     "title": "Frozen (Choral Suite)",
     "composer": "Christophe Beck and Leo Birenberg",
     "lyrics_by": "Christine Hals",
-    "arranger":"Roger Emerson",
+    "arranger": "Roger Emerson",
     "description": "Composed for the 2017 Disney film \"Frozen.\" This arrangement concatenates several choral snippets scattered throughout the film: Heimr Árnadalr, Vuelie, and The Great Thaw. We begin with \"Heimr Árnadalr,\" seen during the coronation of Queen Elsa performed in the film by a red-robed, twelve-member choir shown briefly on screen. The opening title sequence of the film plays \"Vuelie\", which is later reprised as \"The Great Thaw\" as Elsa learns to dispell the cursed winter besetting Arendelle. The piece borrows from ‘yoik’ -- a traditional form of song from the Sami people.",
     "lyrics": "Verðug dróttning stór\nHjarta af gulli skína\nKronum þik med vánum, ást ok trú\nFagra, grýttur land, heimr Árnadalr\nFylgið dróttningu ljóssins",
     "lyrics_translation": "Great queen to be\nHeart of gold, shine\nWe crown you with hopes, love and faith\nBeautiful, gritty homeland Arendelle\nFollow the queen of light",
@@ -236,7 +236,7 @@
     "id": "black_is_the_color",
     "title": "Black is the Color",
     "tradition": "Appalachian Folk Song",
-    "arranger":"Roger Emerson",
+    "arranger": "Roger Emerson",
     "description": "This plaintive folk song is most associated with Appalachia, though is thought to be largely derived from Scottish ballads. This melody is attributed to John Jacob Niles circa 1941.",
     "lyrics": "Black is the color of my true love's hair\nHer lips are something wondrous fair\nThe purest eyes\nAnd the daintiest hands\nI love the ground on where she stands",
     "showcase_only": false
@@ -245,7 +245,7 @@
     "id": "loch_lomond",
     "title": "Loch Lomond",
     "tradition": "Scottish Traditional",
-    "arranger":"Jonathan Quick",
+    "arranger": "Jonathan Quick",
     "description": "Loch Lomond ('Lake of the Elms') is the largest lake in Great Britain, found in Scotland near Glasgow. Evidence suggests humans settled nearby during the neolithic era, and--somewhere in the next 5000 years--developed this ballad. The speaker pines for the beautiful landscape of home, but claims suggests zhe will only return via the \"low road\"--death, likely dying in rebellion against the English.",
     "lyrics": "O ye'll take the high road, and I'll take the low road,\nAnd I'll be in Scotland afore ye,\nBut me and my true love will never meet again,\nOn the bonnie, bonnie banks o' Loch Lomond",
     "showcase_only": false
@@ -254,7 +254,7 @@
     "id": "mlk",
     "title": "MLK",
     "composer": "U2",
-    "arranger":"Bob Chilcott",
+    "arranger": "Bob Chilcott",
     "description": "Irish rock group U2 debuted this ode to Dr. Martin Luther King Jr. on 18 October 1984.",
     "lyrics": "Sleep, sleep tonight\nAnd may your dreams be realised\nIf the thunder cloud passes rain\nSo let it rain, let it rain\nRain on him",
     "showcase_only": false
@@ -315,7 +315,7 @@
     "description": "From the musical \"Mean Girls\"",
     "showcase_only": true
   },
-    {
+  {
     "id": "honey_pie",
     "title": "Honey Pie",
     "composer": "Paul McCartney",
@@ -395,6 +395,105 @@
     "title": "Baba Yetu",
     "composer": "TODO",
     "description": "TODO",
+    "showcase_only": false
+  },
+  {
+    "id": "ngizocula",
+    "title": "Ngizocula",
+    "composer": "Thomas Yonke",
+    "description": "Published in 2021. The title means \"I will sing\" in Zulu and references the joy and resilience of making music, even in tribulation. Yonke’s composition embraces a fusion of traditional African musical elements and contemporary choral writing.",
+    "showcase_only": false
+  },
+  {
+    "id": "blackbird",
+    "title": "Blackbird",
+    "arranger": "Audrey Snyder",
+    "composer": "John Lennon and Paul McCartney",
+    "description": "A familiar ballad from The White Album (1968), Blackbird carries a message of hope and resilience. This choral arrangement preserves the song’s simplicity while expanding its harmonies, offering a fresh perspective on its enduring significance.",
+    "showcase_only": false
+  },
+  {
+    "id": "such_great_heights",
+    "title": "Such Great Heights",
+    "composer": "The Postal Service",
+    "description": "Originally released by The Postal Service in 2003, this indie anthem reached 21 on the Billboard Hot 100. It explores love and distance with poetic lyricism and shimmering melodies.",
+    "showcase_only": true
+  },
+  {
+    "id": "the_story",
+    "title": "The Story",
+    "composer": "Brandi Carlile",
+    "description": "Brandi Carlile’s raw and powerful ballad tells a deeply personal narrative of love and self-discovery. This emotionally charged performance highlights the song’s soaring vocals and evocative storytelling, bringing its heartfelt message to life.",
+    "showcase_only": true
+  },
+  {
+    "id": "yellow",
+    "title": "Yellow",
+    "composer": "Guy Berryman, Jon Buckland, Will Champion, and Chris Martin",
+    "description": "From the album <em>Parachutes</em>. Coldplay’s iconic love song is known for its dreamy, introspective lyrics and sweeping melodies. This rendition reimagines the song’s warmth and sincerity, offering a unique interpretation of its timeless message.",
+    "showcase_only": true
+  },
+  {
+    "id": "i_believe",
+    "title": "I Believe",
+    "lyrics_by": "Steven Sater",
+    "composer": "Duncan Sheik",
+    "description": "From the musical <em>Spring Awakening</em>. I Believe builds from delicate harmonies into a soaring expression of love and vulnerability. Its emotional depth and lyrical beauty make it a poignant moment in the concert program.",
+    "showcase_only": false
+  },
+  {
+    "id": "latch",
+    "title": "Latch",
+    "composer": "Sam Smith",
+    "description": "Originally recorded by Disclosure and featuring Sam Smith’s soaring vocals, Latch blends electronic and soulful elements into a mesmerizing love song. This rendition emphasizes the song’s heartfelt lyrics and passionate vocal delivery, bringing new depth to its theme of devotion.",
+    "showcase_only": true
+  },
+  {
+    "id": "rather_be",
+    "title": "Rather Be",
+    "arranger": "Mark Brymer",
+    "composer": "Grace Chatto, Jack Patterson, Nicole Marshall, and James Napier",
+    "description": "A vibrant fusion of classical strings and contemporary dance music, Rather Be became an instant hit for Clean Bandit. This rendition captures its infectious energy and uplifting lyrics, celebrating the joy of unwavering love and commitment.",
+    "showcase_only": false
+  },
+  {
+    "id": "reflection",
+    "title": "Reflection",
+    "composer": "Matthew Wilder",
+    "description": "From Disney's <em>Mulan</em>, originally performed by the great Lea Salonga. The film retells the Chinese folk story of Hua Mulan, a daughter who disguises herself as her father when he is conscripted into military service. Reflection explores themes of self-identity and acceptance.",
+    "showcase_only": false
+  },
+  {
+    "id": "i_was_here",
+    "title": "I Was Here",
+    "lyrics_by": "Lynn Ahrens",
+    "composer": "Stephen Flaherty",
+    "description": "A moving ballad from The Glorious Ones, this song reflects on the desire to leave a lasting impact.",
+    "showcase_only": false
+  },
+  {
+    "id": "im_not_that_girl",
+    "title": "I'm Not That Girl",
+    "composer": "Stephen Schwartz",
+    "description": "From the hit musical <em>Wicked</em>.  The titular witch Elphaba convinces herself that she is unworthy of love, and because of her flaws her love Fiyero will in turn always love her frenemy Galinda more.",
+    "showcase_only": true
+  },
+  {
+    "id": "mama_who_bore_me",
+    "title": "Mama Who Bore Me",
+    "arranger": "AnnMarie Milazzo",
+    "lyrics_by": "Steven Sater",
+    "composer": "Duncan Sheik",
+    "description": "From the musical <em>Spring Awakening</em>. Opening <em>Spring Awakening</em> with haunting simplicity, this song conveys a deep yearning for understanding and freedom. Its folk-inspired melody and raw emotion set the tone for the musical’s themes of sexual awakening and rebellion. Spring Awakening opened at the Eugene O'Neill Theatre on December 10, 2006.",
+    "showcase_only": false
+  },
+  {
+    "id": "song_of_purple_summer",
+    "title": "The Song of Purple Summer",
+    "arranger": "Mark Brymer",
+    "lyrics_by": "Steven Sater",
+    "composer": "Duncan Sheik",
+    "description": "From the musical <em>Spring Awakening</em>. This song symbolizes hope, transformation, and new beginnings. Its lush harmonies and poetic lyrics create a stirring and reflective closing to the program.",
     "showcase_only": false
   }
 ]

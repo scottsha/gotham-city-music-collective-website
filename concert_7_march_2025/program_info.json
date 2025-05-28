@@ -1,0 +1,51 @@
+{
+  "id": "7_march_2025",
+  "title": "Winter 2025 Choral Concert",
+  "subtitle": ["ST PAUL'S GERMAN EVANGELICAL LUTHERAN CHURCH", "7 MARCH 2025"],
+  "song_list": [
+    "i_sing_because_im_happy",
+    "we_are_the_music_makers",
+    "ngizocula",
+    "such_great_heights",
+    "the_story",
+    "yellow",
+    "latch",
+    "rather_be",
+    "blackbird",
+    "and_so_it_goes",
+    "reflection",
+    "i_was_here",
+    "mama_who_bore_me",
+    "i_believe",
+    "song_of_purple_summer"
+  ],
+  "notes" : {
+    "such_great_heights": "Performed by Ben Eshleman",
+    "the_story": "Performed by Melissa June Kosovych",
+    "latch": "Performed by Jeff Christianson",
+    "reflection": "Performed by Claudia Caceres",
+    "i_was_here": "Performed by Mike Walsh",
+    "im_not_that_girl": "Performed by Emma Dietrich",
+    "yellow": "Performed by Mofieni Iniya and Kareem Ayas"
+  },
+  "singers": [
+    "Kareem Ayas",
+    "Matthew Brandt",
+    "Claudia Caceres",
+    "Jeff Christianson",
+    "Emma Dietrich",
+    "Ben Eshleman",
+    "Matt Gershowitz",
+    "Mofieni Iniya",
+    "Katie Jones",
+    "Ariel Kaye",
+    "Melissa June Kosovych",
+    "Diana Marino",
+    "Rachel Padowicz",
+    "Kat Savina",
+    "Kevin Shapiro",
+    "Emily Sleasman",
+    "Mike Walsh",
+    "Grant White"
+  ]
+}
