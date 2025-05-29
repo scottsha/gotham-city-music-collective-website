@@ -1,0 +1,41 @@
+{
+  "id": "2025_may_29",
+  "title": "Spring 2025 Choral Showcase",
+  "subtitle": ["PS 198 ISIDOR \\& IDA STRAUS SCHOOL", "29 MAY 2025"],
+  "song_list": [
+    "i_sing_because_im_happy",
+    "vois_sur_ton_chemin",
+    "somewhere_only_we_know",
+    "when_im_64",
+    "someone_to_watch_over_me",
+    "rhapsody_for_clarinet",
+    "me_and_julio_down_by_the_school_yard",
+    "jing_ga_lye_ya",
+    "a_million_dreams",
+    "let_the_river_run"
+  ],
+  "notes" : {
+    "somewhere_only_we_know": "Performed by Mofieni Iniya",
+    "me_and_julio_down_by_the_school_yard": "Performed by Kevin Shapiro",
+    "a_million_dreams": "Soloists Claudia Caceres, Emma Dietrich, and Diana Marino",
+    "someone_to_watch_over_me": "Soloist Kat Savina",
+    "rhapsody_for_clarinet": "Performed by Laurel Stinson"
+  },
+  "singers": [
+    "Kareem Ayas",
+    "Claudia Caceres",
+    "Jeff Christianson",
+    "Alana Diaz",
+    "Emma Dietrich",
+    "Matt Gershowitz",
+    "Mofieni Iniya",
+    "Katie Jones",
+    "Ariel Kaye",
+    "Diana Marino",
+     "Victor Martinez",
+    "Rachel Padowicz",
+    "Kat Savina",
+    "Kevin Shapiro",
+    "Mike Walsh"
+  ]
+}

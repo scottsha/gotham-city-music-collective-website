@@ -8,7 +8,7 @@
 \geometry{
     paperwidth=5.5in,
     paperheight=8.5in,
-    textwidth=4.4in,
+    textwidth=4in,
     textheight=7.75in,
     top=0.6in
 }
@@ -33,22 +33,28 @@
 }
 
 %-----------%
-\newcommand{\performancepiece}[2]
-{
-        {#1} \dotfill {#2}
-}
-
 %\newcommand{\performancepiece}[2]
 %{
-%        \textbf{#1} \hfill \\
-%        \hfill{#2}
+%        {#1} \dotfill {#2}
 %}
+%
+\newcommand{\performancepiece}[2]
+{
+        \hspace*{-0.2cm} {#1} \dotfill {#2}
+}
+%\newcommand{\performancepiece}[2]
+%{
+%    \textbf{#1} \\
+%    \quad {#2}
+%}
+
 
 
 \newcommand{\logo}{
         {\includegraphics[width=0.28\textwidth]{../graphic_design_assets/bw_logo_full}}
 }
 
+\newcommand{\tunedspacefront}{\vspace{.15in}}
 \newcommand{\tunedspace}{\vspace{0.15in}}
 \newcommand{\tunedspacesmall}{\vspace{0.09in}}
 
@@ -75,57 +81,61 @@
         \tunedspacesmall
 
 
-        {\footnotesize\textbf{\sourcesansprolight{
+        {\normalsize \textbf {\sourcesansprolight{
             <SUBTITLE_REPLACE>
         }}}
 
         \tunedspacesmall
 
         {
-            \footnotesize{
+            \normalsize{
                 Extended notes available at
                 \href{https://gothamcitymusic.org/program}{gothamcitymusic.org/program}.
-
-                Please join us post-concert for a brief reception and extended after party.
             }
         }
 
-        \tunedspacesmall
-        \tunedspacesmall
+
+        \begin{center}
+            \tunedspacefront
+            \fleurons
+            \vspace{0.1in}
+        \end{center}
 
         \begin{minipage}{\textwidth}
-            \begin{flushright}
+            \begin{flushleft}
 
                 <PERFORMANCE_REPLACE>
 
-            \end{flushright}
+            \end{flushleft}
         \end{minipage}
 
-        \tunedspacesmall
-        \tunedspacesmall
+        \begin{center}
+            \vspace{0.1in}
+            \fleurons
+            \tunedspacefront
+        \end{center}
 
         {
             \textbf{\sourcesansprolight{
                 CHOIR}}
 
 
-            \begin{small}
+            \begin{normalsize}
                 Directed by
-                Mary Goebel,
-                Victor Martinez,
+                Mary Goebel
                 and
                 Laurel Stinson\\
-                Accompanied by Pianist Naoko Aita, Violinist Barbara Gao Shapiro, Guitarist Matt Gershowitz, Cellist Meg Halm, and Percussionist Zahir Lara
+                Accompanied by Pianist Naoko Aita\\
+                Percussion by Zahir Lara and Siderio Leacraft
+            \end{normalsize}
 
-            \end{small}
-
-            \vspace{-0.1in}
+            \vspace{0.0in}
 
             \begin{multicols*}{3}
                 \begin{center}
-                    \begin{small}
+                    \begin{normalsize}
                         <SINGERS_REPLACE>
-                    \end{small}
+                    \end{normalsize}
                 \end{center}
             \end{multicols*}
         }
@@ -140,7 +150,7 @@
     \begin{center}
     {\logo}
 
-        \tunedspace
+        \tunedspacesmall
 
         \begin{minipage}{4in}
 
@@ -198,6 +208,7 @@
 
                 \faInstagram{}{}  Instagram  \href{https://www.instagram.com/gotham_city_music/}{@gotham\_city\_music}
 
+
                 For performance inquiries contact
                     {\textbf{\sourcesansprolight{\href{info@gothamcitymusic.org}{info@gothamcitymusic.org}}}}
             \end{center}
@@ -214,11 +225,10 @@
                     \vspace{-0.11in}
                     \begin{multicols*}{2}
                         Marilyn and Paul Eastman\\
-                        Terika Harris\\
+                        Dr. Terika Harris\\
                         Sebastien Issa\\
                         John Goebel\\
                         Mary and Bob Rehan\\
-                        Kat Savina\\
                         Linda Stabile
                     \end{multicols*}
                 \end{small}

@@ -8,7 +8,7 @@
 \geometry{
     paperwidth=5.5in,
     paperheight=8.5in,
-    textwidth=4.4in,
+    textwidth=4in,
     textheight=7.75in,
     top=0.6in
 }
@@ -33,22 +33,28 @@
 }
 
 %-----------%
-\newcommand{\performancepiece}[2]
-{
-        {#1} \dotfill {#2}
-}
-
 %\newcommand{\performancepiece}[2]
 %{
-%        \textbf{#1} \hfill \\
-%        \hfill{#2}
+%        {#1} \dotfill {#2}
 %}
+%
+\newcommand{\performancepiece}[2]
+{
+        \hspace*{-0.2cm} {#1} \dotfill {#2}
+}
+%\newcommand{\performancepiece}[2]
+%{
+%    \textbf{#1} \\
+%    \quad {#2}
+%}
+
 
 
 \newcommand{\logo}{
         {\includegraphics[width=0.28\textwidth]{../graphic_design_assets/bw_logo_full}}
 }
 
+\newcommand{\tunedspacefront}{\vspace{.15in}}
 \newcommand{\tunedspace}{\vspace{0.15in}}
 \newcommand{\tunedspacesmall}{\vspace{0.09in}}
 
@@ -75,57 +81,98 @@
         \tunedspacesmall
 
 
-        {\footnotesize\textbf{\sourcesansprolight{
-            <SUBTITLE_REPLACE>
+        {\normalsize \textbf {\sourcesansprolight{
+            PS 198 ISIDOR \& IDA STRAUS SCHOOL\\29 MAY 2025
         }}}
 
         \tunedspacesmall
 
         {
-            \footnotesize{
+            \normalsize{
                 Extended notes available at
                 \href{https://gothamcitymusic.org/program}{gothamcitymusic.org/program}.
-
-                Please join us post-concert for a brief reception and extended after party.
             }
         }
 
-        \tunedspacesmall
-        \tunedspacesmall
+
+        \begin{center}
+            \tunedspacefront
+            \fleurons
+            \vspace{0.1in}
+        \end{center}
 
         \begin{minipage}{\textwidth}
-            \begin{flushright}
+            \begin{flushleft}
 
-                <PERFORMANCE_REPLACE>
+                \performancepiece {\textbf{I Sing Because I'm Happy}} {\mbox{Charles H. Gabriel}. \mbox{Arr. Kenneth Paden and Rollo Dilworth}}\\
 
-            \end{flushright}
+\performancepiece {\textbf{Vois Sur Ton Chemin}} {\mbox{Bruno Coulais and Christophe Barratier}}\\
+
+\performancepiece {\textbf{Somewhere Only We Know}} {\mbox{Keane}. Performed by Mofieni Iniya}\\
+
+\performancepiece {\textbf{When I'm Sixty-Four}} {\mbox{Paul McCartney and John Lennon}. \mbox{Arr. Tom Gentry}}\\
+
+\performancepiece {\textbf{Someone to Watch Over Me}} {\mbox{George and Ira Gershwin}. \mbox{Arr. Jay Althouse}. Soloist Kat Savina}\\
+
+\performancepiece {\textbf{Rhapsody for Clarinet}} {\mbox{Wilson Osborne}. Performed by Laurel Stinson}\\
+
+\performancepiece {\textbf{Me and Julio Down by the School Yard}} {\mbox{Paul Simon}. Performed by Kevin Shapiro}\\
+
+\performancepiece {\textbf{Jing-ga-lye-ya}} {\mbox{Bruce Sled}}\\
+
+\performancepiece {\textbf{A Million Dreams}} {\mbox{Benj Pasek and Justin Paul}. \mbox{Arr. Mac Huff}. Soloists Claudia Caceres, Emma Dietrich, and Diana Marino}\\
+
+\performancepiece {\textbf{Let the River Run}} {\mbox{Carly Simon}. \mbox{Arr. Craig Hella Johnson}}\\
+
+
+            \end{flushleft}
         \end{minipage}
 
-        \tunedspacesmall
-        \tunedspacesmall
+        \begin{center}
+            \vspace{0.1in}
+            \fleurons
+            \tunedspacefront
+        \end{center}
 
         {
             \textbf{\sourcesansprolight{
                 CHOIR}}
 
 
-            \begin{small}
+            \begin{normalsize}
                 Directed by
-                Mary Goebel,
-                Victor Martinez,
+                Mary Goebel
                 and
                 Laurel Stinson\\
-                Accompanied by Pianist Naoko Aita, Violinist Barbara Gao Shapiro, Guitarist Matt Gershowitz, Cellist Meg Halm, and Percussionist Zahir Lara
+                Accompanied by Pianist Naoko Aita\\
+                Percussion by Zahir Lara and Siderio Leacraft
+            \end{normalsize}
 
-            \end{small}
-
-            \vspace{-0.1in}
+            \vspace{0.0in}
 
             \begin{multicols*}{3}
                 \begin{center}
-                    \begin{small}
-                        <SINGERS_REPLACE>
-                    \end{small}
+                    \begin{normalsize}
+                        {Kareem Ayas}\\
+{Claudia Caceres}\\
+{Jeff Christianson}\\
+{Alana Diaz}\\
+{Emma Dietrich}\vfill\null
+\columnbreak
+
+{Matt Gershowitz}\\
+{Mofieni Iniya}\\
+{Katie Jones}\\
+{Ariel Kaye}\\
+{Diana Marino}\vfill\null
+\columnbreak
+
+{Victor Martinez}\\
+{Rachel Padowicz}\\
+{Kat Savina}\\
+{Kevin Shapiro}\\
+{Mike Walsh}
+                    \end{normalsize}
                 \end{center}
             \end{multicols*}
         }
@@ -140,7 +187,7 @@
     \begin{center}
     {\logo}
 
-        \tunedspace
+        \tunedspacesmall
 
         \begin{minipage}{4in}
 
@@ -198,6 +245,7 @@
 
                 \faInstagram{}{}  Instagram  \href{https://www.instagram.com/gotham_city_music/}{@gotham\_city\_music}
 
+
                 For performance inquiries contact
                     {\textbf{\sourcesansprolight{\href{info@gothamcitymusic.org}{info@gothamcitymusic.org}}}}
             \end{center}
@@ -214,11 +262,10 @@
                     \vspace{-0.11in}
                     \begin{multicols*}{2}
                         Marilyn and Paul Eastman\\
-                        Terika Harris\\
+                        Dr. Terika Harris\\
                         Sebastien Issa\\
                         John Goebel\\
                         Mary and Bob Rehan\\
-                        Kat Savina\\
                         Linda Stabile
                     \end{multicols*}
                 \end{small}
