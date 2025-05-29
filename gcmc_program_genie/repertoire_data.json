@@ -495,6 +495,65 @@
     "composer": "Duncan Sheik",
     "description": "From the musical <em>Spring Awakening</em>. This song symbolizes hope, transformation, and new beginnings. Its lush harmonies and poetic lyrics create a stirring and reflective closing to the program.",
     "showcase_only": false
+  },
+  {
+    "id": "vois_sur_ton_chemin",
+    "title": "Vois Sur Ton Chemin",
+    "composer": "Bruno Coulais and Christophe Barratier",
+    "description": "From the 2004 film <em>Les Choristes</em>. \"Look to Your Path\" may be known to many as a techno remix that charted number one in the 2023 German pop charts.",
+    "showcase_only": false
+  },
+  {
+    "id": "somewhere_only_we_know",
+    "title": "Somewhere Only We Know",
+    "composer": "Keane",
+    "description": "From alt-rock band Keane's 2004 debut album Hopes and Fears.",
+    "showcase_only": true
+  },
+  {
+    "id": "when_im_64",
+    "title": "When I'm Sixty-Four",
+    "composer": "Paul McCartney and John Lennon",
+    "arranger": "Tom Gentry",
+    "description": "First released on the Beatles' 1967 album <em>Sgt. Pepper's Lonely Hearts Club Band</em>.",
+    "showcase_only": false
+  },
+  {
+    "id": "someone_to_watch_over_me",
+    "title": "Someone to Watch Over Me",
+    "composer": "George and Ira Gershwin",
+    "arranger": "Jay Althouse",
+    "description": "Written for the musical <em>Oh, Kay!</em> More than 1,800 recordings of the song have been released by artists of every stripe, Sinatra, Sinéad O'Connor, Willie Nelson, and Amy Winehouse among them.",
+    "showcase_only": false
+  },
+  {
+    "id": "me_and_julio_down_by_the_school_yard",
+    "title": "Me and Julio Down by the School Yard",
+    "composer": "Paul Simon",
+    "description": "Released in 1972, Simon makes many references to his childhood in Queens, N.Y.",
+    "showcase_only": true
+  },
+  {
+    "id": "jing_ga_lye_ya",
+    "title": "Jing-ga-lye-ya",
+    "composer": "Bruce Sled",
+    "description": "The lyrics are a beautiful, rythmic nonsense.",
+    "showcase_only": false
+  },
+  {
+    "id": "a_million_dreams",
+    "title": "A Million Dreams",
+    "composer": "Benj Pasek and Justin Paul",
+    "arranger": "Mac Huff",
+    "description": "From 2017 film <em>The Greatest Showman</em> dramatizing the life of circus kingpin P. T. Barnum, apocryphally attributed with the adage \"there's a sucker born every minute\"",
+    "showcase_only": false
+  },
+  {
+    "id": "rhapsody_for_clarinet",
+    "title": "Rhapsody for Clarinet",
+    "composer": "Wilson Osborne",
+    "description": "Composed as a bassoon study in 1958, it remains the best known work of American composer Willson Osborne.",
+    "showcase_only": true
   }
 ]
 

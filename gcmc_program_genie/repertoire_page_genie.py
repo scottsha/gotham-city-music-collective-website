@@ -249,5 +249,25 @@ def example_generate_7march2025():
         page_content=content
     )
 
+def example_generate_2025may29():
+    show_data = '../concert_2025_may_29/program_info.json'
+    with open(show_data, 'r') as ff:
+        program_info = json.load(ff)
+    with open("html_blocks/performance_program_template_7_march_2025.html", 'r') as ff:
+        template = ff.read()
+    genie = RepertoirePageGenerator(
+        html_template=template,
+        program_info=program_info,
+        program_leaflet_file_name='gcmc_2025_may_29_program.pdf',
+    )
+    content = genie.generate_html_str()
+    with open("tmp.html", "w") as ff:
+        ff.write(content)
+    hurl_to_wordpress_site(
+        page_title_to_check='2025_may_29',
+        page_content=content
+    )
+
+
 if __name__ == "__main__":
-    example_generate_7march2025()
+    example_generate_2025may29()
