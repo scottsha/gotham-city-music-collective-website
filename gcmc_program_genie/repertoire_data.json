@@ -2,7 +2,7 @@
   {
     "id": "oi_u_luzi",
     "title": "Ой у лузі червона калина",
-    "tradition": "Traditional Ukrainian folk",
+    "composer": "Traditional Ukrainian folk",
     "arranger": "Stepan Charnetsky",
     "description": "This patriotic Ukranian march was arranged by Stepan Charnetsky from traditional march elements in 1914 as a memorial to veterans of World War I. The song has ever since attracted both inspiration and political censorship. Singing  <em>Oi u Luzi</em> in the wrong crowd could get the singer  fined, beaten, or even imprisoned by anti-Ukrainian-nationalist factions in Ukraine and Russia. The song was vehemently repressed during the Soviet era (1919-1991), then following the Russian annexation of Crimea in 2014, and after the Russian invasion of Ukraine in 2022.\nThe song sings of a Ukrainian national symbol&#8211;the <a href=\"https://en.wikipedia.org/wiki/Viburnum_opulus\">red viburnum</a>, a shrub with bright red berries.",
     "lyrics_title": "Oi u Luzi",
@@ -90,7 +90,8 @@
     "title": "Let the River Run",
     "composer": "Carly Simon",
     "arranger": "Craig Hella Johnson",
-    "description": "Simon wrote, composed, and performed this number as the main theme of <em><a href=\"https://en.wikipedia.org/wiki/Working_Girl\" data-type=\"URL\" data-id=\"https://en.wikipedia.org/wiki/Working_Girl\">Working Girl</a></em> in 1988, earning Simon an Oscar, Golden Globe, and Grammy in one fell swoop. Simon says she pieced the lyrics together from the script and the poetry of Whitman and Blake."
+    "description": "Simon wrote, composed, and performed this number as the main theme of <em><a href=\"https://en.wikipedia.org/wiki/Working_Girl\" data-type=\"URL\" data-id=\"https://en.wikipedia.org/wiki/Working_Girl\">Working Girl</a></em> in 1988, earning Simon an Oscar, Golden Globe, and Grammy in one fell swoop. As of 2025 only 16 songs have won this \"Triple Crown\" of awards. Simon says she pieced the lyrics together from the script and the poetry of Whitman and Blake.",
+    "lyrics": "Let the river run,\nlet all the dreamers\nwake the nation.\n\nCome, the New Jerusalem.\n\nSilver cities rise,\nthe morning lights\nthe streets that meet them,\nand sirens\ncall them on\nwith a song.\n\nIt's asking for the taking.\nTrembling, shaking.\nOh, my heart is aching.\n\nWe're coming to the edge,\nrunning on the water,\ncoming through the fog,\nyour sons and daughters.\n\nLet the river run,\nlet all the dreamers\nwake the nation.\n\nCome, the New Jerusalem."
   },
   {
     "id": "we_are_the_music_makers",
@@ -363,7 +364,7 @@
     "id": "niska_banja",
     "title": "Niska Banja",
     "arranger": "Nick Page",
-    "traditional": "Traditional Romani Dance",
+    "composer": "Traditional Romani Dance",
     "description": "",
     "showcase_only": false
   },
@@ -371,17 +372,9 @@
     "id": "the_paster",
     "title": "The Pasture",
     "composer": "Z. Randall Stroope",
-    "lyrics=by": "Robert Frost",
+    "lyrics_by": "Robert Frost",
     "description": "Number 2 from Where the Earth Meets the Sky.",
     "showcase_only": false
-  },
-  {
-    "id": "mezzo_placeholder",
-    "title": "Unknown Mezzo Song",
-    "composer": "A Human",
-    "lyrics=by": "Robert Frost",
-    "description": "",
-    "showcase_only": true
   },
   {
     "id": "bridge_over_troubled_water",
@@ -501,14 +494,17 @@
     "title": "Vois Sur Ton Chemin",
     "composer": "Bruno Coulais and Christophe Barratier",
     "description": "From the 2004 film <em>Les Choristes</em>. \"Look to Your Path\" may be known to many as a techno remix that charted number one in the 2023 German pop charts.",
-    "showcase_only": false
+    "showcase_only": false,
+    "lyrics": "Vois sur ton chemin\nGamins oubliés égarés\nDonne-leur la main pour les mener\nVers d'autres lendemains\n\nDonne-leur la main pour les mener\nVers d'autres lendemains\n\nSens au cœur de la nuit (Sens au cœur de la nuit)\nL'onde d'espoir\nArdeur de la vie (L'onde d'espoir)\nSentier de gloire\n\nArdeur de la vie, de la vie\nSentier de gloire, sentier de gloire\n\nBonheurs enfantins\nTrop vite oubliés, effacés\nUne lumière dorée brille sans fin\nTout au bout du chemin",
+    "lyrics_translation": "See on your path\nBoys, forgotten, lost\nGive them your hand to lead them\nTo a different tomorrow\n\nGive them your hand to lead them\nTo a different tomorrow\n\nFeel at the heart of the night (Feel at the heart of the night)\nThe wave of hope\nArdor of life (The wave of hope)\nPath of glory\n\nArdor of life, of life\nPath of glory, path of glory\n\nChildish happiness\nForgotten too soon, erased\nA golden light glows without end\nAt the very end of the road"
   },
   {
     "id": "somewhere_only_we_know",
     "title": "Somewhere Only We Know",
     "composer": "Keane",
     "description": "From alt-rock band Keane's 2004 debut album Hopes and Fears.",
-    "showcase_only": true
+    "showcase_only": true,
+    "lyrics": "I walked across an empty land\nI knew the pathway like the back of my hand\nI felt the earth beneath my feet\nSat by the river and it made me complete\n\nOh, simple thing, where have you gone?\nI'm getting old and I need something to rely on\nSo tell me when you're gonna let me in\nI'm getting tired and I need somewhere to begin\n\nI came across a fallen tree\nI felt the branches of it looking at me\nIs this the place we used to love?\nIs this the place that I've been dreaming of?\n\nOh, simple thing, where have you gone?\nI'm getting old and I need something to rely on\nSo tell me when you're gonna let me in\nI'm getting tired and I need somewhere to begin\n\nAnd if you have a minute, why don't we go\nTalk about it somewhere only we know?\nThis could be the end of everything\nSo why don't we go somewhere only we know?\nSomewhere only we know\n\nOh, simple thing, where have you gone?\nI'm getting old and I need something to rely on\nSo tell me when you're gonna let me in\nI'm getting tired and I need somewhere to begin\n\nAnd if you have a minute, why don't we go\nTalk about it somewhere only we know?\nThis could be the end of everything\nSo why don't we go? So why don't we go?\n\nOoh-ooh-ooh\nOh-oh-oh\n\nThis could be the end of everything\nSo why don't we go somewhere only we know?\nSomewhere only we know\nSomewhere only we know"
   },
   {
     "id": "when_im_64",
@@ -516,37 +512,42 @@
     "composer": "Paul McCartney and John Lennon",
     "arranger": "Tom Gentry",
     "description": "First released on the Beatles' 1967 album <em>Sgt. Pepper's Lonely Hearts Club Band</em>.",
-    "showcase_only": false
+    "showcase_only": false,
+    "lyrics": "When I get older, losing my hair\nMany years from now\nWill you still be sending me a valentine\nBirthday greetings, bottle of wine?\nIf I'd been out till quarter to three\nWould you lock the door?\nWill you still need me, will you still feed me\nWhen I'm sixty-four?\n\nOooh, you'll be older too (Aaaah)\nAnd if you say the word\nI could stay with you\n\nI could be handy mending a fuse\nWhen your lights have gone\nYou can knit a sweater by the fireside\nSunday mornings go for a ride\nDoing the garden, digging the weeds\nWho could ask for more?\nWill you still need me, will you still feed me\nWhen I'm sixty-four?\n\nEvery summer, we can rent a cottage\nIn the Isle of Wight, if it's not too dear\nWe shall scrimp and save (We shall scrimp and save)\nGrandchildren on your knee\nVera, Chuck, and Dave\n\nSend me a postcard, drop me a line\nStating point of view\nIndicate precisely what you mean to say\nYours sincerely, wasting away\nGive me your answer, fill in a form\nMine for evermore\nWill you still need me, will you still feed me\nWhen I'm sixty-four? Woo"
   },
   {
     "id": "someone_to_watch_over_me",
     "title": "Someone to Watch Over Me",
     "composer": "George and Ira Gershwin",
     "arranger": "Jay Althouse",
-    "description": "Written for the musical <em>Oh, Kay!</em> More than 1,800 recordings of the song have been released by artists of every stripe, Sinatra, Sinéad O'Connor, Willie Nelson, and Amy Winehouse among them.",
-    "showcase_only": false
+    "description": "Written for the musical <em>Oh, Kay!</em> More than 1,800 recordings of the song have been released by artists of every stripe, Frank Sinatra, Ella Fitzgerald, Sinéad O'Connor, Willie Nelson, and Amy Winehouse among them.",
+    "showcase_only": false,
+    "lyrics": "There's a saying old, says that love is blind\nStill, we're often told, \"Seek and ye shall find\"\nSo I'm going to seek a certain lad I've had in mind\nLooking everywhere, haven't found him yet\nHe's the big affair I cannot forget\nOnly man I ever think of with regret\nI'd like to add his initial to my monogram\nTell me, where is the shepherd for this lost lamb?\n\nThere's a somebody I'm longing to see\nI hope that he\nTurns out to be\nSomeone who'll watch over me\nI'm a little lamb who's lost in the wood\nI know I could\nAlways be good\nTo one who'll watch over me\nAlthough he may not be the man some\nGirls think of as handsome\nTo my heart he carries the key\nWon't you tell him, please, to put on some speed\nFollow my lead?\nOh, how I need\nSomeone to watch over me"
   },
   {
     "id": "me_and_julio_down_by_the_school_yard",
     "title": "Me and Julio Down by the School Yard",
     "composer": "Paul Simon",
     "description": "Released in 1972, Simon makes many references to his childhood in Queens, N.Y.",
-    "showcase_only": true
+    "showcase_only": true,
+    "lyrics": "The mama pajama rolled out of bed\nAnd she ran to the police station\nWhen the papa found out, he began to shout\nAnd he started the investigation\n\nIt's against the law, it was against the law\nWhat the mama saw, it was against the law\n\nThe mama looked down and spit on the ground\nEvery time my name gets mentioned\nThe papa said \"Oy, if I get that boy\nI'm gonna stick him in the house of detention\"\n\nWell I'm on my way\nI don't know where I'm going\nI'm on my way\nI'm taking my time but I don't know where\nGoodbye to Rosie, the Queen of Corona\nSee you, me and Julio down by the schoolyard\nSee you, me and Julio down by the schoolyard\n\nWoah, in a couple of days, they come and take me away\nBut the press let the story leak\nNow when the radical priest come to get me released\nWe was all on the cover of Newsweek\n\nAnd I'm on my way\nI don't know where I'm going\nI'm on my way\nI'm taking my time but I don't know where\nGoodbye to Rosie, the Queen of Corona\nSee you, me and Julio down by the schoolyard"
   },
   {
     "id": "jing_ga_lye_ya",
     "title": "Jing-ga-lye-ya",
     "composer": "Bruce Sled",
-    "description": "The lyrics are a beautiful, rythmic nonsense.",
-    "showcase_only": false
+    "description": "The lyrics are a beautiful, rythmic, and compelling. They are also largely nonsense syllables.",
+    "showcase_only": false,
+    "lyrics": "Ji bu li, ji bu li, ji bu li\nJing-ga-lye-ya\nHello, hello, Marion, high up a na carry on\nWhere, o where, o did you go?"
   },
   {
     "id": "a_million_dreams",
     "title": "A Million Dreams",
     "composer": "Benj Pasek and Justin Paul",
     "arranger": "Mac Huff",
-    "description": "From 2017 film <em>The Greatest Showman</em> dramatizing the life of circus kingpin P. T. Barnum, apocryphally attributed with the adage \"there's a sucker born every minute\"",
-    "showcase_only": false
+    "description": "From 2017 film <em>The Greatest Showman</em> dramatizing the life of circus kingpin P. T. Barnum, apocryphally attributed with the adage \"there's a sucker born every minute.\"",
+    "showcase_only": false,
+    "lyrics": "I close my eyes and I can see\nA world that's waiting up for me\nThat I call my own\nThrough the dark, through the door\nThrough where no one's been before\nBut it feels like home\n\nThey can say, they can say it all sounds crazy\nThey can say, they can say I've lost my mind\nI don't care, I don't care, so call me crazy\nWe can live in a world that we design\n\n'Cause every night I lie in bed\nThe brightest colors fill my head\nA million dreams are keepin' me awake\nI think of what the world could be\nA vision of the one I see\nA million dreams is all it's gonna take\nOh, a million dreams for the world we're gonna make\n\nThere's a house we can build\nEvery room inside is filled\nWith things from far away\nSpecial things I compile\nEach one there to make you smile\nOn a rainy day"
   },
   {
     "id": "rhapsody_for_clarinet",
