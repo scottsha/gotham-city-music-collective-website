@@ -56,7 +56,7 @@ class ProgramGenerator:
         note = self.program_info.get("notes", {}).get(song_id)
         if note:
             about_strs.append(
-                r"\mbox{" + note + r"}"
+                note
             )
         about_str = ". ".join(about_strs)
         title = r"\textbf{" + song_info.get('title') + r"}"
@@ -143,5 +143,5 @@ class ProgramGenerator:
 
 
 if __name__ == "__main__":
-    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_7_march_2025")
+    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_2025_may_29")
     genie.generate()
