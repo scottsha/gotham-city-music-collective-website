@@ -143,5 +143,5 @@ class ProgramGenerator:
 
 
 if __name__ == "__main__":
-    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_2025_may_29")
+    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_2025_nov_14")
     genie.generate()
