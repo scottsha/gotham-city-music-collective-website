@@ -576,18 +576,13 @@
   {
     "id": "credo",
     "title": "Credo: Mass in C minor",
-    "composer": "Mozart",
+    "composer": "Wolfgang Amadeus Mozart",
     "arranger": "Henry Gibbons"
   },
   {
     "id": "festival_sanctus",
     "title": "Festival Sanctus",
     "composer": "John Leavitt"
-  },
-  {
-    "id": "credo",
-    "title": "Credo",
-    "composer": "Mozart"
   },
   {
     "id": "hallelujah_cohen",
