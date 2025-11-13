@@ -3,18 +3,21 @@
   "title": "Mixtape Mass",
   "subtitle": ["BRICK PRESBYTERIAN CHURCH", "14 NOV 2025"],
   "song_list": [
-    "agnus_dei",
-    "baba_yetu",
     "antiphonal_kyrie",
+    "salmo_150",
     "gloria",
-    "benedictus",
     "credo",
-    "festival_sanctus",
+    "benedictus",
     "hallelujah_cohen",
     "halleluyah_silver",
-    "salmo_150"
+    "festival_sanctus",
+    "baba_yetu",
+    "agnus_dei"
   ],
   "notes" : {
+    "gloria": "Soloist Jeff Christianson",
+    "baba_yetu": "Soloists Harris Manganiello, Abraham Thomas, and Mike Walsh",
+    "hallelujah_cohen": "Performed by Kat Savina"
   },
   "singers": [
     "Sara Birmingham",
