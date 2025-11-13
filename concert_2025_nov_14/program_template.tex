@@ -8,7 +8,7 @@
 \geometry{
     paperwidth=5.5in,
     paperheight=8.5in,
-    textwidth=4in,
+    textwidth=4.5in,
     textheight=7.75in,
     top=0.6in
 }
@@ -19,7 +19,7 @@
 
 \usepackage{fontspec}
 \usepackage[default]{sourcesanspro}
-
+\usepackage{svg}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=false,
@@ -73,167 +73,173 @@
 
 
 \begin{document}
-    \begin{center}
+    \begin{minipage}{100mm}
 
-        \logo
-
-        \tunedspacesmall
+        \begin{center}
 
 
-        {\normalsize \textbf {\sourcesansprolight{
-            <SUBTITLE_REPLACE>
-        }}}
+            \logo
 
-        \tunedspacesmall
+            \tunedspacesmall
 
-        {
-            \normalsize{
-                {Please join us post-concert for a reception at Olde City on {93rd \& 3rd.}}\\
+
+            {\normalsize \textbf {\sourcesansprolight{
+                <SUBTITLE_REPLACE>
+            }}}
+
+            \tunedspacesmall
+
+            {
+                \normalsize{
+                        {Please join us post-concert for a reception at Olde City on {93rd \& 3rd.}}\\
+                }
             }
-        }
 
 
-        \begin{center}
-            \tunedspacefront
-            \fleurons
-            \vspace{0.1in}
+            \begin{center}
+                \tunedspacefront
+                \fleurons
+                \vspace{0.1in}
+            \end{center}
+
+            \begin{minipage}{\textwidth}
+                \begin{flushleft}
+
+                    <PERFORMANCE_REPLACE>
+
+                \end{flushleft}
+            \end{minipage}
+
+            \begin{center}
+                \vspace{0.1in}
+                \fleurons
+                \tunedspacefront
+            \end{center}
+
+                {
+                \textbf{\sourcesansprolight{
+                    CHOIR}}
+
+
+                \begin{normalsize}
+                    Directed by
+                    Mary Goebel,
+                    Victor Martinez,
+                    and
+                    Laurel Stinson\\
+                    Accompanied by Naoko Aita
+                \end{normalsize}
+
+                \vspace{-0.1in}
+
+                \begin{multicols*}{3}
+                    \begin{center}
+                        \begin{normalsize}
+                            <SINGERS_REPLACE>
+                        \end{normalsize}
+                    \end{center}
+                \end{multicols*}
+            }
         \end{center}
 
-        \begin{minipage}{\textwidth}
-            \begin{flushleft}
+    \end{minipage}
 
-                <PERFORMANCE_REPLACE>
-
-            \end{flushleft}
-        \end{minipage}
-
-        \begin{center}
-            \vspace{0.1in}
-            \fleurons
-            \tunedspacefront
-        \end{center}
-
-        {
-            \textbf{\sourcesansprolight{
-                CHOIR}}
-
-
-            \begin{normalsize}
-                Directed by
-                Mary Goebel,
-                Victor Martinez,
-                and
-                Laurel Stinson\\
-                Accompanied by Naoko Aita
-            \end{normalsize}
-
-            \vspace{-0.1in}
-
-            \begin{multicols*}{3}
-                \begin{center}
-                    \begin{normalsize}
-                        <SINGERS_REPLACE>
-                    \end{normalsize}
-                \end{center}
-            \end{multicols*}
-        }
-\end{center}
-
-\pagebreak
+    \pagebreak
 
 % % % % % % % % %
 % PROGRAM BACK  %
 % % % % % % % % %
 
-\begin{center}
-{\logo}
+    \begin{center}
+    {\logo}
 
-\tunedspacesmall
+        \tunedspacesmall
 
-\begin{minipage}{4in}
+        \begin{minipage}{110mm}
+            \vspace{3mm}
 
-\begin{center}
-{\textbf{\sourcesansprolight{EXTENDED PROGRAM NOTES}}}
+            \begin{footnotesize}
+                GCMC is a non-profit organization advocating for excellence in community music.
+                We join non-professional music groups into a mutually supportive foundation aiming
+                to strengthen the future and accessibility of community music.
+                We connect students, amateur musicians, and experienced professional educators.
+                Everybody should have the opportunity to learn and make music!
+                We are entirely volunteer run and open to all.
+                Will you help support our mission?
+                Here are some ways!
+            \end{footnotesize}
 
-\vspace{0.1in}
+            \vspace{-1mm}
 
-{\includegraphics[width=0.2\textwidth]{../graphic_design_assets/gotham_city_music_collective_program.png}}
+            \begin{center}
+            {\textbf{\sourcesansprolight{JOIN US!}}}
+            \end{center}
+            \vspace{-4mm}
 
-\href{https://gothamcitymusic.org/program}{gothamcitymusic.org/program}
-\end{center}
+            \begin{center}
+            {\includesvg[width=0.2\textwidth]{../graphic_design_assets/gotham_city_music_join.svg}}
 
-\begin{small}
-GCMC is a non-profit organization advocating for excellence in community music.
-We join non-professional music groups into a mutually supportive foundation aiming
-to strengthen the future and accessibility of community music.
-We connect students, amateur musicians, and experienced professional educators.
-Everybody should have the opportunity to learn and make music!
-We are entirely volunteer run and open to all.
-Will you help support our mission?
-Here are some ways!
-\end{small}
+                \vspace{-3mm}
 
-\begin{center}
-{\textbf{\sourcesansprolight{JOIN US!}}}
-\end{center}
+                \begin{footnotesize}
+                    \href{https://gothamcitymusic.org/join}{gothamcitymusic.org/join}
+                \end{footnotesize}
 
-\vspace{-0.1in}
+                \vspace{1mm}
 
-\begin{small}
-Whether classically trained or new to singing, come grow our community with us!
-Rehearsal begins soon for our next choral concert cycle.
-\textbf{Winter Caroling rehearsals run 6:30-8:30 pm on Dec 4 and 11, and 2-4 pm on Dec 6.}
-Visit {\href{gothamcitymusic.org/join}{gothamcitymusic.org/join}} to sign up!
-Prefer the bassoon?
-Help us build our instrumental music groups!
-Find out what GCMC can do for your music group.
-\end{small}
+                \begin{small}
+                    \textbf{Winter Caroling} rehearsal 6:30-8:30 pm on Dec 4 \& 11, 2-4 pm on Dec 6.
+                \end{small}
 
-\begin{center}
-{\textbf{\sourcesansprolight{DONATE}}}
-\end{center}
-
-\vspace{-0.1in}
-
-\begin{small}
-Your tax-deductible gift helps make community music performance accessible to everyone by providing music scores, rehearsal space, and performance opportunities.\\
-\end{small}
+                \begin{small}
+                    \textbf{Spring Cycle} rehearsal Thursdays 6:30-8:30 pm Jan 15 to April 16.
+                    \mbox{Concert on April 17.}
+                \end{small}
 
 
-Venmo \href{https://account.venmo.com/u/GothamCityMusic}{@GothamCityMusic} or visit \textbf{\sourcesansprolight{\href{https://gothamcitymusic.org/donate}{gothamcitymusic.org/donate}}}
-
-\begin{center}
-{\textbf{\sourcesansprolight{FOLLOW US}}}
-
-\faInstagram{}{}  Instagram  \href{https://www.instagram.com/gotham_city_music/}{@gotham\_city\_music}
+            \end{center}
 
 
-For performance inquiries contact
-{\textbf{\sourcesansprolight{\href{info@gothamcitymusic.org}{info@gothamcitymusic.org}}}}
-\end{center}
 
-\begin{center}
-{\textbf{\sourcesansprolight{SPECIAL THANKS TO}}}
-\\
-%                \vspace{-0.1in}
-%                \href{https://www.spinorphotos.com/}{Spinor Photos}
-%                \faInstagram{}{} \href{https://www.instagram.com/spinorphotos}{@spinorphotos}\\
-%                \href{https://www.successacademies.org/}{Success Academy Charter Schools}
 
-\begin{small}
-\vspace{-0.11in}
-\begin{multicols*}{2}
-Marilyn and Paul Eastman\\
-Dr. Terika Harris\\
-Sebastien Issa\\
-Dr. John Goebel\\
-Mary and Bob Rehan\\
-Linda Stabile
-\end{multicols*}
-\end{small}
-\end{center}
 
-\end{minipage}
 
-\end{center}
+            \begin{center}
+            {\textbf{\sourcesansprolight{WASHINGTON HEIGHTS WINDS}}}
+            \end{center}
+            \vspace{-4mm}
+
+            \begin{center}
+            {\includesvg[width=0.2\textwidth]{../graphic_design_assets/washington_heights_winds.svg}}
+            \end{center}
+
+            \vspace{-3mm}
+            \begin{footnotesize}
+                Washington Heights Winds is an inter-generational, non-auditioned community of bands that brings together students and musicians from around uptown Manhattan and the Bronx—a place to learn, mentor, and connect.
+            \end{footnotesize}
+
+
+%            \vspace{-3mm}
+
+            \begin{center}
+            {\textbf{\sourcesansprolight{DONATE}}}
+            \end{center}
+            \vspace{-1mm}
+            \begin{footnotesize}
+                Your tax-deductible gift helps make community music performance accessible to everyone by providing music scores, rehearsal space, and performance opportunities.
+                Venmo \href{https://account.venmo.com/u/GothamCityMusic}{@GothamCityMusic} or visit \textbf{\sourcesansprolight{\href{https://gothamcitymusic.org/donate}{gothamcitymusic.org/donate}}}
+            \end{footnotesize}
+
+
+            \begin{center}
+            {\textbf{\sourcesansprolight{FOLLOW US}}}
+
+                \faInstagram{}{}  Instagram  \href{https://www.instagram.com/gotham_city_music/}{@gotham\_city\_music}
+                \href{https://www.instagram.com/whwinds/}{@whwinds}
+            \end{center}
+
+
+        \end{minipage}
+
+    \end{center}
 \end{document}
