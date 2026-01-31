@@ -1,45 +1,52 @@
-from pdfrw import PdfReader, PdfWriter, PageMerge
+from pdfrw import PdfReader, PdfWriter, PageMerge, PdfDict
 from reportlab.lib.units import inch
 
 def merge_pages_with_pdfrw(input_pdf_path, output_pdf_path):
-    # Read the input PDF
     reader = PdfReader(input_pdf_path)
     pages = reader.pages
 
     if len(pages) != 2:
         raise ValueError("Input PDF must have exactly two pages.")
 
-    # Page dimensions in points
+    # Page dimensions (letter landscape: 11 x 8.5 inches)
     full_width = 11 * inch
     height = 8.5 * inch
 
-    # Create a new blank page (11 x 8.5 inches)
-    output_page = PageMerge().add()  # Empty canvas
+    # Create a blank page using a PDF dictionary
+    blank_page = PdfDict(
+        Type="/Page",
+        MediaBox=[0, 0, full_width, height],
+        Contents=[],
+        Resources=PdfDict()
+    )
 
-    # Merge first page on the left
-    left = PageMerge(pages[0])[0]
+    # Start merging into this blank page
+    merger = PageMerge(blank_page)
+
+    # Left page
+    left = PageMerge().add(pages[0])[0]
     left.x = 0
     left.y = 0
-    output_page.add(left)
+    merger.add(left)
 
-    # Merge second page on the right
-    right = PageMerge(pages[1])[0]
+    # Right page
+    right = PageMerge().add(pages[1])[0]
     right.x = 5.5 * inch
     right.y = 0
-    output_page.add(right)
+    merger.add(right)
 
-    # Finalize merged page
-    merged = output_page.render()
+    # Render finished page
+    merger.render()
 
-    # Write to output PDF
-    writer = PdfWriter(output_pdf_path)
-    writer.addpage(merged)
-    writer.write()
+    # Write output
+    writer = PdfWriter()
+    writer.addpage(blank_page)
+    writer.write(output_pdf_path)
 
 
 if __name__ == '__main__':
     # Path to the input PDF with two pages
-    input_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gcmc_2025_may_29_program.pdf'
+    input_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gcmc_2025_nov_14_program_v4.pdf'
     # Path to the output combined PDF
-    output_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gcmc_2025_may_29_program_to_print.pdf'
+    output_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gcmc_2025_nov_14_program_v4_to_print.pdf'
     merge_pages_with_pdfrw(input_pdf_path, output_pdf_path)

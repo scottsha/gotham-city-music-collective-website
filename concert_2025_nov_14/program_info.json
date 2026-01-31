@@ -3,21 +3,31 @@
   "title": "Mixtape Mass",
   "subtitle": ["BRICK PRESBYTERIAN CHURCH", "14 NOV 2025"],
   "song_list": [
+    "benedictus_jenkins",
+    "adiemus_jenkins",
     "antiphonal_kyrie",
     "salmo_150",
     "gloria",
     "credo",
     "benedictus",
     "hallelujah_cohen",
+    "pastorale",
+    "fable",
     "halleluyah_silver",
     "festival_sanctus",
     "baba_yetu",
     "agnus_dei"
   ],
   "notes" : {
+    "benedictus_jenkins": "Performed by Naoko Aita",
+    "adiemus_jenkins": "Performed by Naoko Aita",
     "gloria": "Soloist Jeff Christianson",
-    "baba_yetu": "Soloists Harris Manganiello, Abraham Thomas, and Mike Walsh",
-    "hallelujah_cohen": "Performed by Kat Savina"
+    "baba_yetu": "Soloists Harris Manganiello, Abraham Thomas, \\mbox{and Mike Walsh}",
+    "hallelujah_cohen": "Performed by Kat Savina",
+    "halleluyah_silver": "Led by Kevin Shapiro",
+    "benedictus": "Performed by Emma Dietrich, Victor Martinez \\mbox{and Mike Walsh}",
+    "pastorale": "Performed by Mary Goebel, Victor Martinez, \\mbox{and Laurel Stinson}",
+    "fable": "Performed by Mary Goebel, Victor Martinez, \\mbox{and Laurel Stinson}"
   },
   "singers": [
     "Sara Birmingham",
