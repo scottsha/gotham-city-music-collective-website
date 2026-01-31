@@ -386,9 +386,10 @@
   {
     "id": "baba_yetu",
     "title": "Baba Yetu",
-    "composer": "TODO",
-    "description": "TODO",
-    "showcase_only": false
+    "composer": "Christopher Tin",
+    "description": "The first piece of video game to win a Grammy, Baba Yetu is the theme for the 2005 strategy game <em>Civilization IV</em>. The lyrics are the Lord's Prayer in Swahili.",
+    "showcase_only": false,
+    "lyrics": "Baba yetu, yetu uliye\nMbinguni yetu, yetu amina!\nBaba yetu yetu uliye\nM Jina lako e litukuzwe.\n\nUtupe leo chakula chetu\nTunachohitaji, utusamehe\nMakosa yetu, hey!\nKama nasi tunavyowasamehe\nWaliotukosea usitutie\nKatika majaribu, lakini\nUtuokoe, na yule, muovu e milele!\n\nUfalme wako ufike utakalo\nLifanyike duniani kama mbinguni.\n(Amina)"
   },
   {
     "id": "ngizocula",
@@ -555,6 +556,68 @@
     "composer": "Wilson Osborne",
     "description": "Composed as a bassoon study in 1958, it remains the best known work of American composer Willson Osborne.",
     "showcase_only": true
+  },
+  {
+    "id": "antiphonal_kyrie",
+    "title": "Antiphonal Kyrie",
+    "composer": "Susan Thrift"
+  },
+  {
+    "id": "benedictus",
+    "title": "Benedictus",
+    "composer": "Franz Schubert",
+    "description": "From the Mass No. 2 in G major, D 167. Though composed in 1815, it was not printed for at least 30 years and remained obscure enough that charlatan Robert Führer was able to pass the first edition of the score off as his own work."
+  },
+  {
+    "id": "credo",
+    "title": "Credo",
+    "composer": "Mozart"
+  },
+  {
+    "id": "credo",
+    "title": "Credo: Mass in C minor",
+    "composer": "Wolfgang Amadeus Mozart",
+    "arranger": "Henry Gibbons"
+  },
+  {
+    "id": "festival_sanctus",
+    "title": "Festival Sanctus",
+    "composer": "John Leavitt"
+  },
+  {
+    "id": "hallelujah_cohen",
+    "title": "Hallelujah",
+    "composer": "Leonard Cohen"
+  },
+  {
+    "id": "halleluyah_silver",
+    "title": "Halleluyah (Psalm 150)",
+    "composer": "Julie Silver and David S. Kates"
+  },
+  {
+    "id": "salmo_150",
+    "title": "Salmo 150",
+    "composer": "Ernani Aguiar"
+  },
+    {
+    "id": "benedictus_jenkins",
+    "title": "Benedictus",
+    "composer": "Karl Jenkins"
+  },
+    {
+    "id": "adiemus_jenkins",
+    "title": "Adiemus",
+    "composer": "Karl Jenkins"
+  },
+    {
+    "id": "pastorale",
+    "title": "Pastorale",
+    "composer": "Larry Clark"
+  },
+    {
+    "id": "fable",
+    "title": "Fable",
+    "composer": "Larry Clark"
   }
 ]
 
