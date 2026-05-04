@@ -48,10 +48,20 @@ class ProgramGenerator:
             about_strs.append(
                 r"\mbox{" + composer + r"}"
             )
+        tradition = song_info.get('tradition', '')
+        if tradition:
+            about_strs.append(
+                r"\mbox{" + tradition + r"}"
+            )
         arranger = song_info.get('arranger', "")
         if arranger:
             about_strs.append(
-                r"\mbox{Arr. " + arranger + r"}"
+                r"\mbox{Arranged by " + arranger + r"}"
+            )
+        lyrics_by = song_info.get('lyrics_by', "")
+        if lyrics_by:
+            about_strs.append(
+                r"\mbox{Lyrics by " + lyrics_by + r"}"
             )
         note = self.program_info.get("notes", {}).get(song_id)
         if note:
@@ -143,5 +153,5 @@ class ProgramGenerator:
 
 
 if __name__ == "__main__":
-    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_2025_nov_14")
+    genie = ProgramGenerator("/home/scott/Programs/gotham-city-music-collective-website/concert_2026_may_8")
     genie.generate()
