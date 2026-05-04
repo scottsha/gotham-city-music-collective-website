@@ -56,7 +56,7 @@ class ProgramGenerator:
         arranger = song_info.get('arranger', "")
         if arranger:
             about_strs.append(
-                r"\mbox{Arranged by " + arranger + r"}"
+                r"\mbox{Arr. " + arranger + r"}"
             )
         lyrics_by = song_info.get('lyrics_by', "")
         if lyrics_by:
