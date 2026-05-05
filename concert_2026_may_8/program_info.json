@@ -8,18 +8,28 @@
   ],
   "song_list": [
     "afternoon_on_a_hill",
+    "sure_on_this_shining_night",
     "dilmano_dilbero",
     "hela_rotan",
     "my_soul_is_a_river",
     "pasture",
-    "phoenix_song",
     "stars_and_the_moon",
-    "sure_on_this_shining_night"
+    "id_miss_the_birds",
+    "selve_amiche",
+    "only_exception",
+    "yankee_bayonet",
+    "mother_natures_son",
+    "phoenix_song"
   ],
   "notes": {
     "stars_and_the_moon": "Performed by Ashleigh Kent",
-    "sure_on_this_shining_night": "Soloist Emma Dietrich",
-    "phoenix_song": "\\newline \\footnotesize{\\emph{Composed in remembrance of those affected by the Pulse nightclub tragedy on June 12, 2016}}"
+    "sure_on_this_shining_night": "Soloist Emma Dietrich and Ariel Kaye",
+    "phoenix_song": "\\newline \\footnotesize{\\emph{Composed in remembrance of those affected by the Pulse nightclub tragedy on June 12, 2016.}}",
+    "id_miss_the_birds": "Performed by Ben Eshleman",
+    "selve_amiche": "Performed by Abraham Thomas",
+    "only_exception": "Performed by Monique Oparaji and Emem-Esther Ikpot",
+    "yankee_bayonet": "Performed by Mary Goebel and Rachel Padowicz",
+    "mother_natures_son": "Performed by Matt Gershowitz"
   },
   "singers": [
     "Claudia Caceres",
@@ -32,6 +42,7 @@
     "Emem-Esther Ikpot",
     "Kathryn Jones",
     "Marsha Jacobson",
+    "Ariel Kaye",
     "Ashleigh Kent",
     "Paola Luchsinger",
     "Aylin Nolte",

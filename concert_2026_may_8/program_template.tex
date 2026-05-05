@@ -10,7 +10,7 @@
     paperheight=8.5in,
     textwidth=120mm,
     textheight=7.75in,
-    top=0.75in
+    top=0.5in
 }
 \usepackage{amsmath, amsfonts, amsthm, amssymb, textcomp, ragged2e, fontawesome}
 \usepackage{graphicx, float}
@@ -32,20 +32,12 @@
 }
 
 %-----------%
-%\newcommand{\performancepiece}[2]
-%{
-%        {#1} \dotfill {#2}
-%}
-%
 \newcommand{\performancepiece}[2]
 {
     \hspace*{-0.2cm} {#1} \dotfill {#2}
 }
-%\newcommand{\performancepiece}[2]
-%{
-%    \textbf{#1} \\
-%    \quad {#2}
-%}
+
+
 
 
 
@@ -53,9 +45,9 @@
         {\includegraphics[width=0.28\textwidth]{../graphic_design_assets/bw_logo_full}}
 }
 
-\newcommand{\tunedspacefront}{\vspace{.05in}}
-\newcommand{\tunedspace}{\vspace{0.1in}}
-\newcommand{\tunedspacesmall}{\vspace{0.1in}}
+\newcommand{\tunedspacefront}{\vspace{-2mm}}
+\newcommand{\tunedspace}{\vspace{1mm}}
+\newcommand{\tunedspacesmall}{\vspace{1mm}}
 
 \newcommand{\fleurons}{
         {
@@ -84,23 +76,16 @@
 
                     \tunedspacesmall
 
-
                     {\normalsize \textbf {\sourcesansprolight{
                         <SUBTITLE_REPLACE>
                     }}}
 
                     \tunedspacesmall
 
-                    {
-                        \normalsize{
-                                {Please join us post-concert for a reception at The Milton on 1754 2nd Ave.}\\
-                        }
-                    }
                 }
 
                 {
                     \begin{center}
-                        \tunedspacefront
                         \tunedspacefront
                         \fleurons
                         \tunedspacefront
@@ -118,37 +103,34 @@
                         \tunedspacefront
                         \fleurons
                         \tunedspacefront
-                        \tunedspacefront
                     \end{center}
                 }
 
-            \vfill
-
-            {
-                \textbf{\sourcesansprolight{CHOIR}}
+                {
+                    \textbf{\sourcesansprolight{CHOIR}}
 
 
-                \begin{normalsize}
-                    Directed by
-                    Mary Goebel,
-                    Victor Martinez,
-                    and
-                    Laurel Stinson\\
-                    Accompanied by Naoko Aita\\
-                    Percussion by Zahir Lara
+                    \begin{footnotesize}
+                        Directed by
+                        Mary Goebel,
+                        Victor Martinez,
+                        and
+                        Laurel Stinson\\
+                        Accompanied by Noah Huseman\\
+                        Percussion by Zahir Lara
 
-                \end{normalsize}
+                    \end{footnotesize}
 
-                \vspace{-0.1in}
+                    \vspace{-0.1in}
 
-                \begin{multicols*}{3}
-                    \begin{center}
-                        \begin{normalsize}
-                            <SINGERS_REPLACE>
-                        \end{normalsize}
-                    \end{center}
-                \end{multicols*}
-            }
+                    \begin{multicols*}{3}
+                        \begin{center}
+                            \begin{footnotesize}
+                                <SINGERS_REPLACE>
+                            \end{footnotesize}
+                        \end{center}
+                    \end{multicols*}
+                }
             \end{center}
 
         \end{minipage}
@@ -166,9 +148,18 @@
         \tunedspacesmall
 
         \begin{minipage}{95mm}
-            \vspace{3mm}
 
-            \begin{footnotesize}
+            \vspace{5mm}
+
+            \begin{center}
+            \normalsize{
+                    {Please join us post-concert for a reception at\\ The Milton on 1754 2nd Ave.}\\
+            }
+            \end{center}
+
+            \vspace{2mm}
+
+            \begin{normalsize}
                 GCMC is a non-profit organization advocating for excellence in community music.
                 We join non-professional music groups into a mutually supportive foundation aiming
                 to strengthen the future and accessibility of community music.
@@ -177,7 +168,7 @@
                 We are entirely volunteer run and open to all.
                 Will you help support our mission?
                 Here are some ways!
-            \end{footnotesize}
+            \end{normalsize}
 
             \vspace{-1mm}
 
@@ -220,7 +211,6 @@
                 {\textbf{\sourcesansprolight{FOLLOW US}}}
 
                 \faInstagram{}{}  Instagram  \href{https://www.instagram.com/gotham_city_music/}{@gotham\_city\_music}
-                \href{https://www.instagram.com/whwinds/}{@whwinds}
             \end{center}
 
 

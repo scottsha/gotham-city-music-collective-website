@@ -61,12 +61,12 @@ class ProgramGenerator:
         lyrics_by = song_info.get('lyrics_by', "")
         if lyrics_by:
             about_strs.append(
-                r"\mbox{Lyrics by " + lyrics_by + r"}"
+                r"\mbox{Lyr. " + lyrics_by + r"}"
             )
         note = self.program_info.get("notes", {}).get(song_id)
         if note:
             about_strs.append(
-                note
+                r"\mbox{" + note + r"}"
             )
         about_str = ". ".join(about_strs)
         title = r"\textbf{" + song_info.get('title') + r"}"
