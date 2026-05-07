@@ -7,19 +7,19 @@
     "8 MAY 2026"
   ],
   "song_list": [
-    "afternoon_on_a_hill",
-    "sure_on_this_shining_night",
     "dilmano_dilbero",
-    "hela_rotan",
+    "phoenix_song",
     "my_soul_is_a_river",
+    "afternoon_on_a_hill",
     "pasture",
+    "mother_natures_son",
+    "yankee_bayonet",
+    "selve_amiche",
     "stars_and_the_moon",
     "id_miss_the_birds",
-    "selve_amiche",
     "only_exception",
-    "yankee_bayonet",
-    "mother_natures_son",
-    "phoenix_song"
+    "sure_on_this_shining_night",
+    "hela_rotan"
   ],
   "notes": {
     "stars_and_the_moon": "Performed by Ashleigh Kent",
@@ -27,8 +27,8 @@
     "phoenix_song": "\\newline \\footnotesize{\\emph{Composed in remembrance of those affected by the Pulse nightclub tragedy on June 12, 2016.}}",
     "id_miss_the_birds": "Performed by Ben Eshleman",
     "selve_amiche": "Performed by Abraham Thomas",
-    "only_exception": "Performed by Monique Oparaji and Emem-Esther Ikpot",
-    "yankee_bayonet": "Performed by Mary Goebel and Rachel Padowicz",
+    "only_exception": "Performed by Mary Goebel, Emem-Esther Ikpot, Ima Ikpot and Monique Oparaji",
+    "yankee_bayonet": "Performed by Jeff Christianson, Matt Gershowitz, and Rachel Padowicz",
     "mother_natures_son": "Performed by Matt Gershowitz"
   },
   "singers": [
