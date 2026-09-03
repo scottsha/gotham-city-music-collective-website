@@ -46,7 +46,7 @@ def merge_pages_with_pdfrw(input_pdf_path, output_pdf_path):
 
 if __name__ == '__main__':
     # Path to the input PDF with two pages
-    input_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gcmc_2025_nov_14_program_v4.pdf'
+    input_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gcmc_2026_may_8_program.pdf'
     # Path to the output combined PDF
-    output_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gcmc_2025_nov_14_program_v4_to_print.pdf'
+    output_pdf_path = '/home/scott/Programs/gotham-city-music-collective-website/out/gcmc_2026_may_8_program_to_print.pdf'
     merge_pages_with_pdfrw(input_pdf_path, output_pdf_path)

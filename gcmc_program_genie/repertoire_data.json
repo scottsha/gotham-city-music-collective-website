@@ -14,6 +14,7 @@
     "id": "hela_rotan",
     "title": "Hela Rotan",
     "arranger": "Ken Steven",
+    "tradition": "Indonesian Traditional",
     "description": "Composer Ken Steven is an Indonesian born composer, and in this piece merges a gives a modern take on a folksong from the island of Maluku in eastern Indonesia. The central metaphor is about the game of Hela Rotan, similar to Tug-of-War. Rotan is the vining palm used to make rope. The song is a parable of competition-as-cooperation between different communities. The song also mentions the drums of Java; which may be a reference to the eruptions of the volcano of Krakatau."
   },
   {
@@ -369,7 +370,7 @@
     "showcase_only": false
   },
   {
-    "id": "the_paster",
+    "id": "pasture",
     "title": "The Pasture",
     "composer": "Z. Randall Stroope",
     "lyrics_by": "Robert Frost",
@@ -599,25 +600,90 @@
     "title": "Salmo 150",
     "composer": "Ernani Aguiar"
   },
-    {
+  {
     "id": "benedictus_jenkins",
     "title": "Benedictus",
     "composer": "Karl Jenkins"
   },
-    {
+  {
     "id": "adiemus_jenkins",
     "title": "Adiemus",
     "composer": "Karl Jenkins"
   },
-    {
+  {
     "id": "pastorale",
     "title": "Pastorale",
     "composer": "Larry Clark"
   },
-    {
+  {
     "id": "fable",
     "title": "Fable",
     "composer": "Larry Clark"
+  },
+  {
+    "id": "dilmano_dilbero",
+    "title": "Dilmano, Dilbero",
+    "arranger": "Gabriela Hristova and Joshua Devries",
+    "tradition": "Bulgarian Traditional",
+    "showcase_only": false
+  },
+  {
+    "id": "phoenix_song",
+    "title": "Phoenix Song",
+    "composer": "David L. Brunner",
+    "lyrics_by": "Scott Lounsbury",
+    "showcase_only": false
+  },
+  {
+    "id": "stars_and_the_moon",
+    "title": "Stars and the Moon",
+    "composer": "Jason Robert Brown",
+    "showcase_only": true
+  },
+  {
+    "id": "sure_on_this_shining_night",
+    "title": "Sure on this Shining Night",
+    "composer": "Z. Randall Stroope",
+    "lyrics": "Sure on this shining night\nOf star made shadows round,\nKindness must watch for me\nThis side the ground.\nThe late year lies down the nort.\nAll is healed, all is health.\nHigh summer holds the earth.\nHearts all whole.\nSure on this shining night I weep for wonder wandering far\nalone\nOf shadows on the stars.",
+    "lyrics_by": "James Agee",
+    "showcase_only": false
+  },
+  {
+    "id": "afternoon_on_a_hill",
+    "title": "Afternoon on a Hill",
+    "composer": "Eric William Barnum",
+    "lyrics_by": "Edna St. Vincent Millay",
+    "showcase_only": false
+  },
+  {
+    "id": "id_miss_the_birds",
+    "title": "I'd Miss the Birds",
+    "composer": "Joy Oladokun",
+    "showcase_only": true
+  },
+  {
+    "id": "selve_amiche",
+    "title": "Selve Amiche",
+    "composer": "Alessandro Parisotti and Antonio Caldara",
+    "showcase_only": true
+  },
+  {
+    "id": "only_exception",
+    "title": "The Only Exception",
+    "composer": "Paramore",
+    "showcase_only": true
+  },
+  {
+    "id": "yankee_bayonet",
+    "title": "Yankee Bayonet",
+    "composer": "The Decemberists",
+    "showcase_only": true
+  },
+  {
+    "id": "mother_natures_son",
+    "title": "Mother Nature's Son",
+    "composer": "The Beatles",
+    "showcase_only": true
   }
 ]
 
